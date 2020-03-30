@@ -1,24 +1,27 @@
 import React from "react";
 import Head from "next/head";
+import NavBar from "../features/navbar/NavBar";
+import Footer from "../features/footer/Footer";
 
 function BasePage(props) {
     const {
-        children
+        children,
+        title
     } = props;
 
     return (
-        <div>
+        <div id="root" className="dark-scrollbar">
             <Head>
                 <meta charSet="utf-8" />
-                <title>TelemetryJet</title>
-                <meta name="description" content="TelemetryJet" />
+                <title>{title}</title>
+                <meta name="description" content={title} />
                 <meta name="author" content="Chris Dalke" />
-                <link href="https://unpkg.com/normalize.css@^7.0.0" rel="stylesheet"/>
-                <link href="https://unpkg.com/@blueprintjs/icons@^3.4.0/lib/css/blueprint-icons.css" rel="stylesheet" />
-                <link href="https://unpkg.com/@blueprintjs/core@^3.10.0/lib/css/blueprint.css" rel="stylesheet" />
-                <link rel="stylesheet" href="/styles/index.css" />
             </Head>
-            {children}
+            <NavBar />
+            <div className="pageContent">
+                {children}
+            </div>
+            <Footer />
         </div>
     );
 }

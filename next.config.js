@@ -1,10 +1,8 @@
-const withSass = require('@zeit/next-sass');
-
-module.exports = withSass({
+module.exports = {
     exportTrailingSlash: true,
     exportPathMap: async function() {
         return {
             '/': {page: '/'}
         };
     }
-});
+};

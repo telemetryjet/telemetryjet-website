@@ -1,0 +1,21 @@
+@import '~@blueprintjs/core/lib/scss/variables.scss';
+
+.navBar {
+  flex: 0 0 auto;
+  height: 51px;
+  width: 100%;
+  background-color: $white;
+  color: white;
+  position: relative;
+}
+
+.tabBorderLine {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #00000052;
+  border-bottom: 1px solid rgba(234, 242, 249, 0.71);
+  z-index: 1;
+}

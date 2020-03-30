@@ -21,10 +21,15 @@
   },
   "homepage": "https://github.com/telemetryjet/tjet-website#readme",
   "dependencies": {
+    "@blueprintjs/core": "^3.24.0",
+    "@blueprintjs/icons": "^3.14.0",
     "@zeit/next-sass": "^1.0.1",
     "next": "^9.3.1",
     "node-sass": "^4.13.1",
+    "normalize.css": "^8.0.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-use": "^13.27.1",
+    "sass": "^1.26.3"
   }
 }

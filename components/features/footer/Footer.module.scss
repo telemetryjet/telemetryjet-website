@@ -1,0 +1,73 @@
+@import '~@blueprintjs/core/lib/scss/variables.scss';
+@import '../../../public/styles/breakpoints';
+
+.footer {
+  flex: 0 0 auto;
+  margin-top: 100px;
+  min-height: 100px;
+  width: 100%;
+  background-color: $dark-gray1;
+  padding: 40px;
+}
+
+.footerContent {
+  margin: 0 auto;
+  max-width: 600px;
+  color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  @include mobile {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+
+  @include small {
+    max-width: 600px;
+  }
+  @include medium {
+    max-width: 750px;
+  }
+  @include large {
+    max-width: 1050px;
+  }
+}
+
+.footerSection {
+  margin-left: 10px;
+  margin-right: 10px;
+  flex: 1 1 0;
+
+  @include mobile {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  font-size: 14px;
+  font-weight: 300;
+
+  h1 {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+
+  }
+
+  .copyright {
+    margin-top: 10px;
+    color: $gray3;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+}

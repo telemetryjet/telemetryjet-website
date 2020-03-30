@@ -1,0 +1,24 @@
+@import '~@blueprintjs/core/lib/scss/variables.scss';
+@import '../../../public/styles/breakpoints';
+
+.pageBlock {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.pageBlockContent {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 10px;
+  border: 1px solid red;
+
+  @include small {
+    max-width: 600px;
+  }
+  @include medium {
+    max-width: 750px;
+  }
+  @include large {
+    max-width: 1050px;
+  }
+}

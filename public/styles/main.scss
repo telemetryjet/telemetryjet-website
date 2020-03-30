@@ -1,0 +1,34 @@
+@import 'fonts';
+@import 'scrollbars';
+@import '~@blueprintjs/core/lib/scss/variables.scss';
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  background-color: #D8E1E8;
+  color: $black;
+  position: relative;
+  font-family: "DIN", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#root {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-height: 100vh;
+}
+
+.pageContent {
+  flex: 1 1 auto;
+  display: block;
+}
