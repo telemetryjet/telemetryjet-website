@@ -1,0 +1,86 @@
+@import '~@blueprintjs/core/lib/scss/variables.scss';
+@import 'breakpoints';
+
+.landingPageBgDark {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: $gray5;
+}
+
+.landingPageBg1 {
+  position: absolute;
+  right: 0;
+  bottom: -100px;
+  width: 100vw;
+  height: 100vw;
+  background-color: $gray5;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+.landingPageBgScreens {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  float: right;
+
+  margin-top: 10px;
+  @include large {
+    float: right;
+    margin-top: 0px;
+  }
+
+  @include medium {
+    float: right;
+  }
+
+  border: 1px solid red;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.landingPageBgScreen1 {
+  background: url("../images/screen1.png");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.landingPageBgScreen2 {
+  background: url("../images/screen1.png");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 10px;
+  left: 10px;
+  background-size: cover;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.landingPageBgScreen3 {
+  background: url("../images/screen1.png");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 20px;
+  left: 20px;
+  background-size: cover;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+
+}

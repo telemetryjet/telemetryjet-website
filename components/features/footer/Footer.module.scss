@@ -21,9 +21,7 @@
   align-items: flex-start;
 
   @include mobile {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: stretch;
+    flex-wrap: wrap;
   }
 
   @include small {
@@ -43,10 +41,10 @@
   flex: 1 1 0;
 
   @include mobile {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
     margin-bottom: 20px;
+    flex: 1 1 auto;
+    min-width: 45%;
+    max-width: 45%;
   }
 
   font-size: 14px;
@@ -58,6 +56,9 @@
     font-weight: 400;
     margin-bottom: 5px;
 
+    @include mobile {
+      border-bottom: 2px solid $dark-gray2;
+    }
   }
 
   .copyright {
