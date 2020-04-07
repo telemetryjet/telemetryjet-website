@@ -48,7 +48,6 @@ function Index() {
             </PageBlock>
             <PageBlock bgChildren={(
                 <>
-                    <div className="landingPageBgDark" />
                 </>
             )}>
                 <h2>View, record, and analyze data</h2>
@@ -74,7 +73,6 @@ function Index() {
             </PageBlock>
             <PageBlock bgChildren={(
                 <>
-                    <div className="landingPageBgDark" />
                 </>
             )}>
                 <h2>Open Source.</h2>
