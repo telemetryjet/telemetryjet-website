@@ -8,8 +8,8 @@ The latest website is automatically deployed to https://www.telemetryjet.com/ vi
 
 |Branch|Deploy Status|Target|
 |------|-------------|------|
-|`develop`|![Netlify Status](https://api.netlify.com/api/v1/badges/f5607e1f-2edd-4b31-bf52-f0972d7c3cb0/deploy-status)|https://www.telemetryjet.com/|
-|`master`|![Netlify Status](https://api.netlify.com/api/v1/badges/98de982b-64cc-4ea3-9db4-4cba062fedfc/deploy-status)|https://www.dev.telemetryjet.com/|
+|`develop`|![Netlify Status](https://api.netlify.com/api/v1/badges/f5607e1f-2edd-4b31-bf52-f0972d7c3cb0/deploy-status)|https://www.dev.telemetryjet.com/|
+|`master`|![Netlify Status](https://api.netlify.com/api/v1/badges/98de982b-64cc-4ea3-9db4-4cba062fedfc/deploy-status)|https://www.telemetryjet.com/|
 
 ## Getting Started
 
