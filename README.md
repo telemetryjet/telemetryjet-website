@@ -13,14 +13,14 @@ The latest website is automatically deployed to https://www.telemetryjet.com/ vi
 
 ## Getting Started
 
-The website is built in Javascript with Next.js and React. The site is compiled to static HTML and served via Netlify.
+The website is built with Hugo. The site is compiled to static HTML and served via Netlify.
 
-Development workflow follows typical Node.js tasks; we recommend `yarn` as the package manager of choice.
+Development workflow follows typical Hugo tasks.
 
 ## Run Development Server
 
-To run a development server, use `yarn start`. This will start the Next.js dev server locally.
+To run a development server, use `hugo serve`. This will start the Hugo dev server locally.
 
 ## Build Static Site
 
-To build and export the site to static HTML, use `yarn build && yarn export`. This will build the static site to the `out/` directory as HTML. These files should not be uploaded to git; they are ignored and will be built by Netlify when a release is merged into the master branch. 
+To build and export the site to static HTML, use `hugo`. This will build the static site to the `public/` directory as HTML. These files should not be uploaded to git; they are ignored and will be built by Netlify when a release is merged into the master branch. 

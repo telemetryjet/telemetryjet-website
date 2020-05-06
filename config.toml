@@ -1,0 +1,9 @@
+baseURL = "https://www.telemetryjet.com/"
+languageCode = "en-us"
+title = "TelemetryJet"
+theme = "tjet-website-theme"
+sectionPagesMenu = "main"
+pluralizelisttitles = false
+
+[params]
+    version = "v0.1.0"
