@@ -5,9 +5,19 @@
   flex: 0 0 auto;
   height: 51px;
   width: 100%;
-  background-color: $white;
-  color: white;
+  background-color: $dark-gray3;
+  border-bottom: 1px solid #182026;
+  border-top: 1px solid #394B59;
+  color: $white;
   position: relative;
+}
+
+.navBarContent {
+  max-width: 1050px;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+  color: $white;
 }
 
 .tabBorderLine {
