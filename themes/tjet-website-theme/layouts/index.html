@@ -1,26 +1,23 @@
 {{ define "main" }}
-<main>
-	<article>
-		<h1>{{ .Title }}</h1>
-		<div>
-			<b>TelemetryJet</b> is a real-time data and control platform for makers.
-			<ul class="bp3-list">
-				<li>Stream live data sensor data from your project, with an easy-to-use set of libraries and
-					integrations.
-				</li>
-				<li>
-					View, record, and analyze live data from any internet-connected device.
-				</li>
-				<li>
-					Build beautiful, functional dashboards and share with teammates.
-				</li>
-				<li>
-					Trigger actions based on data, and feed control signals back to devices.
-				</li>
-			</ul>
+<div class="contentSection">
+	<div class="contentSectionBg">
+		<div id="section1Bg"></div>
+	</div>
+	<div class="contentSectionFg">
+		<div id="heroText">
+			The ultimate telemetry data and control platform for makers.
 		</div>
-	</article>
-</main>
-
+	</div>
+</div>
+<div class="contentSection">
+	<div class="contentSectionFg">
+		<h2>
+			TelemetryJet makes it easier than ever to work with sensor data from your hardware projects, small or large.
+		</h2>
+		Stream live data sensor data from your project, with an easy-to-use set of libraries and integrations.
+		TelemetryJet
+		integrates with a wide range of common protocols, such as NMEA 0183, VE.Direct, CAN-bus, VESC, and more.
+	</div>
+</div>
 
 {{ end }}

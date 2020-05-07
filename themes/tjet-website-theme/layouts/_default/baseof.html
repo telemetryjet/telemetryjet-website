@@ -48,17 +48,12 @@
 	<link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body class="dark-scrollbar">
-	{{ partial "sidebar.html" . }}
-	<div id="contentContainer" class="dark-scrollbar">
-		{{ partial "header" . }}
-		<div class="bp3-card bp3-elevation-two flexiblePageCard flexiblePagePadding dark-scrollbar">
-			<div class="copyWrapper">
-				{{ block "main" . }}{{ end }}
-			</div>
-		</div>
-		{{ partial "footer" . }}
+<body>
+	{{ partial "header" . }}
+	<div id="content">
+		{{ block "main" . }}{{ end }}
 	</div>
+	{{ partial "footer" . }}
 </body>
 
 </html>
