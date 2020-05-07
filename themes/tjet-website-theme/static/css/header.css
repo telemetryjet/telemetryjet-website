@@ -1,6 +1,7 @@
 #header {
     flex: 0 0 auto;
     height: 50px;
+    overflow: hidden;
 }
 
 #headerNavBar {
