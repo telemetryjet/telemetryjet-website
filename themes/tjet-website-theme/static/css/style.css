@@ -1,43 +1,19 @@
 body {
-    background-color: #D8E1E8;
     font-family: "DIN", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
-    color: #333;
     overscroll-behavior-y: none;
+    background-color: #293742;
+}
+
+#root {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
     align-items: stretch;
     min-height: 100vh;
-}
-
-#header {
-    flex: 0 0 auto;
-    height: 50px;
-}
-
-#headerNavBar {
-    background-color: #293742;
-    color: white;
-    border: none;
-    border-bottom: 1px solid #182026;
-    border-top: 1px solid #394B59;
-}
-
-#navbarLogo {
-    font-size: 20px;
-    font-weight: 200;
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#navbarLogo span {
-    margin-left: 5px;
+    background-color: #D8E1E8;
+    z-index: 0;
 }
 
 #content {
@@ -48,54 +24,28 @@ body {
     align-items: center;
 }
 
-#footer {
-    flex: 0 0 auto;
-    height: 50px;
-    border: 1px solid blue;
-}
-
-.contentSection {
-    width: 100%;
+.profileImage {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 50%;
+    margin: 10px;
+    margin-right: 20px;
+    overflow: hidden;
     position: relative;
-    overflow: visible;
-    max-width: 4000px;
+    background-color: #48AFF0;
 }
 
-.contentSectionFg {
-    border-bottom: 1px solid rgb(255, 0, 0, 0.1);
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.contentSectionBg {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    overflow: visible;
-    z-index: -1;
-}
-
-#section1Bg {
-    position: absolute;
-    top: -70px;
+.profileImage img {
     width: 100%;
-    height: 1000px;
-    background: url('../img/bg1.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    overflow: visible;
+    height: 100%;
+    filter: grayscale(100%);
+    opacity: 0.8;
+    mix-blend-mode: add;
 }
 
-
-#heroText {
-    color: white;
-    font-size: 36px;
-    font-weight: bold;
-    padding-top: 70px;
-    padding-left: 80px;
-    max-width: 600px;
-    padding-right: 50px;
+.profileImageClearfix {
+    clear: both;
+    width: 100%;
+    margin-bottom: 20px;
 }

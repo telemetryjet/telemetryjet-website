@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 4000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1.5;">
+<svg width="100%" height="100%" viewBox="0 0 4000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
     <g transform="matrix(1.77222,-0.312491,0.360508,2.04454,-342.1,1023.71)">
         <rect x="693" y="-454" width="1307" height="365" style="fill:rgb(41,55,66);"/>
     </g>
@@ -2035,9 +2035,9 @@
         </g>
     </g>
     <g id="Dark-Blob-2" serif:id="Dark Blob 2" transform="matrix(0.932228,0,0,0.932228,130.595,3.35551)">
-        <path d="M2490.33,110.926L2442.73,116.533L2442.73,139.607L2420.72,145.041L2424,175L2477,467L2450.5,472L2479,616L2627,592L2623,565L2647,561L2612,366L2538,377.755L2490.33,110.926Z" style="fill:none;"/>
+        <path d="M2490.33,110.926L2442.73,116.533L2442.73,139.607L2420.72,145.041L2424,175L2477,467L2628.76,445.149L2612,366L2538,377.755L2490.33,110.926Z" style="fill:none;"/>
         <clipPath id="_clip3">
-            <path d="M2490.33,110.926L2442.73,116.533L2442.73,139.607L2420.72,145.041L2424,175L2477,467L2450.5,472L2479,616L2627,592L2623,565L2647,561L2612,366L2538,377.755L2490.33,110.926Z"/>
+            <path d="M2490.33,110.926L2442.73,116.533L2442.73,139.607L2420.72,145.041L2424,175L2477,467L2628.76,445.149L2612,366L2538,377.755L2490.33,110.926Z"/>
         </clipPath>
         <g clip-path="url(#_clip3)">
             <g id="Grid-Dark2" serif:id="Grid Dark" transform="matrix(0.984808,-0.173648,0.173648,0.984808,1270,29.9922)">
@@ -17056,149 +17056,6 @@
                     </g>
                 </g>
             </g>
-        </g>
-    </g>
-    <g transform="matrix(0.748514,-0.128909,0.121367,0.704721,1833.62,84.4169)">
-        <path d="M1328.83,174.516C1328.83,172.518 1327.31,170.897 1325.42,170.897L811.482,170.897C809.601,170.897 808.075,172.518 808.075,174.516L808.075,529.162C808.075,531.159 809.601,532.781 811.482,532.781L1325.42,532.781C1327.31,532.781 1328.83,531.159 1328.83,529.162L1328.83,174.516Z" style="fill:rgb(32,43,51);"/>
-        <clipPath id="_clip14">
-            <path d="M1328.83,174.516C1328.83,172.518 1327.31,170.897 1325.42,170.897L811.482,170.897C809.601,170.897 808.075,172.518 808.075,174.516L808.075,529.162C808.075,531.159 809.601,532.781 811.482,532.781L1325.42,532.781C1327.31,532.781 1328.83,531.159 1328.83,529.162L1328.83,174.516Z"/>
-        </clipPath>
-        <g clip-path="url(#_clip14)">
-            <g id="Layer1" transform="matrix(1.43736,-0.00608502,0.00503826,1.34261,797.861,151.504)">
-                <g transform="matrix(1.33333,0,0,1.5,0,0)">
-                    <rect x="0" y="0" width="300" height="200" style="fill:rgb(32,43,51);"/>
-                </g>
-                <g transform="matrix(1.01284,-9.5473e-17,3.04547e-17,1.39531,-17.1295,-102.817)">
-                    <clipPath id="_clip15">
-                        <rect x="18.342" y="16" width="363.658" height="266"/>
-                    </clipPath>
-                    <g clip-path="url(#_clip15)">
-                        <g opacity="0.67">
-                            <rect x="18.342" y="16" width="363.658" height="266" style="fill:none;"/>
-                            <clipPath id="_clip16">
-                                <rect x="18.342" y="16" width="363.658" height="266"/>
-                            </clipPath>
-                            <g clip-path="url(#_clip16)">
-                                <g transform="matrix(1.42968,0,0,1.42968,-7.17079,-63.1359)">
-                                    <path d="M279,169L277.601,267.857L11.723,269.75L10.814,223.477L40,203L63,211L86,197L113.949,198L138,181L171,185L200,144L220,170L247,167L267.171,155L279,169" style="fill:rgb(25,32,37);stroke:rgb(217,130,43);stroke-width:5.41px;"/>
-                                </g>
-                            </g>
-                        </g>
-                    </g>
-                </g>
-                <g transform="matrix(1.01284,3.4344e-17,9.03806e-19,0.813988,-17.1295,61.1171)">
-                    <clipPath id="_clip17">
-                        <rect x="18.342" y="16" width="363.658" height="266"/>
-                    </clipPath>
-                    <g clip-path="url(#_clip17)">
-                        <g opacity="0.81">
-                            <rect x="18.342" y="16" width="363.658" height="266" style="fill:none;"/>
-                            <clipPath id="_clip18">
-                                <rect x="18.342" y="16" width="363.658" height="266"/>
-                            </clipPath>
-                            <g clip-path="url(#_clip18)">
-                                <g transform="matrix(1.42968,0,0,1.42968,-7.17079,-63.1359)">
-                                    <path d="M279,169L277.601,267.857L11.723,269.75L10.814,223.477L40,203L63,211L86,197L113.949,198L138,181L171,185L200,144L220,170L247,167L267.171,155L279,169" style="fill:rgb(25,32,37);stroke:rgb(217,130,43);stroke-width:6.94px;"/>
-                                </g>
-                            </g>
-                        </g>
-                    </g>
-                </g>
-                <g transform="matrix(1.02313,-1.11022e-16,4.16334e-17,0.615382,11.4671,7.57669)">
-                    <rect x="18.342" y="46" width="199.658" height="46" style="fill:rgb(25,29,32);"/>
-                </g>
-                <g transform="matrix(0.4955,-9.71445e-17,4.16334e-17,0.615382,126.49,7.57669)">
-                    <rect x="18.342" y="46" width="199.658" height="46" style="fill:rgb(57,75,89);"/>
-                </g>
-                <g transform="matrix(0.915976,-1.31426e-16,9.95717e-17,1.04156,28.8657,-33.9002)">
-                    <text x="150.961px" y="86.029px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:16px;fill:white;">2340</text>
-                </g>
-                <g transform="matrix(0.915976,-1.61927e-16,7.44014e-17,1.04156,-73.2721,-33.9002)">
-                    <text x="134.517px" y="86.029px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:16px;fill:white;">Shaft RPM</text>
-                </g>
-                <g transform="matrix(1.02313,-8.32667e-17,2.77556e-17,0.615382,11.7374,47.8207)">
-                    <rect x="18.342" y="46" width="199.658" height="46" style="fill:rgb(25,29,32);"/>
-                </g>
-                <g transform="matrix(0.4955,-1.11022e-16,2.77556e-17,0.615382,126.76,47.8207)">
-                    <rect x="18.342" y="46" width="199.658" height="46" style="fill:rgb(57,75,89);"/>
-                </g>
-                <g transform="matrix(0.915976,-1.64283e-16,9.95717e-17,1.04156,29.1359,6.34381)">
-                    <text x="150.961px" y="86.029px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:16px;fill:white;">1170</text>
-                </g>
-                <g transform="matrix(0.915976,-2.25158e-16,7.29189e-17,1.04156,-73.0018,6.34381)">
-                    <text x="129.92px" y="86.029px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:16px;fill:white;">Wheel RPM</text>
-                </g>
-            </g>
-        </g>
-    </g>
-    <g transform="matrix(0.482545,-0.0831039,0.0854366,0.496089,1786.13,208.699)">
-        <path d="M1328.83,174.516C1328.83,172.518 1327.16,170.897 1325.11,170.897L811.795,170.897C809.742,170.897 808.075,172.518 808.075,174.516L808.075,529.162C808.075,531.159 809.742,532.781 811.795,532.781L1325.11,532.781C1327.16,532.781 1328.83,531.159 1328.83,529.162L1328.83,174.516Z" style="fill:rgb(32,43,51);"/>
-    </g>
-    <g transform="matrix(0.496089,-0.0854366,0.0854366,0.496089,1973.05,388.315)">
-        <path d="M1328.83,174.516C1328.83,172.518 1327.21,170.897 1325.21,170.897L811.694,170.897C809.696,170.897 808.075,172.518 808.075,174.516L808.075,529.162C808.075,531.159 809.696,532.781 811.694,532.781L1325.21,532.781C1327.21,532.781 1328.83,531.159 1328.83,529.162L1328.83,174.516Z" style="fill:rgb(32,43,51);"/>
-    </g>
-    <g id="Layer11" serif:id="Layer1" transform="matrix(0.826724,-0.145774,0.145774,0.826724,2394.53,409.735)">
-        <rect x="0" y="0" width="300" height="200" style="fill:rgb(32,43,51);"/>
-        <g transform="matrix(1.33057,0,0,0.703804,-6.06321,22.625)">
-            <rect x="18.342" y="46" width="199.658" height="46" style="fill:rgb(25,29,32);"/>
-        </g>
-        <g transform="matrix(0.644392,0,0,0.703804,143.523,22.625)">
-            <rect x="18.342" y="46" width="199.658" height="46" style="fill:rgb(57,75,89);"/>
-        </g>
-        <g transform="matrix(1.19122,0,0,1.19122,16.5635,-24.8115)">
-            <text x="140.313px" y="86.029px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:16px;fill:white;">8.7 mph</text>
-        </g>
-        <g transform="matrix(1.19122,0,0,1.19122,-116.266,-24.8115)">
-            <text x="148.118px" y="86.029px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:16px;fill:white;">Current</text>
-        </g>
-        <g transform="matrix(1.33057,0,0,0.703804,-6.06321,64.625)">
-            <rect x="18.342" y="46" width="199.658" height="46" style="fill:rgb(25,29,32);"/>
-        </g>
-        <g transform="matrix(0.644392,0,0,0.703804,143.523,64.625)">
-            <rect x="18.342" y="46" width="199.658" height="46" style="fill:rgb(57,75,89);"/>
-        </g>
-        <g transform="matrix(1.19122,0,0,1.19122,16.5635,17.1885)">
-            <text x="140.313px" y="86.029px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:16px;fill:white;">9.2 mph</text>
-        </g>
-        <g transform="matrix(1.19122,0,0,1.19122,-116.266,17.1885)">
-            <text x="146.198px" y="86.029px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:16px;fill:white;">A<tspan x="155.67px " y="86.029px ">v</tspan>er<tspan x="178.662px " y="86.029px ">a</tspan>ge</text>
-        </g>
-        <g transform="matrix(1.33057,0,0,0.703804,-6.06321,106.625)">
-            <rect x="18.342" y="46" width="199.658" height="46" style="fill:rgb(25,29,32);"/>
-        </g>
-        <g transform="matrix(0.644392,0,0,0.703804,143.523,106.625)">
-            <rect x="18.342" y="46" width="199.658" height="46" style="fill:rgb(57,75,89);"/>
-        </g>
-        <g transform="matrix(1.19122,0,0,1.19122,16.5635,59.1885)">
-            <text x="135.865px" y="86.029px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:16px;fill:white;">13.1 mph</text>
-        </g>
-        <g transform="matrix(1.19122,0,0,1.19122,-116.266,59.1885)">
-            <text x="140.742px" y="86.029px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:16px;fill:white;">Maximum</text>
-        </g>
-        <g transform="matrix(1.19122,0,0,1.19122,-116.266,-63.8115)">
-            <text x="113px" y="79.24px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:18px;fill:white;">GPS Speed</text>
-        </g>
-    </g>
-    <g id="Layer12" serif:id="Layer1" transform="matrix(0.775507,-0.136743,0.136743,0.775507,2203.56,227.764)">
-        <g transform="matrix(1,0,0,1,-1.32308,7.50358)">
-            <rect x="0" y="0" width="300" height="200" style="fill:rgb(32,43,51);"/>
-        </g>
-        <g transform="matrix(1.13369,0,0,1.13369,34.3984,9.97545)">
-            <path d="M204.351,159.46C213.886,145.843 219,129.623 219,113C219,68.295 182.705,32 138,32C93.295,32 57,68.295 57,113C57,129.623 62.114,145.843 71.649,159.46L93.545,144.128C87.157,135.005 83.73,124.137 83.73,113C83.73,83.048 108.048,58.73 138,58.73C167.952,58.73 192.27,83.048 192.27,113C192.27,124.137 188.843,135.005 182.455,144.128L204.351,159.46Z" style="fill:rgb(25,29,32);"/>
-        </g>
-        <g transform="matrix(1.13369,0,0,1.13369,31.3984,3.97545)">
-            <path d="M204.351,159.46C213.886,145.843 219,129.623 219,113C219,68.295 182.705,32 138,32C93.295,32 57,68.295 57,113C57,129.623 62.114,145.843 71.649,159.46L93.545,144.128C87.157,135.005 83.73,124.137 83.73,113C83.73,83.048 108.048,58.73 138,58.73C167.952,58.73 192.27,83.048 192.27,113C192.27,124.137 188.843,135.005 182.455,144.128L204.351,159.46Z" style="fill:rgb(57,75,89);"/>
-        </g>
-        <g transform="matrix(1.13369,0,0,1.13369,31.3984,3.97545)">
-            <path d="M203.53,65.389C188.29,44.413 163.929,32 138,32C93.295,32 57,68.295 57,113C57,129.623 62.114,145.843 71.649,159.46L93.545,144.128C87.157,135.005 83.73,124.137 83.73,113C83.73,83.048 108.048,58.73 138,58.73C155.372,58.73 171.694,67.047 181.905,81.101L203.53,65.389Z" style="fill:rgb(217,130,43);"/>
-        </g>
-        <g transform="matrix(1.26989,0,0,1.26989,-30.8716,24.421)">
-            <text x="138.661px" y="91.48px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:36px;fill:white;">74%</text>
-            <text x="145.627px" y="121.48px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:18px;fill:white;">12.14V</text>
-        </g>
-        <g transform="matrix(1.26989,4.28736e-17,7.18851e-17,1.26989,-134.644,-59.1503)">
-            <text x="113px" y="80.6px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:20px;fill:white;">Battery</text>
-            <text x="113px" y="104.6px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:20px;fill:white;">Vol<tspan x="141.44px " y="104.6px ">t</tspan>age</text>
         </g>
     </g>
 </svg>

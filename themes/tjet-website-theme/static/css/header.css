@@ -1,0 +1,60 @@
+#header {
+    flex: 0 0 auto;
+    height: 50px;
+}
+
+#headerNavBar {
+    background-color: #293742;
+    color: white;
+    border: none;
+    border-bottom: 1px solid #182026;
+    border-top: 1px solid #394B59;
+}
+
+#navbarLogo {
+    font-size: 20px;
+    font-weight: 200;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#navbarLogo span {
+    margin-left: 5px;
+}
+
+#headerNavBarContent {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Mobile */
+@media screen and (max-width: 599px) {
+    #headerNavBarContent {
+        max-width: 600px;
+    }
+}
+
+/* Small Screen */
+@media screen and (min-width: 600px) and (max-width: 799px) {
+    #headerNavBarContent {
+        max-width: 600px;
+    }
+}
+
+/* Medium Screen */
+@media screen and (min-width: 800px) and (max-width: 1099px) {
+    #headerNavBarContent {
+        max-width: 750px;
+    }
+}
+
+/* Large Screen */
+@media screen and (min-width: 1100px) {
+    #headerNavBarContent {
+        max-width: 1050px;
+    }
+}

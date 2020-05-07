@@ -1,0 +1,77 @@
+#postTitleBackground {
+    position: absolute;
+    top: -70px;
+    width: 100%;
+    height: 800px;
+    background: url('../img/postbg1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    overflow: visible;
+}
+
+#postTitleText {
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 40px;
+    max-width: 600px;
+    height: 200px;
+    text-decoration: underline;
+    text-decoration-color: rgba(92, 112, 128, 0.192);
+}
+
+#landingSection1Background {
+    position: absolute;
+    top: -70px;
+    width: 100%;
+    height: 1000px;
+    background: url('../img/bg1_nowindows.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    overflow: visible;
+}
+
+#landingSection1Hero {
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 70px;
+    max-width: 600px;
+    height: 550px;
+    color: white;
+}
+
+#landingSection1Hero #heroCustomers {
+    border-bottom: 3px solid #5C7080;
+}
+
+#landingSection2Hero {
+    float: right;
+    font-size: 28px;
+    font-weight: 500;
+    max-width: 500px;
+    height: 100px;
+    text-align: left;
+}
+
+#landingSection2Text {
+    clear: both;
+    float: right;
+    max-width: 500px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Mobile */
+@media screen and (max-width: 599px) {
+    #landingSection1Hero {
+        max-width: 450px;
+    }
+}
+
+/* Small Screen */
+@media screen and (min-width: 600px) and (max-width: 799px) {
+    #landingSection1Hero {
+        max-width: 500px;
+    }
+}

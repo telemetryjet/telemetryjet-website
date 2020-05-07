@@ -43,17 +43,30 @@
 	<link rel="preload" href="/fonts/blenderpro-medium-webfont.woff" as="font" />
 	<link rel="preload" href="/fonts/blenderpro-bold-webfont.woff" as="font" />
 
+	<link rel="preload" href="/img/bg1_nowindows.svg" as="font" />
+	<link rel="preload" href="/img/postbg1.svg" as="font" />
+
 	<link rel="stylesheet" href="/css/fonts.css">
 	<link rel="stylesheet" href="/css/scrollbars.css">
 	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/header.css">
+	<link rel="stylesheet" href="/css/footer.css">
+	<link rel="stylesheet" href="/css/contentSection.css">
+	<link rel="stylesheet" href="/css/customSections.css">
+
 </head>
 
 <body>
-	{{ partial "header" . }}
-	<div id="content">
-		{{ block "main" . }}{{ end }}
+	<div id="root">
+		{{ partial "header" . }}
+		<div id="content">
+			{{ block "main" . }}{{ end }}
+		</div>
+		{{ partial "footer" . }}
 	</div>
-	{{ partial "footer" . }}
+
+	<script src="/js/jquery-3.5.1.js"></script>
+	<script src="/js/enhancements.js"></script>
 </body>
 
 </html>
