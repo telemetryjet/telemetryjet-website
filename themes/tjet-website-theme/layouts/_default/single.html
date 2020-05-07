@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="contentSectionContainer">
+	<div class="contentSectionBackground">
+		<div class="contentSectionBackground">
+			<div id="postTitleBackground"></div>
+		</div>
+	</div>
+	<div class="contentSection">
+		<div id="postTitleText">
+			{{ .Title }}
+		</div>
+	</div>
+</div>
+<div class="contentSectionContainer">
+	<div class="contentSection">
+		<div>
+			{{ .Content }}
+		</div>
+	</div>
+</div>
+{{ end }}

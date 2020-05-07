@@ -1,5 +1,2 @@
-node_modules
-out
-package_lock.json
-.next
+public
 .idea
