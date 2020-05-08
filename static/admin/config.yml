@@ -8,6 +8,14 @@ collections:
     label: "Content"
     folder: "content"
     create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "content/blog"
+    create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
