@@ -48,11 +48,16 @@
 #landingSection1WidgetsMobile {
     position: relative;
     height: 250px;
+    max-width: 550px;
+    margin: 0 auto;
     margin-bottom: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background: url('../img/hero_widgets_smallpage.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 #landingSection1Widget1 {
@@ -113,45 +118,19 @@
 @media screen and (max-width: 599px) {
     #landingSection1Hero {
         max-width: 450px;
+        padding-top: 50px;
+        font-size: 28px;
     }
 
     .landingHeroWidget {
         transform: none;
     }
 
-    #landingSection1Widget1 {
-        background-size: contain;
-        background-position: center center;
-        width: 179px;
-        height: 122px;
+    #landingSection1WidgetsMobile {
+        height: 200px;
+        max-width: 450px;
     }
 
-    #landingSection1Widget2 {
-        background: #202B33 url('../img/hero_widget_2_notext.svg');
-        background-size: contain;
-        background-position: center center;
-        /*
-        -webkit-filter: blur(8px);
-        -moz-filter: blur(8px);
-        -o-filter: blur(8px);
-        -ms-filter: blur(8px);
-        filter: blur(5px);*/
-        position: absolute;
-        display: block;
-        margin: 0 auto;
-        transform: translateX(-28px);
-        top: 89px;
-        width: 204px;
-        height: 140px;
-        z-index: -1;
-    }
-
-    #landingSection1Widget3 {
-        background-size: contain;
-        background-position: center center;
-        width: 230px;
-        height: 175px;
-    }
 }
 
 /* Small Screen */
@@ -160,37 +139,14 @@
         max-width: 500px;
     }
 
+    #landingSection1WidgetsMobile {
+        max-width: 525px;
+    }
+
     .landingHeroWidget {
         transform: none;
     }
 
-    #landingSection1Widget1 {
-        width: 220px;
-        height: 151px;
-    }
-
-    #landingSection1Widget2 {
-        background: url('../img/hero_widget_2_notext.svg');
-        /*
-        -webkit-filter: blur(8px);
-        -moz-filter: blur(8px);
-        -o-filter: blur(8px);
-        -ms-filter: blur(8px);
-        filter: blur(5px);*/
-        position: absolute;
-        display: block;
-        transform: translateX(-32px);
-        margin: 0 auto;
-        top: 75px;
-        width: 253px;
-        height: 173px;
-        z-index: -1;
-    }
-
-    #landingSection1Widget3 {
-        width: 277px;
-        height: 211px;
-    }
 }
 
 /* Medium Screen */
