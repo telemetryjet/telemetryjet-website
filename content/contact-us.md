@@ -2,6 +2,11 @@
 title: "Contact Us"
 ---
 
+TelemetryJet is currently in early development.
+If you are interesting in TelemetryJet, would like to get involved as a beta tester, or have any other inquiries, please send us a message here. We'll get back to you as soon as possible.
+
+<br/>
+
 <form name="contact" method="POST" data-netlify="true">
     <div class="bp3-form-group">
         <label class="bp3-label" for="name-input">
