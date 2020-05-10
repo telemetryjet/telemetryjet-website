@@ -16,10 +16,20 @@
 }
 
 .contentSection {
+    position: relative;
     max-width: 1200px;
     margin: 0 auto;
     padding-left: 25px;
     padding-right: 25px;
+}
+
+.contentSectionFullWidth {
+    position: relative;
+    max-width: 100vw;
+    margin: 0 auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    overflow: hidden;
 }
 
 /* Mobile */
