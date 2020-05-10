@@ -23,13 +23,10 @@
 #landingSection1Background {
     position: absolute;
     top: -70px;
-    width: 100%;
+    width: 4000px;
     height: 1000px;
-    background: url('../img/herobg.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    overflow: visible;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #landingSection1Hero {
