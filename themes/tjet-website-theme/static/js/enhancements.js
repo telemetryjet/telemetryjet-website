@@ -48,6 +48,11 @@ function shuffle(arra1) {
 $(function () {
     $("#heroCustomers").addClass("heroCustomUnderline");
 
+    $(window).focus(function () {
+        $("#heroCustomers").text(targetCustomerString);
+        currentString = targetCustomerString;
+    });
+
     // Displays a cool transition animation between words
     setInterval(function () {
         // Change the target word once every 5 seconds
