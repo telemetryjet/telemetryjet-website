@@ -37,12 +37,15 @@
     font-weight: 400;
     padding-top: 70px;
     max-width: 600px;
-    min-height: 250px;
+    min-height: 262px;
     color: white;
 }
 
+#landingSection1WidgetsDesktop {
+    display: none;
+}
 
-#landingSection1Widgets {
+#landingSection1WidgetsMobile {
     position: relative;
     height: 250px;
     margin-bottom: 50px;
@@ -53,7 +56,7 @@
 }
 
 #landingSection1Widget1 {
-    background: url('../img/hero_widget_1.svg');
+    background: #202B33 url('../img/hero_widget_1.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -61,14 +64,14 @@
 }
 
 #landingSection1Widget2 {
-    background: url('../img/hero_widget_2.svg');
+    background: #202B33 url('../img/hero_widget_2.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
 }
 
 #landingSection1Widget3 {
-    background: url('../img/hero_widget_3.svg');
+    background: #202B33 url('../img/hero_widget_3.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -117,12 +120,16 @@
     }
 
     #landingSection1Widget1 {
+        background-size: contain;
+        background-position: center center;
         width: 179px;
         height: 122px;
     }
 
     #landingSection1Widget2 {
-        background: url('../img/hero_widget_2_notext.svg');
+        background: #202B33 url('../img/hero_widget_2_notext.svg');
+        background-size: contain;
+        background-position: center center;
         /*
         -webkit-filter: blur(8px);
         -moz-filter: blur(8px);
@@ -140,6 +147,8 @@
     }
 
     #landingSection1Widget3 {
+        background-size: contain;
+        background-position: center center;
         width: 230px;
         height: 175px;
     }
@@ -198,6 +207,19 @@
         height: 550px;
     }
 
+    #landingSection1WidgetsDesktop {
+        display: block;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+    }
+
+    #landingSection1WidgetsMobile {
+        display: none;
+    }
+
     #landingSection1Hero {
         height: 550px;
     }
@@ -205,10 +227,10 @@
     #landingSection1Widget1 {
         position: absolute;
         display: block;
-        right: 27px;
-        top: 146px;
-        width: 300px;
-        height: 200px;
+        right: 26px;
+        top: 159px;
+        width: 276px;
+        height: 184px;
     }
 
     #landingSection1Widget2 {
@@ -242,6 +264,19 @@
         left: 0;
         right: 0;
         height: 550px;
+    }
+
+    #landingSection1WidgetsDesktop {
+        display: block;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+    }
+
+    #landingSection1WidgetsMobile {
+        display: none;
     }
 
     #landingSection1Hero {
