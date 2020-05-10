@@ -1,13 +1,10 @@
 #postTitleBackground {
     position: absolute;
     top: -70px;
-    width: 100%;
+    width: 4000px;
     height: 800px;
-    background: url('../img/postbg1.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    overflow: visible;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #postTitleText {
