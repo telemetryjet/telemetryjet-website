@@ -14,7 +14,7 @@ title: "TelemetryJet Team"
 He's built a number of data collection systems - At UR, he was president of an electric boat racing team that competed in the Solar Splash competition. During his tenure, the team built out a telemetry and sensor system that guided driver decisions during races.
 </p>
 <p>
-<span class="bp3-icon bp3-icon-globe-network"></span> <a href="https://www.chrisdalke.com/">https://www.chrisdalke.com/</a>
+<a href="https://www.chrisdalke.com/"><span class="bp3-icon bp3-icon-globe-network"></span> https://www.chrisdalke.com/</a>
 </p>
 </div>
 
@@ -33,7 +33,7 @@ Nate is a Syracuse, NY native and an alumnus of the University of Rochester, whe
 Nate's an experienced full-stack developer who has worked at Amazon and Lockheed Martin in a variety of disciplines.
 </p>
 <p>
-<span class="bp3-icon bp3-icon-globe-network"></span> <a href="https://www.nateconroy.com/">https://www.nateconroy.com/</a>
+<a href="https://www.nateconroy.com/"><span class="bp3-icon bp3-icon-globe-network"></span> https://www.nateconroy.com/</a>
 </p>
 </div>
 
