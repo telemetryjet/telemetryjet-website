@@ -1,21 +1,29 @@
 {{ define "main" }}
 <div class="contentSectionContainer">
 	<div class="contentSectionBackground">
+		<div class="contentSectionBackground">
+			<div id="postTitleBackground"></div>
+		</div>
 	</div>
 	<div class="contentSection">
-		{{ if or .Title .Content }}
+		<div id="postTitleText">
+			{{ .Title }}
+		</div>
+	</div>
+</div>
+<div class="contentSectionContainer">
+	<div class="contentSection">
+		{{ if .Content }}
 		<div>
-			{{ with .Title }}<h1>{{ . }}</h1>{{ end }}
 			{{ with .Content }}<div>{{ . }}</div>{{ end }}
 		</div>
 		{{ end }}
 
-		<b>Pages in this Section:</b><br />
-		<ul>
-			{{ range .Paginator.Pages }}
-			<li><a href="{{ .URL }}">{{ .Name }}</a><br /></li>
-			{{ end }}
-		</ul>
+		{{ range .Paginator.Pages }}
+		<h1><a href="{{ .RelPermalink }}">{{ .Name }}</a></h1>
+		<div>{{.Date.Format "2006-01-02"}}</div>
+		{{ .Summary }}
+		{{ end }}
 	</div>
 </div>
 {{ end }}

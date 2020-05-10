@@ -7,3 +7,6 @@ pluralizelisttitles = false
 
 [params]
     version = "v0.1.0"
+    
+[taxonomies]
+    category = "categories"
