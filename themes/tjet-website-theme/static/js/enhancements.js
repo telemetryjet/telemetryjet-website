@@ -5,6 +5,8 @@ var currentString = targetCustomerString;
 var transitionInterval = null;
 var letterTransitionArray = [];
 
+var menuOpen = false;
+
 /**
  * Returns a random integer between min (inclusive) and max (inclusive).
  * The value is no lower than min (or the next integer greater than min
@@ -46,6 +48,20 @@ function shuffle(arra1) {
 }
 
 $(function () {
+    // Menu setup
+    $("#mobileMenuOpenButton").removeClass("mobileMenuOpenButtonNoscript");
+    $("#mobileMenuOpenButton").click(function () {
+        $("#mobileMenu").removeClass("mobileMenuClosed").addClass("mobileMenuOpen");
+        $("#mobileMenuBg").addClass("mobileMenuBgOpen");
+        menuOpen = true;
+    });
+    $("#mobileMenuCloseButton, #mobileMenuBg").click(function () {
+        $("#mobileMenu").removeClass("mobileMenuOpen").addClass("mobileMenuClosed");
+        $("#mobileMenuBg").removeClass("mobileMenuBgOpen");
+        menuOpen = false;
+    })
+
+
     $("#heroCustomers").addClass("heroCustomUnderline");
 
     $(window).focus(function () {
@@ -71,7 +87,6 @@ $(function () {
 
             // Change random letters in the current string until it equals the target string
             transitionInterval = setInterval(function () {
-                console.log(letterTransitionArray);
                 var targetIndex = letterTransitionArray.pop();
                 currentString = setCharAt(currentString.substring(0, targetCustomerString.length), targetIndex, targetCustomerString[targetIndex]);
                 $("#heroCustomers").text(currentString);

@@ -20,7 +20,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
 }
 
 #navbarLogo span {
@@ -32,11 +31,111 @@
     max-width: 1200px;
 }
 
+.mobileButton {
+    display: none;
+}
+
+.desktopButton {
+    display: block;
+}
+
+.mobileMenuOpenButtonNoscript {
+    display: none;
+}
+
+#mobileMenuOpenButton::before {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#mobileMenuCloseButton::before {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+
+#mobileMenuBg {}
+
+#mobileMenu {
+    display: none;
+    color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #293742;
+    z-index: 20;
+    -webkit-box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.5);
+    transition: left 0.25s;
+}
+
+#mobileMenuItems {
+    background: none;
+}
+
+.mobileMenuHeader {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+    height: 50px;
+    background-color: #293742;
+    border-bottom: 1px solid #182026;
+    border-top: 1px solid #394B59;
+}
+
+.mobileMenuHeader h2 {
+    flex: 1 1 auto;
+    margin: 0px;
+}
+
 /* Mobile */
 @media screen and (max-width: 599px) {
     #headerNavBarContent {
         max-width: 600px;
     }
+
+    .mobileMenuOpenButtonNoscript {
+        display: none !important;
+    }
+
+    .mobileButton {
+        display: block;
+    }
+
+    .desktopButton {
+        display: none;
+    }
+
+    #mobileMenu {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: stretch;
+    }
+
+    .mobileMenuOpen {
+        left: 50%;
+    }
+
+    .mobileMenuClosed {
+        left: 100%;
+    }
+
+    .mobileMenuBgOpen {
+        display: block;
+        background-color: #1820264d;
+        z-index: 19;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+
 }
 
 /* Small Screen */
