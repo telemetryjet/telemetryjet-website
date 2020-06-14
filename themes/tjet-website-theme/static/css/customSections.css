@@ -125,14 +125,22 @@
 
 #landingSection3Text {
     clear: both;
-    float: left;
-    max-width: 700px;
-    margin-top: 400px;
+    margin-top: 300px;
     height: 600px;
     font-size: 14px;
     font-weight: 400;
+    margin-bottom: 100px;
 }
 
+.screenshotLabelText {
+    padding-top: 100px;
+}
+
+#landingSection3Screenshot {
+    float: right;
+    max-width: 700px;
+    margin-left: 20px;
+}
 
 h1.sectionHeroText {
     font-size: 28px;
