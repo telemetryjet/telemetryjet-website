@@ -21,8 +21,14 @@
 
 		{{ range .Paginator.Pages }}
 		<h1><a href="{{ .RelPermalink }}">{{ .Name }}</a></h1>
-		<div>{{.Date.Format "2006-01-02"}}</div>
 		{{ .Summary }}
+		<div>
+			<i>{{.Date.Format "January 1, 2006"}}</i>
+			{{ if .Truncated }}
+			&middot;
+			<a href="{{ .RelPermalink }}">Read More</a>
+			{{ end }}
+		</div>
 		{{ end }}
 	</div>
 </div>

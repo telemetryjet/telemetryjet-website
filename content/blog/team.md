@@ -1,7 +1,10 @@
 ---
-title: "TelemetryJet Team"
+title: "Meet the Team"
+date: 2020-06-01
+categories:
+- Blog Posts
 ---
-
+<!--more-->
 <div class="profileImage">
     <img src="/img/chris.jpg" />
 </div> 

@@ -1,75 +1,90 @@
 {{ define "main" }}
 <div class="contentSectionContainer">
 	<div class="contentSectionBackground">
-		<img id="landingSection1Background" src="/img/herobg.svg"></img>
-		<div id="landingSection1WidgetsDesktop">
+		<img id="landingSection1_Background" src="/img/herobg.svg"></img>
+		<div id="landingSection1_WidgetsDesktop">
 			<div class="contentSection">
-				<div id="landingSection1Widget1" class="landingHeroWidget"></div>
-				<div id="landingSection1Widget2" class="landingHeroWidget"></div>
-				<div id="landingSection1Widget3" class="landingHeroWidget"></div>
+				<div id="landingSection1_Widget1" class="landingSection1_HeroWidget"></div>
+				<div id="landingSection1_Widget2" class="landingSection1_HeroWidget"></div>
+				<div id="landingSection1_Widget3" class="landingSection1_HeroWidget"></div>
 			</div>
 		</div>
 	</div>
 	<div class="contentSection">
-		<div id="landingSection1Hero">
+		<div id="landingSection1_Hero">
 			The ultimate data collection and visualization platform for <span id="heroCustomers">makers</span>.
+			<br>
+			<!--
+			<a class="bp3-button bp3-large bp3-intent-primary bp3-icon-arrow-right" role="button">
+				Get Started for Free
+			</a>
+			-->
 		</div>
 	</div>
 	<div class="contentSection">
-		<div id="landingSection1WidgetsMobile">
+		<div id="landingSection1_WidgetsMobile">
 		</div>
 	</div>
 </div>
 <div class="contentSectionContainer">
 	<div class="contentSection">
-		<div id="landingSection2Text">
+		<div class="clearfix"></div>
+		<div id="landingSection2_Graphic"></div>
+		<div id="landingSection2_Text">
 			<h1 class="sectionHeroText">It's easier than ever to interact with hardware projects, small or large.</h1>
-			Stream live data sensor data from your project, with an easy-to-use set of libraries and integrations.
-			TelemetryJet
-			integrates with a wide range of common protocols, such as NMEA 0183, VE.Direct, CAN-bus, VESC, and more.
+			Stream time-series data from your project, with an easy-to-use set of libraries and integrations.
+			TelemetryJet can collect and store data from a wide range of protocols and systems, ranging from a simple
+			.csv file to a
+			complex ROS-powered system.
+		</div>
+	</div>
+</div>
+<div class="contentSectionContainer">
+	<div class="contentSectionBackground">
+		<img id="landingSection3_Background" src="/img/herobg2.svg"></img>
+	</div>
+	<div class="contentSection">
+		<div class="clearfix"></div>
+		<div id="landingSection3_Graphic"></div>
+		<div id="landingSection3_Text">
+			<h1 class="sectionHeroText">View, record, and analyze data.</h1>
+			<p>
+				TelemetryJet is the first step to building an intelligent system. TelemetryJet takes care of the
+				collection and storage
+				of data, allowing you to focus on gaining insight from that data. Plot your data, compare results, and
+				perform
+				statistical analysis using the UI’s charting and analysis features.
+			</p>
+		</div>
+	</div>
+</div>
+<div class="contentSectionContainer">
+	<div class="contentSection">
+		<div class="clearfix"></div>
+		<div id="landingSection4_Graphic"></div>
+		<div id="landingSection4_Text">
+			<h1 class="sectionHeroText">Build beautiful, functional dashboards...</h1>
+			<h1 class="sectionHeroText">And share them from anywhere.</h1>
+			TelemetryJet features a rich, flexible dashboard editor with a large component library. You can easily lay
+			out
+			complex
+			dashboards and data visualizations.
 
+			Once you’re done, use the TelemetryJet Cloud to share live dashboards with your team, anywhere they are.
 		</div>
 	</div>
 </div>
 <div class="contentSectionContainer">
 	<div class="contentSectionBackground">
-		<img id="landingSection3Background" src="/img/herobg2.svg"></img>
+		<img id="landingSection5_Background" src="/img/herobg3.svg"></img>
 	</div>
 	<div class="contentSection">
-		<div id="landingSection3Text">
-			<img id="landingSection3Screenshot" src="/img/frontend1.png"></img>
-			<div class="screenshotLabelText">
-				<h1 class="sectionHeroText">View, record, and analyze data.</h1>
-				Stream live data sensor data from your project, with an easy-to-use set of libraries and integrations.
-				TelemetryJet
-				integrates with a wide range of common protocols, such as NMEA 0183, VE.Direct, CAN-bus, VESC, and more.
-			</div>
+		<div id="landingSection5_Graphic"></div>
+		<div id="landingSection5_Text">
+			<h1 class="sectionHeroText">Pricing</h1>
+			<p>
+				Pricing Details Here</p>
 		</div>
-	</div>
-	<div class="contentSection">
-		<div id="landingSection3WidgetsMobile">
-		</div>
-	</div>
-</div>
-<div class="contentSectionContainer">
-	<div class="contentSection">
-		<h1 class="sectionHeroText">Build beautiful, functional dashboards...</h1>
-		<h1 class="sectionHeroText">And share them from anywhere.</h1>
-	</div>
-</div>
-<div class="contentSectionContainer">
-	<div class="contentSectionBackground">
-		<img id="landingSection3Background" src="/img/herobg2.svg"></img>
-	</div>
-	<div class="contentSection">
-		<h1 class="sectionHeroText">Open Source</h1>
-		<p>
-			TelemetryJet is, and always will be, completely Open Source.
-			You can run the system yourself, locally.</p>
-		<p>
-			TelemetryJet Cloud is a hosted instance of TelemetryJet that will allow you to collect and share data
-			without requiring you to manage your own infrastructure.
-		</p>
 	</div>
 </div>
 {{ end }}

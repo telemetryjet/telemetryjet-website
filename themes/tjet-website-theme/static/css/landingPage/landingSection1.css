@@ -1,0 +1,237 @@
+/*
+=== Landing Page - Background Containers ===
+*/
+
+/* Section 1: Title */
+#landingSection1_Background {
+    position: absolute;
+    top: -70px;
+    width: 4000px;
+    height: 1000px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+/*
+=== Landing Page - Text/Graphics for Sections ===
+*/
+
+/* Section 1: Title */
+#landingSection1_Hero {
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 70px;
+    max-width: 600px;
+    min-height: 262px;
+    color: white;
+}
+
+#landingSection1_WidgetsDesktop {
+    display: none;
+}
+
+#landingSection1_WidgetsMobile {
+    position: relative;
+    height: 250px;
+    max-width: 550px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: url('../../img/hero_widgets_smallpage.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#landingSection1_Widget1 {
+    background: #202B33 url('../../img/hero_widget_1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    margin-right: 25px;
+}
+
+#landingSection1_Widget2 {
+    background: #202B33 url('../../img/hero_widget_2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+#landingSection1_Widget3 {
+    background: #202B33 url('../../img/hero_widget_3.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.landingSection1_HeroWidget {
+    -webkit-box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    transform: rotateZ(-10deg);
+    border-top: 2px solid #394b59;
+    border-bottom: 2px solid #182026;
+    -webkit-backface-visibility: hidden;
+}
+
+#landingSection1_Hero #heroCustomers {
+    border-bottom: 3px solid #5C7080;
+}
+
+/*
+=== Landing Page - Media Queries ===
+*/
+
+/* Mobile */
+@media screen and (max-width: 599px) {
+    #landingSection1_Hero {
+        max-width: 450px;
+        padding-top: 50px;
+        font-size: 28px;
+    }
+
+    .landingSection1_HeroWidget {
+        transform: none;
+    }
+
+    #landingSection1_WidgetsMobile {
+        height: 200px;
+        max-width: 450px;
+    }
+
+}
+
+/* Small Screen */
+@media screen and (min-width: 600px) and (max-width: 799px) {
+    #landingSection1_Hero {
+        max-width: 500px;
+    }
+
+    #landingSection1_WidgetsMobile {
+        max-width: 525px;
+    }
+
+    .landingSection1_HeroWidget {
+        transform: none;
+    }
+
+}
+
+/* Medium Screen */
+@media screen and (min-width: 800px) and (max-width: 1099px) {
+    #landingSection1_Widgets {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 550px;
+    }
+
+    #landingSection1_WidgetsDesktop {
+        display: block;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+    }
+
+    #landingSection1_WidgetsMobile {
+        display: none;
+    }
+
+    #landingSection1_Hero {
+        height: 550px;
+    }
+
+    #landingSection1_Widget1 {
+        position: absolute;
+        display: block;
+        right: 26px;
+        top: 159px;
+        width: 276px;
+        height: 184px;
+    }
+
+    #landingSection1_Widget2 {
+        position: absolute;
+        display: block;
+        right: -224px;
+        top: 320px;
+        width: 272px;
+        height: 175px;
+    }
+
+    #landingSection1_Widget3 {
+        position: absolute;
+        display: block;
+        right: -353px;
+        top: -18px;
+        width: 400px;
+        height: 300px;
+    }
+}
+
+/* Large Screen */
+@media screen and (min-width: 1100px) {
+    #landingSection1_Widgets {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 550px;
+    }
+
+    #landingSection1_WidgetsDesktop {
+        display: block;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+    }
+
+    #landingSection1_WidgetsMobile {
+        display: none;
+    }
+
+    #landingSection1_Hero {
+        height: 550px;
+    }
+
+    #landingSection1_Widget1 {
+        position: absolute;
+        display: block;
+        right: 33px;
+        top: 143px;
+        width: 300px;
+        height: 200px;
+    }
+
+    #landingSection1_Widget2 {
+        position: absolute;
+        display: block;
+        right: -224px;
+        top: 320px;
+        width: 272px;
+        height: 175px;
+    }
+
+    #landingSection1_Widget3 {
+        position: absolute;
+        display: block;
+        right: -351px;
+        top: -22px;
+        width: 400px;
+        height: 300px;
+    }
+}

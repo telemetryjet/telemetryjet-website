@@ -1,12 +1,12 @@
 /*
-=== Blog Posts, Other Pages - Title and Background ===
+=== Landing Page - Background Containers ===
 */
 
-#postTitleBackground {
+#landingSection5_Background {
     position: absolute;
-    top: -70px;
+    top: 0px;
     width: 4000px;
-    height: 800px;
+    height: 1000px;
     left: 50%;
     transform: translateX(-50%);
     -webkit-user-select: none;
@@ -16,23 +16,22 @@
     user-select: none;
 }
 
-#postTitleText {
-    font-size: 32px;
-    font-weight: 600;
-    padding-top: 40px;
-    max-width: 600px;
-    height: 200px;
-    text-decoration: underline;
-    text-decoration-color: rgba(92, 112, 128, 0.192);
+
+/*
+=== Landing Page - Text/Graphics for Sections ===
+*/
+
+#landingSection5_Graphic {}
+
+#landingSection5_Text {
+    padding-top: 350px;
+    padding-bottom: 400px;
+    text-align: center;
 }
 
-h1.sectionHeroText {
-    font-size: 28px;
-    font-weight: 500;
-    text-align: left;
-    margin-top: 0px;
-    margin-bottom: 20px;
-}
+/*
+=== Landing Page - Media Queries ===
+*/
 
 /* Mobile */
 @media screen and (max-width: 599px) {}
