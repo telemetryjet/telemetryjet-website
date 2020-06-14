@@ -1,83 +1,122 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 600 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1.5;">
-    <g transform="matrix(0.737342,0,0,1.07937,71.9889,145.546)">
-        <g transform="matrix(1.35622,-0,-0,0.926471,-97.633,-134.844)">
-            <use xlink:href="#_Image1" x="77.109" y="190.228" width="236.413px" height="85.031px" transform="matrix(0.997524,0,0,0.988731,0,0)"/>
+    <path d="M411.375,427L308.849,285.7L216.5,72.8L142,177L300,285.7L140,387L142,177" style="fill:none;stroke:rgb(24,42,55);stroke-width:9px;"/>
+    <path d="M146.5,382.885L408.182,422.6" style="fill:none;stroke:rgb(24,42,55);stroke-width:9px;"/>
+    <g id="Layer6" transform="matrix(1,0,0,1,241.199,254.7)">
+        <g opacity="0.41">
+            <g transform="matrix(0.594937,0,0,0.73545,57.6456,4.84656)">
+                <path d="M325,47.323C325,43.833 321.498,41 317.184,41L16.816,41C12.502,41 9,43.833 9,47.323L9,110.277C9,113.767 12.502,116.6 16.816,116.6L317.184,116.6C321.498,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(24,42,55);"/>
+            </g>
+            <g transform="matrix(0.594937,0,0,0.78836,57.6456,-5.32275)">
+                <path d="M325,47.323C325,43.833 321.246,41 316.622,41L17.378,41C12.754,41 9,43.833 9,47.323L9,110.277C9,113.767 12.754,116.6 17.378,116.6L316.622,116.6C321.246,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(91,113,129);"/>
+            </g>
+            <g transform="matrix(0.594937,0,0,0.73545,57.6456,0.846561)">
+                <path d="M325,47.323C325,43.833 321.498,41 317.184,41L16.816,41C12.502,41 9,43.833 9,47.323L9,110.277C9,113.767 12.502,116.6 16.816,116.6L317.184,116.6C321.498,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(56,74,88);"/>
+            </g>
         </g>
     </g>
-    <g transform="matrix(0.737342,0,0,1.07937,217.989,36.546)">
-        <g transform="matrix(1.35622,-0,-0,0.926471,-295.642,-33.8588)">
-            <use xlink:href="#_Image1" x="223.472" y="79.986" width="236.413px" height="85.031px" transform="matrix(0.997524,0,0,0.988731,0,0)"/>
+    <g id="Layer61" serif:id="Layer6" transform="matrix(1,0,0,1,241.199,43.9757)">
+        <g opacity="0.41">
+            <g transform="matrix(0.594937,0,0,0.73545,57.6456,4.84656)">
+                <path d="M325,47.323C325,43.833 321.498,41 317.184,41L16.816,41C12.502,41 9,43.833 9,47.323L9,110.277C9,113.767 12.502,116.6 16.816,116.6L317.184,116.6C321.498,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(24,42,55);"/>
+            </g>
+            <g transform="matrix(0.594937,0,0,0.78836,57.6456,-5.32275)">
+                <path d="M325,47.323C325,43.833 321.246,41 316.622,41L17.378,41C12.754,41 9,43.833 9,47.323L9,110.277C9,113.767 12.754,116.6 17.378,116.6L316.622,116.6C321.246,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(91,113,129);"/>
+            </g>
+            <g transform="matrix(0.594937,0,0,0.73545,57.6456,0.846561)">
+                <path d="M325,47.323C325,43.833 321.498,41 317.184,41L16.816,41C12.502,41 9,43.833 9,47.323L9,110.277C9,113.767 12.502,116.6 16.816,116.6L317.184,116.6C321.498,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(56,74,88);"/>
+            </g>
         </g>
     </g>
-    <g transform="matrix(0.737342,0,0,1.07937,131.989,360.546)">
-        <g transform="matrix(1.35622,-0,-0,0.926471,-179.006,-334.035)">
-            <use xlink:href="#_Image1" x="137.258" y="407.679" width="236.413px" height="85.031px" transform="matrix(0.997524,0,0,0.988731,0,0)"/>
+    <g id="Layer62" serif:id="Layer6" transform="matrix(1,0,0,1,42.375,163.8)">
+        <g opacity="0.41">
+            <g transform="matrix(0.79237,0,0,1.07937,55.8687,-9.25397)">
+                <path d="M325,47.323C325,43.833 321.141,41 316.387,41L17.613,41C12.859,41 9,43.833 9,47.323L9,110.277C9,113.767 12.859,116.6 17.613,116.6L316.387,116.6C321.141,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(24,42,55);"/>
+            </g>
+            <g transform="matrix(0.794304,0,0,1.07937,55.8513,-17.254)">
+                <path d="M325,47.323C325,43.833 321.15,41 316.408,41L17.592,41C12.85,41 9,43.833 9,47.323L9,110.277C9,113.767 12.85,116.6 17.592,116.6L316.408,116.6C321.15,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(91,113,129);"/>
+            </g>
+            <g transform="matrix(0.794304,0,0,1.07937,55.8513,-13.254)">
+                <path d="M325,47.323C325,43.833 321.15,41 316.408,41L17.592,41C12.85,41 9,43.833 9,47.323L9,110.277C9,113.767 12.85,116.6 17.592,116.6L316.408,116.6C321.15,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(56,74,88);"/>
+            </g>
         </g>
     </g>
-    <g transform="matrix(0.509494,0,0,0.539683,44.0396,267.473)">
-        <g transform="matrix(1.96273,-0,-0,1.85294,-86.4379,-495.612)">
-            <use xlink:href="#_Image2" x="47.084" y="292.811" width="164.415px" height="44.242px" transform="matrix(0.996457,0,0,0.983156,0,0)"/>
+    <g id="Layer63" serif:id="Layer6" transform="matrix(1,0,0,1,115.699,370.1)">
+        <g opacity="0.41">
+            <g transform="matrix(0.79237,0,0,1.07937,55.8687,-9.25397)">
+                <path d="M325,47.323C325,43.833 321.141,41 316.387,41L17.613,41C12.859,41 9,43.833 9,47.323L9,110.277C9,113.767 12.859,116.6 17.613,116.6L316.387,116.6C321.141,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(24,42,55);"/>
+            </g>
+            <g transform="matrix(0.794304,0,0,1.07937,55.8513,-17.254)">
+                <path d="M325,47.323C325,43.833 321.15,41 316.408,41L17.592,41C12.85,41 9,43.833 9,47.323L9,110.277C9,113.767 12.85,116.6 17.592,116.6L316.408,116.6C321.15,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(91,113,129);"/>
+            </g>
+            <g transform="matrix(0.794304,0,0,1.07937,55.8513,-13.254)">
+                <path d="M325,47.323C325,43.833 321.15,41 316.408,41L17.592,41C12.85,41 9,43.833 9,47.323L9,110.277C9,113.767 12.85,116.6 17.592,116.6L316.408,116.6C321.15,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(56,74,88);"/>
+            </g>
         </g>
-    </g>
-    <g transform="matrix(0.509494,0,0,0.539683,411.665,341.873)">
-        <g transform="matrix(1.96273,-0,-0,1.85294,-807.988,-633.471)">
-            <use xlink:href="#_Image2" x="416.016" y="368.486" width="164.415px" height="44.242px" transform="matrix(0.996457,0,0,0.983156,0,0)"/>
-        </g>
-    </g>
-    <path d="M389,71.8L456,71.8C456,71.8 462.942,70.864 470,81C477.058,91.136 548.062,224.687 548.062,224.687" style="fill:none;stroke:rgb(16,107,163);stroke-width:3px;"/>
-    <g transform="matrix(1.79214,0,0,0.313221,-434.143,154.311)">
-        <path d="M389,68.607L501.683,68.607C501.683,68.607 506.343,69.783 510.059,79.807C513.449,88.952 548.062,224.687 548.062,224.687" style="fill:none;stroke:rgb(16,107,163);stroke-width:2.33px;"/>
-    </g>
-    <g transform="matrix(0.830255,0,0,-0.386641,93.0306,311.561)">
-        <path d="M389,69.214L447,69.214C447,69.214 466.351,69.681 473.409,79.818C480.467,89.954 548.062,224.687 548.062,224.687" style="fill:none;stroke:rgb(16,107,163);stroke-width:4.63px;"/>
-    </g>
-    <g transform="matrix(1.79214,-9.48727e-18,4.41811e-18,-0.870657,-434.143,420.313)">
-        <path d="M389,72.949L455.37,72.949C455.37,72.949 463.942,72.864 471,83C478.058,93.136 548.062,224.687 548.062,224.687" style="fill:none;stroke:rgb(16,107,163);stroke-width:2.13px;"/>
-    </g>
-    <g transform="matrix(1.79214,-9.48727e-18,4.41811e-18,-0.870657,-434.143,420.313)">
-        <path d="M464.329,39.64L464.298,59.166C464.298,59.166 463.942,72.864 471,83C478.058,93.136 548.062,224.687 548.062,224.687" style="fill:none;stroke:rgb(16,107,163);stroke-width:2.13px;"/>
-    </g>
-    <g transform="matrix(1,0,0,1,17.375,9)">
-        <circle cx="530.687" cy="215.687" r="8.687" style="fill:rgb(72,175,240);stroke:rgb(16,107,163);stroke-width:3px;"/>
     </g>
     <g id="Layer3" transform="matrix(1,0,0,1,146.125,-2)">
-        <g transform="matrix(0.737342,0,0,1.07937,31.1139,197.646)">
-            <rect x="9" y="41" width="316" height="75.6" style="fill:rgb(72,175,240);stroke:rgb(16,107,163);stroke-width:3.25px;"/>
+        <g id="Layer64" serif:id="Layer6" transform="matrix(1,0,0,1,-26.375,210.6)">
+            <g transform="matrix(0.79237,0,0,1.07937,48.8687,-9.25397)">
+                <path d="M325,47.323C325,43.833 321.141,41 316.387,41L17.613,41C12.859,41 9,43.833 9,47.323L9,110.277C9,113.767 12.859,116.6 17.613,116.6L316.387,116.6C321.141,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(24,42,55);"/>
+            </g>
+            <g transform="matrix(0.794304,0,0,1.07937,48.8513,-17.254)">
+                <path d="M325,47.323C325,43.833 321.15,41 316.408,41L17.592,41C12.85,41 9,43.833 9,47.323L9,110.277C9,113.767 12.85,116.6 17.592,116.6L316.408,116.6C321.15,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(91,113,129);"/>
+            </g>
+            <g transform="matrix(0.794304,0,0,1.07937,48.8513,-13.254)">
+                <path d="M325,47.323C325,43.833 321.15,41 316.408,41L17.592,41C12.85,41 9,43.833 9,47.323L9,110.277C9,113.767 12.85,116.6 17.592,116.6L316.408,116.6C321.15,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(56,74,88);"/>
+            </g>
         </g>
         <g transform="matrix(1,0,0,1,-120.75,-53.5)">
-            <text x="169.75px" y="333.4px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:30px;fill:rgb(16,107,163);">CS<tspan x="204.58px 221.56px " y="333.4px 333.4px ">V </tspan>File</text>
-            <text x="169.75px" y="356.4px" style="font-family:'DINNextLTW04-Italic', 'DIN Next LT W04', sans-serif;font-style:italic;font-size:20px;fill:rgb(16,107,163);">Calculated Power Budget</text>
+            <text x="169.75px" y="333.4px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:30px;fill:white;">CS<tspan x="204.58px 221.56px " y="333.4px 333.4px ">V </tspan>File</text>
+            <text x="169.75px" y="356.4px" style="font-family:'DINNextLTW04-Italic', 'DIN Next LT W04', sans-serif;font-style:italic;font-size:20px;fill:white;">Calculated Power Budget</text>
         </g>
     </g>
     <g id="Layer31" serif:id="Layer3" transform="matrix(1,0,0,1,2,-85)">
-        <g transform="matrix(0.737342,0,0,1.07937,21.3639,175.646)">
-            <rect x="9" y="41" width="316" height="75.6" style="fill:rgb(72,175,240);stroke:rgb(16,107,163);stroke-width:3.25px;"/>
+        <g id="Layer65" serif:id="Layer6" transform="matrix(1,0,0,1,-38.125,190.2)">
+            <g transform="matrix(0.79237,0,0,1.07937,48.8687,-9.25397)">
+                <path d="M325,47.323C325,43.833 321.141,41 316.387,41L17.613,41C12.859,41 9,43.833 9,47.323L9,110.277C9,113.767 12.859,116.6 17.613,116.6L316.387,116.6C321.141,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(24,42,55);"/>
+            </g>
+            <g transform="matrix(0.794304,0,0,1.07937,48.8513,-17.254)">
+                <path d="M325,47.323C325,43.833 321.15,41 316.408,41L17.592,41C12.85,41 9,43.833 9,47.323L9,110.277C9,113.767 12.85,116.6 17.592,116.6L316.408,116.6C321.15,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(91,113,129);"/>
+            </g>
+            <g transform="matrix(0.794304,0,0,1.07937,48.8513,-13.254)">
+                <path d="M325,47.323C325,43.833 321.15,41 316.408,41L17.592,41C12.85,41 9,43.833 9,47.323L9,110.277C9,113.767 12.85,116.6 17.592,116.6L316.408,116.6C321.15,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(56,74,88);"/>
+            </g>
         </g>
         <g transform="matrix(1,0,0,1,-130.5,-79.5)">
-            <text x="169.75px" y="333.4px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:30px;fill:rgb(16,107,163);">Python Node</text>
-            <text x="169.75px" y="365.4px" style="font-family:'DINNextLTW04-Italic', 'DIN Next LT W04', sans-serif;font-style:italic;font-size:20px;fill:rgb(16,107,163);">Battery State Estimation</text>
+            <text x="169.75px" y="333.4px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:30px;fill:white;">Python Node</text>
+            <text x="169.75px" y="365.4px" style="font-family:'DINNextLTW04-Italic', 'DIN Next LT W04', sans-serif;font-style:italic;font-size:20px;fill:white;">Battery State Estimation</text>
         </g>
     </g>
     <g id="Layer4" transform="matrix(1,0,0,1,-48,21)">
-        <g transform="matrix(0.737342,0,0,1.07937,71.3639,277.746)">
-            <rect x="9" y="41" width="316" height="75.6" style="fill:rgb(72,175,240);stroke:rgb(16,107,163);stroke-width:3.25px;"/>
+        <g id="Layer66" serif:id="Layer6" transform="matrix(1,0,0,1,15,290.6)">
+            <g transform="matrix(0.79237,0,0,1.07937,48.8687,-9.25397)">
+                <path d="M325,47.323C325,43.833 321.141,41 316.387,41L17.613,41C12.859,41 9,43.833 9,47.323L9,110.277C9,113.767 12.859,116.6 17.613,116.6L316.387,116.6C321.141,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(24,42,55);"/>
+            </g>
+            <g transform="matrix(0.794304,0,0,1.07937,48.8513,-17.254)">
+                <path d="M325,47.323C325,43.833 321.15,41 316.408,41L17.592,41C12.85,41 9,43.833 9,47.323L9,110.277C9,113.767 12.85,116.6 17.592,116.6L316.408,116.6C321.15,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(91,113,129);"/>
+            </g>
+            <g transform="matrix(0.794304,0,0,1.07937,48.8513,-13.254)">
+                <path d="M325,47.323C325,43.833 321.15,41 316.408,41L17.592,41C12.85,41 9,43.833 9,47.323L9,110.277C9,113.767 12.85,116.6 17.592,116.6L316.408,116.6C321.15,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(56,74,88);"/>
+            </g>
         </g>
-        <g transform="matrix(1,0,0,1,-82.375,24.6)">
-            <text x="169.75px" y="333.4px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:30px;fill:rgb(16,107,163);">USB-<tspan x="236.89px " y="333.4px ">S</tspan>erial Port</text>
-            <text x="169.75px" y="365.4px" style="font-family:'DINNextLTW04-Italic', 'DIN Next LT W04', sans-serif;font-style:italic;font-size:20px;fill:rgb(16,107,163);">Motor Controller</text>
+        <g transform="matrix(1,0,0,1,-83.375,23.6)">
+            <text x="169.75px" y="333.4px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:30px;fill:white;">USB-<tspan x="236.89px " y="333.4px ">S</tspan>erial Port</text>
+            <text x="169.75px" y="365.4px" style="font-family:'DINNextLTW04-Italic', 'DIN Next LT W04', sans-serif;font-style:italic;font-size:20px;fill:white;">Motor Controller</text>
         </g>
     </g>
     <g id="Layer5" transform="matrix(1,0,0,1,28,-9)">
-        <g transform="matrix(1.0538,0,0,1.07937,18.5158,-1.25397)">
-            <path d="M325,47.323C325,43.833 322.098,41 318.524,41L15.476,41C11.902,41 9,43.833 9,47.323L9,110.277C9,113.767 11.902,116.6 15.476,116.6L318.524,116.6C322.098,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(24,32,38);"/>
-        </g>
-        <g transform="matrix(1.0538,0,0,1.07937,18.5158,-7.25397)">
-            <path d="M325,47.323C325,43.833 322.098,41 318.524,41L15.476,41C11.902,41 9,43.833 9,47.323L9,110.277C9,113.767 11.902,116.6 15.476,116.6L318.524,116.6C322.098,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(56,74,88);"/>
-        </g>
-        <g transform="matrix(1.0538,0,0,1.07937,18.5158,-4.25397)">
-            <path d="M325,47.323C325,43.833 322.098,41 318.524,41L15.476,41C11.902,41 9,43.833 9,47.323L9,110.277C9,113.767 11.902,116.6 15.476,116.6L318.524,116.6C322.098,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(32,42,50);"/>
+        <g id="Layer67" serif:id="Layer6" transform="matrix(1,0,0,1,-34,10)">
+            <g transform="matrix(1.0538,0,0,1.07937,46.5158,-9.25397)">
+                <path d="M325,47.323C325,43.833 322.098,41 318.524,41L15.476,41C11.902,41 9,43.833 9,47.323L9,110.277C9,113.767 11.902,116.6 15.476,116.6L318.524,116.6C322.098,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(24,42,55);"/>
+            </g>
+            <g transform="matrix(1.0538,0,0,1.07937,46.5158,-17.254)">
+                <path d="M325,47.323C325,43.833 322.098,41 318.524,41L15.476,41C11.902,41 9,43.833 9,47.323L9,110.277C9,113.767 11.902,116.6 15.476,116.6L318.524,116.6C322.098,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(91,113,129);"/>
+            </g>
+            <g transform="matrix(1.0538,0,0,1.07937,46.5158,-13.254)">
+                <path d="M325,47.323C325,43.833 322.098,41 318.524,41L15.476,41C11.902,41 9,43.833 9,47.323L9,110.277C9,113.767 11.902,116.6 15.476,116.6L318.524,116.6C322.098,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(56,74,88);"/>
+            </g>
         </g>
         <g transform="matrix(1,0,0,1,-129.5,-258.7)">
             <text x="169.75px" y="333.4px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:30px;fill:white;">CAN-Bus</text>
@@ -85,16 +124,20 @@
         </g>
     </g>
     <g id="Layer1" transform="matrix(1,0,0,1,-49.625,242.2)">
-        <g transform="matrix(0.737342,0,0,1.07937,326.364,97.346)">
-            <rect x="9" y="41" width="316" height="75.6" style="fill:rgb(72,175,240);stroke:rgb(16,107,163);stroke-width:3.25px;"/>
+        <g id="Layer68" serif:id="Layer6" transform="matrix(1,0,0,1,273.625,110.6)">
+            <g transform="matrix(0.79237,0,0,1.07937,55.8687,-9.25397)">
+                <path d="M325,47.323C325,43.833 321.141,41 316.387,41L17.613,41C12.859,41 9,43.833 9,47.323L9,110.277C9,113.767 12.859,116.6 17.613,116.6L316.387,116.6C321.141,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(24,42,55);"/>
+            </g>
+            <g transform="matrix(0.794304,0,0,1.07937,55.8513,-17.254)">
+                <path d="M325,47.323C325,43.833 321.15,41 316.408,41L17.592,41C12.85,41 9,43.833 9,47.323L9,110.277C9,113.767 12.85,116.6 17.592,116.6L316.408,116.6C321.15,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(91,113,129);"/>
+            </g>
+            <g transform="matrix(0.794304,0,0,1.07937,55.8513,-13.254)">
+                <path d="M325,47.323C325,43.833 321.15,41 316.408,41L17.592,41C12.85,41 9,43.833 9,47.323L9,110.277C9,113.767 12.85,116.6 17.592,116.6L316.408,116.6C321.15,116.6 325,113.767 325,110.277L325,47.323Z" style="fill:rgb(56,74,88);"/>
+            </g>
         </g>
-        <g transform="matrix(1,0,0,1,173,-158.1)">
-            <text x="169.75px" y="333.4px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:30px;fill:rgb(16,107,163);">USB-<tspan x="236.89px " y="333.4px ">S</tspan>erial Port</text>
-            <text x="169.75px" y="365.4px" style="font-family:'DINNextLTW04-Italic', 'DIN Next LT W04', sans-serif;font-style:italic;font-size:20px;fill:rgb(16,107,163);">GPS Unit</text>
+        <g transform="matrix(1,0,0,1,182,-158.1)">
+            <text x="169.75px" y="333.4px" style="font-family:'DINNextLTW04-Bold', 'DIN Next LT W04', sans-serif;font-weight:700;font-size:30px;fill:white;">USB-<tspan x="236.89px " y="333.4px ">S</tspan>erial Port</text>
+            <text x="169.75px" y="365.4px" style="font-family:'DINNextLTW04-Italic', 'DIN Next LT W04', sans-serif;font-style:italic;font-size:20px;fill:white;">GPS Unit</text>
         </g>
     </g>
-    <defs>
-        <image id="_Image1" width="237px" height="86px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAO0AAABWCAYAAAAjQBE5AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABeUlEQVR4nO3WMS6EARRG0UemQSbDEnQapVVZliVppps1yB906MQICY1xk3O6173mJt/R+e3dzcysByhYVjOzmZnzQ38C/Mjx8aE/AH5n9fG4vLqekzNLGf6T58dldtv793sv2tP1Ztabiz9/Cvje0adBbB5DjGghRrQQI1qIES3EiBZiRAsxooUY0UKMaCFGtBAjWogRLcSIFmJECzGihRjRQoxoIUa0ECNaiBEtxIgWYkQLMaKFGNFCjGghRrQQI1qIES3EiBZiRAsxooUY0UKMaCFGtBAjWogRLcSIFmJECzGihRjRQoxoIUa0ECNaiBEtxIgWYkQLMaKFGNFCjGghRrQQI1qIES3EiBZiRAsxooUY0UKMaCFGtBAjWogRLcSIFmJECzGihRjRQoxoIUa0ECNaiBEtxIgWYkQLMaKFGNFCjGghRrQQI1qIES3ErD4eT8vDvL68HOoX4AvPj8vevRftbnv/p88Av2ceQ8xqZh5mxiaGhuUNphAXpM6ff00AAAAASUVORK5CYII="/>
-        <image id="_Image2" width="165px" height="45px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKUAAAAtCAYAAADPyKtvAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA+UlEQVR4nO3dMWrDUBBF0YmsKlhGZAPp0rj1rrKsrCmNu+zAREJdTBpj/ANprQc+B1RMN8WF6fSfxvePQ1UNBRmmvqrGywcJNt3aG8Bf/e3w+rav561Lzn0t81Rfx8/r3ES53Y01jC93X4rH1nWbdl5pD/iXKIkjSuKIkjiiJI4oiSNK4oiSOKIkjiiJI0riiJI4oiSOKIkjSuKIkjiiJI4oiSNK4oiSOKIkjiiJI0riiJI4oiSOKIkjSuKIkjiiJI4oiSNK4oiSOKIkjiiJI0riiJI4zY/45+9Tnc8/a+3Cg1rmqZmbKG+fjYC1ON/E6avqVFVuNimmX53kF1eBQEroAAAAAElFTkSuQmCC"/>
-    </defs>
 </svg>

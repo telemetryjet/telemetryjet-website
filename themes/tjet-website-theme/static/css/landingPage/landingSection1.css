@@ -80,7 +80,6 @@
     transform: rotateZ(-10deg);
     border-top: 2px solid #394b59;
     border-bottom: 2px solid #182026;
-    -webkit-backface-visibility: hidden;
 }
 
 #landingSection1_Hero #heroCustomers {

@@ -40,8 +40,9 @@
 /* Medium Screen */
 @media screen and (min-width: 800px) and (max-width: 1099px) {
     #landingSection2_Graphic {
-        width: 300px;
-        height: 200px;
+        width: 400px;
+        height: 300px;
+        margin-left: -50px;
     }
 
     #landingSection2_Text {
@@ -55,10 +56,11 @@
     #landingSection2_Graphic {
         width: 400px;
         height: 300px;
+        margin-top: 20px;
     }
 
     #landingSection2_Text {
-        padding-top: 90px;
+        padding-top: 80px;
         padding-left: 400px;
     }
 }
