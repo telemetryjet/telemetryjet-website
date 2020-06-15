@@ -86,6 +86,10 @@
     border-bottom: 3px solid #5C7080;
 }
 
+.mediumScreenLineBreak {
+    display: none;
+}
+
 /*
 === Landing Page - Media Queries ===
 */
@@ -150,6 +154,10 @@
 
     #landingSection1_Hero {
         height: 550px;
+    }
+
+    .mediumScreenLineBreak {
+        display: initial;
     }
 
     #landingSection1_Widget1 {
