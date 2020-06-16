@@ -9,7 +9,4 @@ title: "TelemetryJet Cloud is Coming Soon"
 
 <br />
 
-## Sounds great? We agree.
-If you're interested in joining a closed beta of the TelemetryJet Cloud, please contact us below!
-
-The TelemetryJet software ecosystem is completely open source -- You can get started now for free with the local server and UI.
+{{< signupForm >}}
