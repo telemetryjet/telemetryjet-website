@@ -1,0 +1,37 @@
+{{ define "main" }}
+<div id="content">
+	<div class="contentSectionContainer">
+		<div class="contentSectionBackground">
+			<div class="contentSectionBackground">
+				<img id="postTitleBackground" src="/img/postbg1.svg"></img>
+			</div>
+		</div>
+		<div class="contentSection">
+			<div id="postTitleText">
+				{{ .Title }}
+			</div>
+		</div>
+	</div>
+	<div class="contentSectionContainer">
+		<div class="contentSection">
+			{{ if .Content }}
+			<div>
+				{{ with .Content }}<div>{{ . }}</div>{{ end }}
+			</div>
+			{{ end }}
+
+			{{ range .Paginator.Pages }}
+			<h1><a href="{{ .RelPermalink }}">{{ .Name }}</a></h1>
+			{{ .Summary }}
+			<div>
+				<i>{{.Date.Format "January 1, 2006"}}</i>
+				{{ if .Truncated }}
+				&middot;
+				<a href="{{ .RelPermalink }}">Read More</a>
+				{{ end }}
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</div>
+{{ end }}

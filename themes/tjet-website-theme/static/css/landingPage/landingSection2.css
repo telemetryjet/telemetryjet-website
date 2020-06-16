@@ -1,0 +1,66 @@
+/*
+=== Landing Page - Background Containers ===
+*/
+
+
+/*
+=== Landing Page - Text/Graphics for Sections ===
+*/
+
+#landingSection2_Text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#landingSection2_Graphic {
+    float: left;
+    background: url('../../img/flowchart_data_sources.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+/*
+=== Landing Page - Media Queries ===
+*/
+
+/* Mobile */
+@media screen and (max-width: 599px) {
+    #landingSection2_Graphic {
+        display: none;
+    }
+}
+
+/* Small Screen */
+@media screen and (min-width: 600px) and (max-width: 799px) {
+    #landingSection2_Graphic {
+        display: none;
+    }
+}
+
+/* Medium Screen */
+@media screen and (min-width: 800px) and (max-width: 1099px) {
+    #landingSection2_Graphic {
+        width: 400px;
+        height: 300px;
+        margin-left: -50px;
+    }
+
+    #landingSection2_Text {
+        padding-top: 20px;
+        padding-left: 300px;
+    }
+}
+
+/* Large Screen */
+@media screen and (min-width: 1100px) {
+    #landingSection2_Graphic {
+        width: 400px;
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    #landingSection2_Text {
+        padding-top: 80px;
+        padding-left: 400px;
+    }
+}

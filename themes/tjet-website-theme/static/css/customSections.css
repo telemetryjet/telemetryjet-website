@@ -1,0 +1,47 @@
+/*
+=== Blog Posts, Other Pages - Title and Background ===
+*/
+
+#postTitleBackground {
+    position: absolute;
+    top: -70px;
+    width: 4000px;
+    height: 800px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#postTitleText {
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 40px;
+    max-width: 600px;
+    height: 200px;
+    text-decoration: underline;
+    text-decoration-color: rgba(92, 112, 128, 0.192);
+}
+
+h1.sectionHeroText {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+/* Mobile */
+@media screen and (max-width: 599px) {}
+
+/* Small Screen */
+@media screen and (min-width: 600px) and (max-width: 799px) {}
+
+/* Medium Screen */
+@media screen and (min-width: 800px) and (max-width: 1099px) {}
+
+/* Large Screen */
+@media screen and (min-width: 1100px) {}

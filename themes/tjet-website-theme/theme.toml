@@ -1,0 +1,8 @@
+name = "TJet Docs Theme"
+description = "TelemetryJet Website Theme."
+homepage = "https://www.telemetryjet.com"
+min_version = "0.20"
+
+[author]
+  name = "Chris Dalke"
+  homepage = "https://chrisdalke.com"
