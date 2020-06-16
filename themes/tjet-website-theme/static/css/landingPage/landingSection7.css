@@ -8,10 +8,13 @@
 */
 
 #landingSection7_Text {
-    padding-top: 20px;
+    padding-top: 0px;
     padding-bottom: 0px;
-    border-top: 3px solid #394B59;
-    margin-bottom: -200px;
+}
+
+#landingSection7_heroText {
+    text-align: center !important;
+    width: 100%;
 }
 
 #landingSection7_Graphic {
@@ -25,9 +28,8 @@
 
 .userGraphic {
     flex: 1 1 auto;
-    max-width: 200px;
+    max-width: 400px;
     margin: 10px;
-    mix-blend-mode: multiply;
 }
 
 .userGraphic img {
@@ -51,7 +53,7 @@
 /* Mobile */
 @media screen and (max-width: 599px) {
     .userGraphic {
-        max-width: 150px;
+        max-width: 300px;
     }
 }
 
