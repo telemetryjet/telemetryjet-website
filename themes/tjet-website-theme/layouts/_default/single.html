@@ -1,20 +1,22 @@
 {{ define "main" }}
-<div class="contentSectionContainer">
-	<div class="contentSectionBackground">
+<div id="content">
+	<div class="contentSectionContainer">
 		<div class="contentSectionBackground">
-			<img id="postTitleBackground" src="/img/postbg1.svg"></img>
+			<div class="contentSectionBackground">
+				<img id="postTitleBackground" src="/img/postbg1.svg"></img>
+			</div>
+		</div>
+		<div class="contentSection">
+			<div id="postTitleText">
+				{{ .Title }}
+			</div>
 		</div>
 	</div>
-	<div class="contentSection">
-		<div id="postTitleText">
-			{{ .Title }}
-		</div>
-	</div>
-</div>
-<div class="contentSectionContainer">
-	<div class="contentSection">
-		<div>
-			{{ .Content }}
+	<div class="contentSectionContainer">
+		<div class="contentSection">
+			<div>
+				{{ .Content }}
+			</div>
 		</div>
 	</div>
 </div>

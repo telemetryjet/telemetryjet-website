@@ -2,14 +2,29 @@
 === Landing Page - Background Containers ===
 */
 
+#landingSection7_Background {
+    position: absolute;
+    top: 0px;
+    width: 4000px;
+    height: 2000px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
 
 /*
 === Landing Page - Text/Graphics for Sections ===
 */
 
 #landingSection7_Text {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    border-top: 3px solid #A7B6C2;
 }
 
 #landingSection7_heroText {
@@ -28,8 +43,8 @@
 
 .userGraphic {
     flex: 1 1 auto;
-    max-width: 400px;
-    margin: 10px;
+    max-width: 300px;
+    margin: 20px;
 }
 
 .userGraphic img {
@@ -53,8 +68,13 @@
 /* Mobile */
 @media screen and (max-width: 599px) {
     .userGraphic {
-        max-width: 300px;
+        max-width: 200px;
+        margin: 0px;
     }
+    #landingSection7_Graphic {
+        flex-wrap: nowrap;
+    }
+
 }
 
 /* Small Screen */
