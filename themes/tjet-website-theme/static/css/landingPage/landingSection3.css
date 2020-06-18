@@ -64,6 +64,7 @@
         height: 350px;
         margin-top: 50px;
         float: none;
+        background-position: center center;
     }
 }
 
@@ -83,6 +84,7 @@
         height: 400px;
         margin-top: 50px;
         float: none;
+        background-position: center center;
     }
 }
 

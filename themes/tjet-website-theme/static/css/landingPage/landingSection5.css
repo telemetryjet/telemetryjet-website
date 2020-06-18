@@ -120,6 +120,7 @@
 .pricingCardTierName {
     flex: 1 1 auto;
     font-size: 20px;
+    margin-right: 10px;
 }
 
 .pricingCardHeaderPrice {
@@ -149,6 +150,10 @@
     align-items: center;
 }
 
+#longSignupHeroText {
+    display: inline;
+}
+
 /*
 === Landing Page - Media Queries ===
 */
@@ -171,9 +176,13 @@
     }
 
     .pricingCard {
-        margin: 10px;
+        margin-bottom: 30px;
+        flex-basis: auto;
     }
 
+    #longSignupHeroText {
+        display: none;
+    }
 }
 
 /* Small Screen */
@@ -195,7 +204,12 @@
 
 
     .pricingCard {
-        margin: 10px;
+        margin-bottom: 30px;
+        flex-basis: auto;
+    }
+
+    #longSignupHeroText {
+        display: none;
     }
 
 }
@@ -203,10 +217,10 @@
 /* Medium Screen */
 @media screen and (min-width: 800px) and (max-width: 1099px) {
     .pricingCard {
-        margin-right: 15px;
+        margin-right: 20px;
     }
 
-    .pricingCard:nth-child(4) {
+    .pricingCard:nth-child(3) {
         margin-right: 0px;
     }
 
@@ -224,10 +238,10 @@
 /* Large Screen */
 @media screen and (min-width: 1100px) {
     .pricingCard {
-        margin-right: 15px;
+        margin-right: 25px;
     }
 
-    .pricingCard:nth-child(4) {
+    .pricingCard:nth-child(3) {
         margin-right: 0px;
     }
 }
