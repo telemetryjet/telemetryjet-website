@@ -28,12 +28,22 @@
     #landingSection2_Graphic {
         display: none;
     }
+
+    #landingSection2_Text {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
 }
 
 /* Small Screen */
 @media screen and (min-width: 600px) and (max-width: 799px) {
     #landingSection2_Graphic {
         display: none;
+    }
+
+    #landingSection2_Text {
+        padding-top: 20px;
+        padding-bottom: 40px;
     }
 }
 
