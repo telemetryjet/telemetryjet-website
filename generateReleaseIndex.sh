@@ -11,4 +11,4 @@ rm -rf content/releases/*
 # Run python script to generate markdown from all files in release folder
 python3 -V
 pip3 -V
-python3 generate.py
+python3 generateReleaseIndex.py

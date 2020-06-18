@@ -8,11 +8,12 @@ bucket = s3.Bucket("files.telemetryjet.com")
 
 # Initialize files
 releaseIndexFile = open("content/releases/_index.md", "w")
-releaseIndexFile.write('''
----
+releaseIndexFile.write('''---
 title: "Releases"
 weight: 1
 ---
+
+# Release Files
 ''')
 
 bucketObjects = bucket.objects.all()
@@ -27,10 +28,10 @@ for i, bucketObject in enumerate(bucketObjectList):
     bucketFilename = bucketKey.split('/')[-1]
     linkUrl = "https://files.telemetryjet.com/{}".format(bucketKey)
     releaseIndexFile.write('''
-    <a href="{}">
-        <h4><span class="bp3-icon-standard bp3-icon-document"></span>{}</h4>
-    </a>
-    '''.format(linkUrl, bucketFilename))
+<a href="{}">
+    <h4><span class="bp3-icon-standard bp3-icon-document"></span>{}</h4>
+</a>
+    '''.format(linkUrl, bucketKey))
 
 # Close files
 releaseIndexFile.close()

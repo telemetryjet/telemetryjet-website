@@ -1,21 +1,27 @@
 {{ define "main" }}
-<div class="contentSectionContainer">
-	<div class="contentSectionBackground">
+<div id="content">
+	<div class="contentSectionContainer">
 		<div class="contentSectionBackground">
-			<div id="postTitleBackground"></div>
+			<div class="contentSectionBackground">
+				<img id="postTitleBackground" src="/img/postbg1.svg"></img>
+			</div>
+		</div>
+		<div class="contentSection">
+			<div id="postTitleText">
+				Page Not Found
+			</div>
 		</div>
 	</div>
-	<div class="contentSection">
-		<div id="postTitleText">
-			Page Not Found
-		</div>
-	</div>
-</div>
-<div class="contentSectionContainer">
-	<div class="contentSection">
-		<div>
-			The page you're looking for couldn't be found.<br /><br />
-			If you believe this is in error, please <a href="/contact-us">Contact Us.</a>
+	<div class="contentSectionContainer">
+		<div class="contentSection">
+			<div><span class="bp3-icon-standard bp3-icon-error"></span>
+				<b>We're sorry - The page you're looking for couldn't be found.</b><br /><br />
+				Please note that TelemetryJet is still
+				in
+				early
+				development, and some content may be missing.<br />
+				If you believe this is in error, please <a href="/contact-us">Contact Us.</a>
+			</div>
 		</div>
 	</div>
 </div>
