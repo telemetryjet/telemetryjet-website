@@ -7,6 +7,10 @@ pluralizelisttitles = false
 
 [params]
     version = "v0.1.0"
+    siteUrl = "https://www.telemetryjet.com"
+    docsUrl = "https://docs.telemetryjet.com"
+    filesUrl = "https://files.telemetryjet.com"
+    cloudUrl = "https://app.telemetryjet.com"
     
 [taxonomies]
     category = "categories"

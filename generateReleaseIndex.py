@@ -26,7 +26,7 @@ for i, bucketObject in enumerate(bucketObjectList):
     print(bucketObject.last_modified)
     bucketKey = bucketObject.key
     bucketFilename = bucketKey.split('/')[-1]
-    linkUrl = "https://files.telemetryjet.com/{}".format(bucketKey)
+    linkUrl = "{{{{ .Site.Params.filesUrl }}}}/{}".format(bucketKey)
     releaseIndexFile.write('''
 <a href="{}">
     <h4><span class="bp3-icon-standard bp3-icon-document"></span>{}</h4>
