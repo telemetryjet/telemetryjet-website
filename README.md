@@ -4,6 +4,9 @@ This repository contains the landing page & main website for the TelemetryJet pl
 
 The latest website is automatically deployed to https://www.telemetryjet.com/ via Netlify.
 
+The repository also includes a python and shell script which regenerate the release pages when a new release is
+created and uploaded to S3. This job is run periodically via Jenkins.
+
 ## Deploy Status
 
 |Branch|Deploy Status|Target|
@@ -24,3 +27,11 @@ To run a development server, use `hugo serve`. This will start the Hugo dev serv
 ## Build Static Site
 
 To build and export the site to static HTML, use `hugo`. This will build the static site to the `public/` directory as HTML. These files should not be uploaded to git; they are ignored and will be built by Netlify when a release is merged into the master branch. 
+
+## Updating Release Index
+
+To update the release index markdown files, run `./generateReleaseIndex.sh`. This will overwrite files in the `content/releases/` directory. The script has several dependencies:
+
+- Python3
+- boto3 AWS SDK for Python3
+- AWS CLI

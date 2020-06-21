@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 4000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g transform="matrix(1.04096,-0.0224293,0.0216781,1.0061,-49.7278,98.72)">
+    <g transform="matrix(1.30372,-0.028091,0.0216781,1.0061,-566.258,109.85)">
         <rect x="793" y="-182" width="2325" height="364" style="fill:rgb(191,204,214);"/>
     </g>
-    <g id="Dark-Blob-4" serif:id="Dark Blob 4" transform="matrix(0.919483,0.153624,-0.153624,0.919483,-1481.22,-597.979)">
+    <g id="Dark-Blob-4" serif:id="Dark Blob 4" transform="matrix(0.919483,0.153624,-0.153624,0.919483,-1602.72,-591.676)">
         <path d="M2480,-165.341L2395,-156.341L2527.9,590.245L2608,577.529L2552.25,283.622L2607.3,273.028L2559.1,22.172L2513.55,29.353L2480,-165.341Z" style="fill:none;"/>
         <clipPath id="_clip1">
             <path d="M2480,-165.341L2395,-156.341L2527.9,590.245L2608,577.529L2552.25,283.622L2607.3,273.028L2559.1,22.172L2513.55,29.353L2480,-165.341Z"/>
@@ -14,6 +14,9 @@
                 <g id="Grid-Dark" serif:id="Grid Dark">
                     <g id="Grid-Texture" serif:id="Grid Texture">
                         <g transform="matrix(0.909091,0,0,0.909091,257.727,41.8182)">
+                            <circle cx="24.5" cy="14.5" r="5.5" style="fill:rgb(167,182,194);"/>
+                        </g>
+                        <g transform="matrix(0.909091,0,0,0.909091,257.727,-8.18182)">
                             <circle cx="24.5" cy="14.5" r="5.5" style="fill:rgb(167,182,194);"/>
                         </g>
                         <g transform="matrix(0.909091,0,0,0.909091,257.727,16.8182)">
@@ -26,6 +29,15 @@
                             <circle cx="24.5" cy="14.5" r="5.5" style="fill:rgb(167,182,194);"/>
                         </g>
                         <g transform="matrix(0.909091,0,0,0.909091,257.727,91.8182)">
+                            <circle cx="24.5" cy="14.5" r="5.5" style="fill:rgb(167,182,194);"/>
+                        </g>
+                        <g transform="matrix(0.909091,0,0,0.909091,282.727,-8.18182)">
+                            <circle cx="24.5" cy="14.5" r="5.5" style="fill:rgb(167,182,194);"/>
+                        </g>
+                        <g transform="matrix(0.909091,0,0,0.909091,307.727,-8.18182)">
+                            <circle cx="24.5" cy="14.5" r="5.5" style="fill:rgb(167,182,194);"/>
+                        </g>
+                        <g transform="matrix(0.909091,0,0,0.909091,332.727,-8.18182)">
                             <circle cx="24.5" cy="14.5" r="5.5" style="fill:rgb(167,182,194);"/>
                         </g>
                         <g transform="matrix(0.909091,0,0,0.909091,282.727,16.8182)">
@@ -80,6 +92,9 @@
                             <circle cx="24.5" cy="14.5" r="5.5" style="fill:rgb(167,182,194);"/>
                         </g>
                         <g transform="matrix(0.909091,0,0,0.909091,307.727,166.818)">
+                            <circle cx="24.5" cy="14.5" r="5.5" style="fill:rgb(167,182,194);"/>
+                        </g>
+                        <g transform="matrix(0.909091,0,0,0.909091,357.727,-8.18182)">
                             <circle cx="24.5" cy="14.5" r="5.5" style="fill:rgb(167,182,194);"/>
                         </g>
                         <g transform="matrix(0.909091,0,0,0.909091,357.727,16.8182)">
@@ -156,7 +171,7 @@
             </g>
         </g>
     </g>
-    <g id="Dark-Blob-3" serif:id="Dark Blob 3" transform="matrix(0.922579,0.133781,-0.133781,0.922579,899.263,-618.689)">
+    <g id="Dark-Blob-3" serif:id="Dark Blob 3" transform="matrix(0.922579,0.133781,-0.133781,0.922579,1062.42,-647.586)">
         <path d="M2565.01,329.984L2483,344L2527.9,590.245L2608,577.529L2565.01,329.984Z" style="fill:none;"/>
         <clipPath id="_clip2">
             <path d="M2565.01,329.984L2483,344L2527.9,590.245L2608,577.529L2565.01,329.984Z"/>
