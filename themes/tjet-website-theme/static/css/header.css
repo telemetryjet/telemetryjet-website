@@ -15,9 +15,9 @@
 }
 
 #navbarLogo {
+    margin-right: 10px;
     font-size: 20px;
     font-weight: 200;
-    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
