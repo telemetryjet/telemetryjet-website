@@ -47,6 +47,11 @@ function shuffle(arra1) {
     return arra1;
 }
 
+$(function() {
+    // Remove class that hides the title on small screens
+    //$(".noJsHiddenSmallScreens").removeClass("noJsHiddenSmallScreens");
+})
+
 $(function () {
     // Menu setup
     $("#mobileMenuOpenButton").removeClass("mobileMenuOpenButtonNoscript");
@@ -60,6 +65,7 @@ $(function () {
         $("#mobileMenuBg").removeClass("mobileMenuBgOpen");
         menuOpen = false;
     })
+
 
     // Scroll to top button
     $("#backToTop").show();

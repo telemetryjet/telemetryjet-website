@@ -1,6 +1,6 @@
 baseURL = "https://www.telemetryjet.com/"
 languageCode = "en-us"
-title = "TelemetryJet"
+title = "The ultimate data platform for hardware projects."
 theme = "tjet-website-theme"
 sectionPagesMenu = "main"
 pluralizelisttitles = false

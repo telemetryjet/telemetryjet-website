@@ -1,7 +1,7 @@
 <div id="header">
     <div id="headerNavBar" class="bp3-navbar">
         <div id="headerNavBarContent" class="bp3-dark">
-            <div class="bp3-navbar-group bp3-align-left">
+            <div id="headerMainLogo" class="bp3-navbar-group bp3-align-left">
                 <a class="bp3-button bp3-minimal" href="/">
                     <div id="navbarLogo" class="bp3-navbar-heading">TJET<span
                             class="bp3-icon bp3-icon-standard bp3-icon-airplane"></span>
@@ -10,6 +10,7 @@
             </div>
             <div class="bp3-navbar-group bp3-align-right">
                 <a class="bp3-button bp3-minimal desktopButton" href="/">About</a>
+                <a class="bp3-button bp3-minimal desktopButton" href="/use-cases">Use Cases</a>
                 <a class="bp3-button bp3-minimal desktopButton" href="{{ .Site.Params.docsUrl }}">Docs</a>
                 <a class="bp3-button bp3-minimal desktopButton" href="/releases">Releases</a>
                 <a class="bp3-button bp3-minimal desktopButton" href="/blog">Blog</a>
@@ -19,9 +20,10 @@
                     class="bp3-button bp3-minimal bp3-icon-menu mobileButton mobileMenuOpenButtonNoscript"></button>
             </div>
             <noscript class="bp3-navbar-group bp3-align-right">
-                <a class="bp3-button bp3-minimal mobileButton" href="{{ .Site.Params.docsUrl }}">Docs</a>
-                <a class="bp3-button bp3-minimal mobileButton" href="/releases">Releases</a>
-                <a class="bp3-button bp3-minimal mobileButton" href="/blog">Blog</a>
+                <a class="bp3-button bp3-minimal mobileButton noscriptButton" href="/use-cases">Use Cases</a>
+                <a class="bp3-button bp3-minimal mobileButton noscriptButton" href="{{ .Site.Params.docsUrl }}">Docs</a>
+                <a class="bp3-button bp3-minimal mobileButton noscriptButton" href="/releases">Releases</a>
+                <a class="bp3-button bp3-minimal mobileButton noscriptButton" href="/blog">Blog</a>
             </noscript>
         </div>
     </div>
@@ -34,6 +36,7 @@
         </div>
         <ul id="mobileMenuItems" class="bp3-menu">
             <li><a class="bp3-menu-item" href="/">About</a></li>
+            <li><a class="bp3-menu-item" href="/use-cases">Use Cases</a></li>
             <li><a class="bp3-menu-item" href="{{ .Site.Params.docsUrl }}">Documentation</a></li>
             <li><a class="bp3-menu-item" href="/releases">Releases</a></li>
             <li><a class="bp3-menu-item" href="/blog">Blog</a></li>

@@ -1,5 +1,5 @@
 ---
-title: "Frequently Asked Questions"
+title: "FAQ"
 ---
 
 ## Q. Why is the Desktop Client an electron application?
