@@ -2,6 +2,8 @@ body {
     font-family: "DIN", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
     overscroll-behavior-y: none;
+    overflow-x: hidden;
+    overflow-y: auto;
     background-color: #293742;
     min-width: 320px;
 }
@@ -23,7 +25,6 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 80px;
 }
 
 .profileImage {
@@ -66,4 +67,85 @@ hr {
 .clearfix {
     width: 100%;
     clear: both;
+}
+
+/*
+BREAKPOINTS
+<section> tag is configured by default as a flexible breakpoint and can be used across the page.
+*/
+section {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: visible;
+    padding-left: 25px;
+    padding-right: 25px;
+    /*
+    border-left: 2px dashed rgba(0,0,0,0.25);
+    border-right: 2px dashed rgba(0,0,0,0.25);
+    */
+}
+
+/* Mobile */
+@media screen and (max-width: 599px) {
+    section {
+        max-width: 600px;
+    }
+}
+
+/* Small Screen */
+@media screen and (min-width: 600px) and (max-width: 799px) {
+    section {
+        max-width: 600px;
+    }
+}
+
+/* Medium Screen */
+@media screen and (min-width: 800px) and (max-width: 1099px) {
+    section {
+        max-width: 750px;
+    }
+}
+
+/* Large Screen */
+@media screen and (min-width: 1100px) {
+    section {
+        max-width: 1050px;
+    }
+}
+
+/*
+Full-width section background wrapper
+Used like:
+
+<div class="sectionWrapper">
+    <section>
+        <div class="sectionBackground">
+        </div>
+    </section>
+</div>
+*/
+
+.sectionWrapper {
+    width: 100%;
+    position: relative;
+}
+
+.sectionBackground {
+    z-index: 0;
+    position: absolute;
+    overflow: visible;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.sectionForeground {
+    position: relative;
+    z-index: 1;
+}
+
+.flexSpacer {
+    flex: 1 1 auto;
 }

@@ -2,20 +2,6 @@
 === Landing Page - Background Containers ===
 */
 
-/* Section 1: Title */
-#landingSection1_Background {
-    position: absolute;
-    top: -70px;
-    width: 4000px;
-    height: 1000px;
-    left: 50%;
-    transform: translateX(-50%);
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-}
 
 /*
 === Landing Page - Text/Graphics for Sections ===

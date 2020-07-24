@@ -4,14 +4,32 @@
     overflow: visible;
 }
 
-#headerNavBar {
+.bp3-dark #header {
     background-color: #293742;
     color: white;
+}
+.bp3-light #header {
+    background-color: #BFCCD6;
+    color: #10161A;
+}
+.bp3-dark #headerNavBar {
+    background-color: #293742;
+    color: white;
+}
+.bp3-light #headerNavBar {
+    background-color: #BFCCD6;
+    color: #10161A;
+}
+
+#headerNavBar {
     border: none;
+    padding: 0px;
     /*
     border-bottom: 1px solid #182026;
     border-top: 1px solid #394B59;
     */
+    box-shadow: none;
+    -webkit-box-shadow: none;
 }
 
 #navbarLogo {
@@ -117,9 +135,6 @@
 
 /* Mobile */
 @media screen and (max-width: 599px) {
-    #headerNavBarContent {
-        max-width: 600px;
-    }
 
     .mobileMenuOpenButtonNoscript {
         display: none !important;
@@ -161,25 +176,4 @@
         bottom: 0;
     }
 
-}
-
-/* Small Screen */
-@media screen and (min-width: 600px) and (max-width: 799px) {
-    #headerNavBarContent {
-        max-width: 600px;
-    }
-}
-
-/* Medium Screen */
-@media screen and (min-width: 800px) and (max-width: 1099px) {
-    #headerNavBarContent {
-        max-width: 750px;
-    }
-}
-
-/* Large Screen */
-@media screen and (min-width: 1100px) {
-    #headerNavBarContent {
-        max-width: 1050px;
-    }
 }
