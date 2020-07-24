@@ -12,25 +12,27 @@
 		</div>
     </section>
 </div>
-<div class="contentSectionContainer">
-	<div class="contentSection">
-		{{ if .Content }}
-		<div>
-			{{ with .Content }}<div>{{ . }}</div>{{ end }}
-		</div>
-		{{ end }}
+<div class="sectionWrapper">
+	<section class="postSection">
+		<div class="sectionForeground">
+			{{ if .Content }}
+			<div>
+				{{ with .Content }}<div>{{ . }}</div>{{ end }}
+			</div>
+			{{ end }}
 
-		{{ range .Paginator.Pages }}
-		<h1><a href="{{ .RelPermalink }}">{{ .Name }}</a></h1>
-		{{ .Summary }}
-		<div>
-			<i>{{.Date.Format "January 1, 2006"}}</i>
-			{{ if .Truncated }}
-			&middot;
-			<a href="{{ .RelPermalink }}">Read More</a>
+			{{ range .Paginator.Pages }}
+			<h1><a href="{{ .RelPermalink }}">{{ .Name }}</a></h1>
+			{{ .Summary }}
+			<div>
+				<i>{{.Date.Format "January 1, 2006"}}</i>
+				{{ if .Truncated }}
+				&middot;
+				<a href="{{ .RelPermalink }}">Read More</a>
+				{{ end }}
+			</div>
 			{{ end }}
 		</div>
-		{{ end }}
-	</div>
+	</section>
 </div>
 {{ end }}

@@ -53,3 +53,9 @@
     font-weight: 700;
     font-style: normal
 }
+
+@font-face {
+    font-family: "Techna Sans";
+    src: url("../fonts/TechnaSans-Regular.otf") format("otf");
+    font-style: normal
+}

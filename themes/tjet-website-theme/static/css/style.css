@@ -69,6 +69,11 @@ hr {
     clear: both;
 }
 
+.footerFlexSpacer {
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+
 /*
 BREAKPOINTS
 <section> tag is configured by default as a flexible breakpoint and can be used across the page.
@@ -76,7 +81,6 @@ BREAKPOINTS
 section {
     position: relative;
     max-width: 1200px;
-    margin: 0 auto;
     overflow: visible;
     padding-left: 25px;
     padding-right: 25px;
@@ -130,6 +134,9 @@ Used like:
     width: 100%;
     position: relative;
 }
+section {
+    margin: 0 auto;
+}
 
 .sectionBackground {
     z-index: 0;
@@ -144,8 +151,4 @@ Used like:
 .sectionForeground {
     position: relative;
     z-index: 1;
-}
-
-.flexSpacer {
-    flex: 1 1 auto;
 }

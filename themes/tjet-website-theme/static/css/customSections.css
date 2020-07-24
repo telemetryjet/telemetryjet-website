@@ -27,7 +27,7 @@ Custom section types
 }
 
 .secondaryHero {
-    background-color: #BFCCD6;
+    background-color: #CED9E0;
     color: #10161A;
 }
 
@@ -83,6 +83,11 @@ Custom section types
     margin-bottom: 20px;
 }
 
+.postSection {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 
 #postTitleText {
     font-size: 32px;
@@ -99,6 +104,11 @@ h1.sectionHeroText {
     margin-top: 0px;
     margin-bottom: 20px;
 }
+
+.contentSection {
+    padding-top: 1px;
+}
+
 
 .contentSectionContainer {
     width: 100%;

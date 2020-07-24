@@ -502,7 +502,7 @@
             </g>
         </g>
     </g>
-    <g id="Dark-Blob-1" serif:id="Dark Blob 1" transform="matrix(0.918066,0.16188,-0.16188,0.918066,354.752,-334.219)">
+    <g id="Dark-Blob-1" serif:id="Dark Blob 1" transform="matrix(0.918066,0.16188,-0.16188,0.918066,410.752,-334.219)">
         <path d="M1551,355.352L1583,571L1780,539L1744,317.597L1551,355.352Z" style="fill:none;"/>
         <clipPath id="_clip4">
             <path d="M1551,355.352L1583,571L1780,539L1744,317.597L1551,355.352Z"/>
@@ -511,30 +511,6 @@
             <g transform="matrix(0.984808,-0.173648,0.173648,0.984808,1355.46,370.363)">
                 <g id="Grid-Dark3" serif:id="Grid Dark">
                     <g id="Grid-Texture6" serif:id="Grid Texture">
-                        <g transform="matrix(0.909091,0,0,0.909091,257.727,41.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,182.727,16.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,207.727,16.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,232.727,16.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,257.727,16.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,182.727,41.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,207.727,41.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,232.727,41.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
                         <g transform="matrix(0.909091,0,0,0.909091,182.727,66.8182)">
                             <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
                         </g>
@@ -569,24 +545,6 @@
                             <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
                         </g>
                         <g transform="matrix(0.909091,0,0,0.909091,232.727,116.818)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,282.727,16.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,307.727,16.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,332.727,16.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,282.727,41.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,307.727,41.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,332.727,41.8182)">
                             <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
                         </g>
                         <g transform="matrix(0.909091,0,0,0.909091,282.727,66.8182)">
@@ -656,12 +614,6 @@
                             <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
                         </g>
                         <g transform="matrix(0.909091,0,0,0.909091,332.727,166.818)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,357.727,16.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,357.727,41.8182)">
                             <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
                         </g>
                         <g transform="matrix(0.909091,0,0,0.909091,357.727,66.8182)">
@@ -1042,7 +994,7 @@
             </g>
         </g>
     </g>
-    <g id="Light-Blob-4" serif:id="Light Blob 4" transform="matrix(0.918066,0.16188,-0.16188,0.918066,356.426,-332.978)">
+    <g id="Light-Blob-4" serif:id="Light Blob 4" transform="matrix(0.918066,0.16188,-0.16188,0.918066,412.426,-285.978)">
         <path d="M1401,426L1870,343L1885,417.755L1415,500L1401,426Z" style="fill:none;"/>
         <clipPath id="_clip9">
             <path d="M1401,426L1870,343L1885,417.755L1415,500L1401,426Z"/>

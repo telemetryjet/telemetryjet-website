@@ -4,12 +4,16 @@
     overflow: visible;
 }
 
+#header section {
+    padding-left: 14px;
+}
+
 .bp3-dark #header {
     background-color: #293742;
     color: white;
 }
 .bp3-light #header {
-    background-color: #BFCCD6;
+    background-color: #CED9E0;
     color: #10161A;
 }
 .bp3-dark #headerNavBar {
@@ -17,8 +21,14 @@
     color: white;
 }
 .bp3-light #headerNavBar {
-    background-color: #BFCCD6;
+    background-color: #ced9e000;
     color: #10161A;
+}
+.bp3-light #navbarLogoIcon {
+    color: #10161A;
+}
+.bp3-dark #navbarLogoIcon {
+    color: white;
 }
 
 #headerNavBar {
@@ -35,11 +45,17 @@
 #navbarLogo {
     margin-right: 10px;
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 400;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    /*
+    background: url('../../img/logo.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top left;
+    width: 350px;*/
 }
 
 #navbarLogo span {
@@ -127,14 +143,19 @@
 }
 
 /* ultra small mobile */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 599px) {
     .noJsHiddenSmallScreens {
         display: none;
     }
 }
 
-/* Mobile */
-@media screen and (max-width: 599px) {
+/* Mobile + small screen */
+@media screen and (max-width: 799px) {
+    #header section {
+        max-width: 100%;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
 
     .mobileMenuOpenButtonNoscript {
         display: none !important;
