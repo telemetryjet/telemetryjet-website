@@ -6,6 +6,11 @@ body {
     overflow-y: auto;
     background-color: #293742;
     min-width: 320px;
+    font-size: 16px;
+}
+
+html {
+    overflow-x: hidden;
 }
 
 #root {
@@ -88,6 +93,40 @@ section {
     border-left: 2px dashed rgba(0,0,0,0.25);
     border-right: 2px dashed rgba(0,0,0,0.25);
     */
+}
+
+h1 {
+    font-size: 2.25em;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 1.75em;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 1.25em;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+p {
+    font-size: 16px;
 }
 
 /* Mobile */

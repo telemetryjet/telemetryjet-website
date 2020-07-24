@@ -4,6 +4,7 @@
     width: 100%;
     min-height: 100px;
     background-color: #293742;
+    font-size: 14px;
 }
 
 #secondaryFooter {
@@ -12,6 +13,7 @@
     color: #8A9BA8;
     background-color: #202B33;
     font-family: monospace;
+    font-size: 14px;
 }
 
 
