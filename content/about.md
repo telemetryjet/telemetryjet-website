@@ -6,6 +6,7 @@ title: "About TelemetryJet"
 We are building software that empowers teams to gain insight from their data. TelemetryJet was born out of a frustration: Collecting and sharing data on small engineering teams involves manual work that distracts from the core goal of using that data. TelemetryJet provides a no-code platform for data collection, analysis, and sharing, allowing your team to focus on utilizing your data to reach your objectives.
 
 Our aim is to innovate in three areas:
+
 - **Data Collection**:  Empower teams to easily collect data from their systems, no code required. Provide integrations for popular platforms and powerful APIs that make it easy to connect custom data sources. Seamlessly combine data from multiple data sources into a consistent time-series database. 
 
 - **Data Analysis**: Provide powerful tools to visualize and analyze data. Promote the creation of visualizations that are accurate, easy to interpret, and beautiful. Maintain performance even when analyzing large datasets, through intelligent streaming and filtering of data.
