@@ -1,19 +1,20 @@
 {{ define "main" }}
-<div id="content">
-	<div class="contentSectionContainer">
-		<div class="contentSectionBackground">
-			<div class="contentSectionBackground">
-				<img id="postTitleBackground" src="/img/postbg1.svg"></img>
-			</div>
+<div id="menu" class="bp3-light">
+{{ partial "header" . }}
+</div>
+<div class="sectionWrapper secondaryHero">
+    <section>
+        <div class="sectionBackground">
+			<div class="sectionBackgroundOverlay"></div>
 		</div>
-		<div class="contentSection">
-			<div id="postTitleText">
-				{{ .Title }}
-			</div>
+		<div class="sectionForeground">
+			<h1 class="sectionHeroText">{{ .Title }}</h1>
 		</div>
-	</div>
-	<div class="contentSectionContainer">
-		<div class="contentSection">
+    </section>
+</div>
+<div class="sectionWrapper">
+	<section class="postSection">
+		<div class="sectionForeground">
 			{{ if .Content }}
 			<div>
 				{{ with .Content }}<div>{{ . }}</div>{{ end }}
@@ -32,6 +33,6 @@
 			</div>
 			{{ end }}
 		</div>
-	</div>
+	</section>
 </div>
 {{ end }}

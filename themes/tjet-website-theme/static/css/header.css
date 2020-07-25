@@ -4,24 +4,58 @@
     overflow: visible;
 }
 
-#headerNavBar {
+#header section {
+    padding-left: 14px;
+}
+
+.bp3-dark #header {
     background-color: #293742;
     color: white;
+}
+.bp3-light #header {
+    background-color: #CED9E0;
+    color: #10161A;
+}
+.bp3-dark #headerNavBar {
+    background-color: #293742;
+    color: white;
+}
+.bp3-light #headerNavBar {
+    background-color: #ced9e000;
+    color: #10161A;
+}
+.bp3-light #navbarLogoIcon {
+    color: #10161A;
+}
+.bp3-dark #navbarLogoIcon {
+    color: white;
+}
+
+#headerNavBar {
     border: none;
+    padding: 0px;
     /*
     border-bottom: 1px solid #182026;
     border-top: 1px solid #394B59;
     */
+    box-shadow: none;
+    -webkit-box-shadow: none;
 }
 
 #navbarLogo {
     margin-right: 10px;
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 400;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    /*
+    background: url('../../img/logo.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top left;
+    width: 350px;*/
 }
 
 #navbarLogo span {
@@ -109,16 +143,18 @@
 }
 
 /* ultra small mobile */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 599px) {
     .noJsHiddenSmallScreens {
         display: none;
     }
 }
 
-/* Mobile */
-@media screen and (max-width: 599px) {
-    #headerNavBarContent {
-        max-width: 600px;
+/* Mobile + small screen */
+@media screen and (max-width: 799px) {
+    #header section {
+        max-width: 100%;
+        padding-left: 5px;
+        padding-right: 10px;
     }
 
     .mobileMenuOpenButtonNoscript {
@@ -161,25 +197,4 @@
         bottom: 0;
     }
 
-}
-
-/* Small Screen */
-@media screen and (min-width: 600px) and (max-width: 799px) {
-    #headerNavBarContent {
-        max-width: 600px;
-    }
-}
-
-/* Medium Screen */
-@media screen and (min-width: 800px) and (max-width: 1099px) {
-    #headerNavBarContent {
-        max-width: 750px;
-    }
-}
-
-/* Large Screen */
-@media screen and (min-width: 1100px) {
-    #headerNavBarContent {
-        max-width: 1050px;
-    }
 }

@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 4000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g transform="matrix(0.989352,-2.77556e-16,-5.55112e-17,1.52492,-362.047,304.39)">
-        <rect x="693" y="-454" width="1307" height="365" style="fill:rgb(88,108,123);"/>
-    </g>
-    <g transform="matrix(2.52778,-4.44089e-16,-4.44089e-16,2.07608,-1171.75,588.551)">
-        <rect x="693" y="-454" width="1307" height="365" style="fill:rgb(41,55,66);"/>
-    </g>
-    <g id="Dark-Blob-4" serif:id="Dark Blob 4" transform="matrix(0.918066,0.16188,-0.16188,0.918066,-1693.22,-523.215)">
+    <g id="Dark-Blob-4" serif:id="Dark Blob 4" transform="matrix(0.918066,0.16188,-0.16188,0.918066,-1289.69,-523.215)">
         <path d="M2480,-165.341L2395,-156.341L2527.9,590.245L2608,577.529L2552.25,283.622L2607.3,273.028L2559.1,22.172L2513.55,29.353L2480,-165.341Z" style="fill:none;"/>
         <clipPath id="_clip1">
             <path d="M2480,-165.341L2395,-156.341L2527.9,590.245L2608,577.529L2552.25,283.622L2607.3,273.028L2559.1,22.172L2513.55,29.353L2480,-165.341Z"/>
@@ -236,7 +230,7 @@
             </g>
         </g>
     </g>
-    <g id="Dark-Blob-3" serif:id="Dark Blob 3" transform="matrix(0.918066,0.16188,-0.16188,0.918066,656.928,-546.271)">
+    <g id="Dark-Blob-3" serif:id="Dark Blob 3" transform="matrix(0.918066,0.16188,-0.16188,0.918066,1060.45,-546.271)">
         <path d="M2569,350L2483,344L2527.9,590.245L2608,577.529L2569,350Z" style="fill:none;"/>
         <clipPath id="_clip2">
             <path d="M2569,350L2483,344L2527.9,590.245L2608,577.529L2569,350Z"/>
@@ -342,7 +336,7 @@
             </g>
         </g>
     </g>
-    <g id="Dark-Blob-2" serif:id="Dark Blob 2" transform="matrix(0.918066,0.16188,-0.16188,0.918066,-48.7688,-334.219)">
+    <g id="Dark-Blob-2" serif:id="Dark Blob 2" transform="matrix(0.918066,0.16188,-0.16188,0.918066,354.752,-334.219)">
         <path d="M2490.33,110.926L2442.73,116.533L2442.73,139.607L2420.72,145.041L2424,175L2477,467L2628.76,445.149L2612,366L2538,377.755L2490.33,110.926Z" style="fill:none;"/>
         <clipPath id="_clip3">
             <path d="M2490.33,110.926L2442.73,116.533L2442.73,139.607L2420.72,145.041L2424,175L2477,467L2628.76,445.149L2612,366L2538,377.755L2490.33,110.926Z"/>
@@ -508,7 +502,7 @@
             </g>
         </g>
     </g>
-    <g id="Dark-Blob-1" serif:id="Dark Blob 1" transform="matrix(0.918066,0.16188,-0.16188,0.918066,-48.7688,-334.219)">
+    <g id="Dark-Blob-1" serif:id="Dark Blob 1" transform="matrix(0.918066,0.16188,-0.16188,0.918066,410.752,-334.219)">
         <path d="M1551,355.352L1583,571L1780,539L1744,317.597L1551,355.352Z" style="fill:none;"/>
         <clipPath id="_clip4">
             <path d="M1551,355.352L1583,571L1780,539L1744,317.597L1551,355.352Z"/>
@@ -517,30 +511,6 @@
             <g transform="matrix(0.984808,-0.173648,0.173648,0.984808,1355.46,370.363)">
                 <g id="Grid-Dark3" serif:id="Grid Dark">
                     <g id="Grid-Texture6" serif:id="Grid Texture">
-                        <g transform="matrix(0.909091,0,0,0.909091,257.727,41.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,182.727,16.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,207.727,16.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,232.727,16.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,257.727,16.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,182.727,41.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,207.727,41.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,232.727,41.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
                         <g transform="matrix(0.909091,0,0,0.909091,182.727,66.8182)">
                             <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
                         </g>
@@ -575,24 +545,6 @@
                             <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
                         </g>
                         <g transform="matrix(0.909091,0,0,0.909091,232.727,116.818)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,282.727,16.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,307.727,16.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,332.727,16.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,282.727,41.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,307.727,41.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,332.727,41.8182)">
                             <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
                         </g>
                         <g transform="matrix(0.909091,0,0,0.909091,282.727,66.8182)">
@@ -664,12 +616,6 @@
                         <g transform="matrix(0.909091,0,0,0.909091,332.727,166.818)">
                             <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
                         </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,357.727,16.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
-                        <g transform="matrix(0.909091,0,0,0.909091,357.727,41.8182)">
-                            <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
-                        </g>
                         <g transform="matrix(0.909091,0,0,0.909091,357.727,66.8182)">
                             <circle cx="24.5" cy="14.5" r="5.5" style="fill-opacity:0.22;"/>
                         </g>
@@ -738,7 +684,7 @@
             </g>
         </g>
     </g>
-    <g id="Light-Blob-8" serif:id="Light Blob 8" transform="matrix(0.918066,0.16188,-0.16188,0.918066,-596.019,-126.376)">
+    <g id="Light-Blob-8" serif:id="Light Blob 8" transform="matrix(0.918066,0.16188,-0.16188,0.918066,-192.499,-126.376)">
         <path d="M1332,32L1506,2L1523,126L1356,156.875L1332,32Z" style="fill:none;"/>
         <clipPath id="_clip5">
             <path d="M1332,32L1506,2L1523,126L1356,156.875L1332,32Z"/>
@@ -859,7 +805,7 @@
             </g>
         </g>
     </g>
-    <g id="Light-Blob-9" serif:id="Light Blob 9" transform="matrix(0.918066,0.16188,-0.16188,0.918066,-187.281,86.2637)">
+    <g id="Light-Blob-9" serif:id="Light Blob 9" transform="matrix(0.918066,0.16188,-0.16188,0.918066,216.24,86.2637)">
         <path d="M1245,13L1351,-4L1361.16,53.273L1340,62L1343.83,82.822L1255.9,99.567L1245,13Z" style="fill:none;"/>
         <clipPath id="_clip6">
             <path d="M1245,13L1351,-4L1361.16,53.273L1340,62L1343.83,82.822L1255.9,99.567L1245,13Z"/>
@@ -908,7 +854,7 @@
             </g>
         </g>
     </g>
-    <g id="Light-Blob-7" serif:id="Light Blob 7" transform="matrix(0.918066,0.16188,-0.16188,0.918066,-478.622,-220.955)">
+    <g id="Light-Blob-7" serif:id="Light Blob 7" transform="matrix(0.918066,0.16188,-0.16188,0.918066,-75.1017,-220.955)">
         <path d="M1409,18L1506,2L1523,78L1423,90.875L1409,18Z" style="fill:none;"/>
         <clipPath id="_clip7">
             <path d="M1409,18L1506,2L1523,78L1423,90.875L1409,18Z"/>
@@ -960,7 +906,7 @@
             </g>
         </g>
     </g>
-    <g id="Light-Blob-6" serif:id="Light Blob 6" transform="matrix(0.918066,0.16188,-0.16188,0.918066,1288.36,60.1286)">
+    <g id="Light-Blob-6" serif:id="Light Blob 6" transform="matrix(0.918066,0.16188,-0.16188,0.918066,1691.88,60.1286)">
         <path d="M1579,-10L1574,-43L1649.29,-52.639L1654.4,-26.646L1753,-39.722L1766,28L1593,65.875L1579,-10Z" style="fill:none;"/>
         <clipPath id="_clip8">
             <path d="M1579,-10L1574,-43L1649.29,-52.639L1654.4,-26.646L1753,-39.722L1766,28L1593,65.875L1579,-10Z"/>
@@ -1048,7 +994,7 @@
             </g>
         </g>
     </g>
-    <g id="Light-Blob-4" serif:id="Light Blob 4" transform="matrix(0.918066,0.16188,-0.16188,0.918066,-47.0946,-332.978)">
+    <g id="Light-Blob-4" serif:id="Light Blob 4" transform="matrix(0.918066,0.16188,-0.16188,0.918066,412.426,-285.978)">
         <path d="M1401,426L1870,343L1885,417.755L1415,500L1401,426Z" style="fill:none;"/>
         <clipPath id="_clip9">
             <path d="M1401,426L1870,343L1885,417.755L1415,500L1401,426Z"/>
@@ -1235,7 +1181,7 @@
             </g>
         </g>
     </g>
-    <g id="Light-Blob-3" serif:id="Light Blob 3" transform="matrix(0.918066,0.16188,-0.16188,0.918066,-47.0946,-332.978)">
+    <g id="Light-Blob-3" serif:id="Light Blob 3" transform="matrix(0.918066,0.16188,-0.16188,0.918066,356.426,-332.978)">
         <path d="M2116,300L2658,203L2677.46,301.3L2136.42,402.017L2116,300Z" style="fill:none;"/>
         <clipPath id="_clip10">
             <path d="M2116,300L2658,203L2677.46,301.3L2136.42,402.017L2116,300Z"/>
@@ -1515,7 +1461,7 @@
             </g>
         </g>
     </g>
-    <g id="Light-Blob-2" serif:id="Light Blob 2" transform="matrix(0.918066,0.16188,-0.16188,0.918066,-46.1765,-332.816)">
+    <g id="Light-Blob-2" serif:id="Light Blob 2" transform="matrix(0.918066,0.16188,-0.16188,0.918066,357.344,-332.816)">
         <path d="M2200,58L2215,131L2685.46,49.306L2669,-28L2200,58Z" style="fill:none;"/>
         <clipPath id="_clip11">
             <path d="M2200,58L2215,131L2685.46,49.306L2669,-28L2200,58Z"/>
@@ -1702,7 +1648,7 @@
             </g>
         </g>
     </g>
-    <g id="Light-Blob-1" serif:id="Light Blob 1" transform="matrix(0.918066,0.16188,-0.16188,0.918066,-47.0946,-332.978)">
+    <g id="Light-Blob-1" serif:id="Light Blob 1" transform="matrix(0.918066,0.16188,-0.16188,0.918066,356.426,-332.978)">
         <path d="M1332,32L1542,-5L1761,-12L1766,28L1346,107.875L1332,32Z" style="fill:none;"/>
         <clipPath id="_clip12">
             <path d="M1332,32L1542,-5L1761,-12L1766,28L1346,107.875L1332,32Z"/>
