@@ -52,6 +52,26 @@ $(function() {
     //$(".noJsHiddenSmallScreens").removeClass("noJsHiddenSmallScreens");
 })
 
+// Use cases page: allow clicking anywhere on the tile to go to a use case
+$(function() {
+    $("#marineUseCase").addClass("highlightSectionJs");
+    $("#automotiveUseCase").addClass("highlightSectionJs");
+    $("#iotUseCase").addClass("highlightSectionJs");
+    $("#roboticsUseCase").addClass("highlightSectionJs");
+    $("#marineUseCase").click(function () {
+        window.location.href = "/use-cases/marine/"
+    });
+    $("#automotiveUseCase").click(function () {
+        window.location.href = "/use-cases/automotive/"
+    });
+    $("#iotUseCase").click(function () {
+        window.location.href = "/use-cases/iot/"
+    });
+    $("#roboticsUseCase").click(function () {
+        window.location.href = "/use-cases/robotics/"
+    });
+})
+
 // Setup products dropdown menu
 // Setup use cases dropdown menu
 $(function () {

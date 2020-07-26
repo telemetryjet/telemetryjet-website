@@ -30,6 +30,12 @@ Custom section types
     background-color: #CED9E0;
     color: #10161A;
 }
+
+.secondaryHero.bp3-dark {
+    background-color: #293742;
+    color: white;
+}
+
 .secondaryHero h1 {
     font-weight: 400;
 }
@@ -53,6 +59,19 @@ Custom section types
     width: 4000px;
     height: 500px;
     background: url('../../img/herobg_dots_light.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 4000px 1000px;
+    opacity: 0.2;
+}
+
+.secondaryHero .sectionBackgroundOverlay2 {
+    position: absolute;
+    left: -1120px;
+    bottom: -71px;
+    width: 4000px;
+    height: 500px;
+    background: url('../../img/herobg_dots_light2.svg');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 4000px 1000px;

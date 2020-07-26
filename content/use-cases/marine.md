@@ -1,5 +1,4 @@
 ---
-title: "Use Case: Marine"
+title: "Marine Use Cases"
+header: /img/use-case-marine-1-scaled@2x.jpg
 ---
-
-<a class="bp3-button bp3-minimal bp3-icon-arrow-left" role="button" href="/use-cases">View all use cases</a>

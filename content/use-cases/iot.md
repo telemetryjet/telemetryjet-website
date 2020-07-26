@@ -1,5 +1,4 @@
 ---
-title: "Use Case: IoT"
+title: "IoT Use Cases"
+header: /img/use-case-iot-3-scaled@2x.jpg
 ---
-
-<a class="bp3-button bp3-minimal bp3-icon-arrow-left" role="button" href="/use-cases">View all use cases</a>

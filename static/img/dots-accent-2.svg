@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 105 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Light-Blob-9" serif:id="Light Blob 9" transform="matrix(0.918066,0.16188,-0.16188,0.918066,-1136.88,-213.475)">
+        <path d="M1245,13L1351,-4L1361.16,53.273L1340,62L1343.83,82.822L1255.9,99.567L1245,13Z" style="fill:none;"/>
+        <clipPath id="_clip1">
+            <path d="M1245,13L1351,-4L1361.16,53.273L1340,62L1343.83,82.822L1255.9,99.567L1245,13Z"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <g id="Grid-Light" serif:id="Grid Light" transform="matrix(0.984808,-0.173648,0.173648,0.984808,1264,25.9922)">
+                <g>
+                    <g id="Grid-Texture" serif:id="Grid Texture">
+                        <g transform="matrix(0.909091,0,0,0.909091,7.72727,-8.18182)">
+                            <circle cx="24.5" cy="14.5" r="5.5" style="fill:rgb(55,72,85);"/>
+                        </g>
+                        <g transform="matrix(0.909091,0,0,0.909091,-17.2727,-8.18182)">
+                            <circle cx="24.5" cy="14.5" r="5.5" style="fill:rgb(55,72,85);"/>
+                        </g>
+                        <g transform="matrix(0.909091,0,0,0.909091,32.7273,-8.18182)">
+                            <circle cx="24.5" cy="14.5" r="5.5" style="fill:rgb(55,72,85);"/>
+                        </g>
+                        <g transform="matrix(0.909091,0,0,0.909091,57.7273,-8.18182)">
+                            <circle cx="24.5" cy="14.5" r="5.5" style="fill:rgb(55,72,85);"/>
+                        </g>
+                        <g transform="matrix(0.909091,0,0,0.909091,-17.2727,16.8182)">
+                            <circle cx="24.5" cy="14.5" r="5.5" style="fill:rgb(55,72,85);"/>
+                        </g>
+                        <g transform="matrix(0.909091,0,0,0.909091,7.72727,16.8182)">
+                            <circle cx="24.5" cy="14.5" r="5.5" style="fill:rgb(55,72,85);"/>
+                        </g>
+                        <g transform="matrix(0.909091,0,0,0.909091,32.7273,16.8182)">
+                            <circle cx="24.5" cy="14.5" r="5.5" style="fill:rgb(55,72,85);"/>
+                        </g>
+                        <g transform="matrix(0.909091,0,0,0.909091,57.7273,16.8182)">
+                            <circle cx="24.5" cy="14.5" r="5.5" style="fill:rgb(55,72,85);"/>
+                        </g>
+                        <g transform="matrix(0.909091,0,0,0.909091,-17.2727,41.8182)">
+                            <circle cx="24.5" cy="14.5" r="5.5" style="fill:rgb(55,72,85);"/>
+                        </g>
+                        <g transform="matrix(0.909091,0,0,0.909091,7.72727,41.8182)">
+                            <circle cx="24.5" cy="14.5" r="5.5" style="fill:rgb(55,72,85);"/>
+                        </g>
+                        <g transform="matrix(0.909091,0,0,0.909091,32.7273,41.8182)">
+                            <circle cx="24.5" cy="14.5" r="5.5" style="fill:rgb(55,72,85);"/>
+                        </g>
+                    </g>
+                    <g id="Grid-Texture1" serif:id="Grid Texture">
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

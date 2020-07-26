@@ -210,7 +210,7 @@ img.menuSocialIcon {
 }
 
 /* noscript fix for small screens */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
     #noscriptMenu {
         float: left;
         margin-left: 8px;
