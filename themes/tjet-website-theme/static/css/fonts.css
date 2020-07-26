@@ -39,23 +39,3 @@
     font-weight: 300;
     font-style: normal
 }
-
-@font-face {
-    font-family: "Blender";
-    src: url("../fonts/blenderpro-medium-webfont.woff") format("woff");
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: "Blender";
-    src: url("../fonts/blenderpro-bold-webfont.woff") format("woff");
-    font-weight: 700;
-    font-style: normal
-}
-
-@font-face {
-    font-family: "Techna Sans";
-    src: url("../fonts/TechnaSans-Regular.otf") format("otf");
-    font-style: normal
-}

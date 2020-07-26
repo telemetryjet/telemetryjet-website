@@ -52,6 +52,33 @@ $(function() {
     //$(".noJsHiddenSmallScreens").removeClass("noJsHiddenSmallScreens");
 })
 
+// Setup products dropdown menu
+// Setup use cases dropdown menu
+$(function () {
+    $("#productsDropdownJs").show();
+    $("#useCasesDropdownJs").show();
+    $("#productsDropdownJs").click(function () {
+        $("#productsDropdownJs").addClass("bp3-active");
+        $("#productsDropdownContainer").show();
+    });
+    $("#useCasesDropdownJs").click(function () {
+        $("#useCasesDropdownJs").addClass("bp3-active");
+        $("#useCasesDropdownContainer").show();
+    });
+    $(document).on('click', function (e) {
+        if ($(e.target).closest("#productsDropdownJs").length === 0) {
+            $("#productsDropdownJs").removeClass("bp3-active");
+            $("#productsDropdownContainer").hide();
+        }
+    });
+    $(document).on('click', function (e) {
+        if ($(e.target).closest("#useCasesDropdownJs").length === 0) {
+            $("#useCasesDropdownJs").removeClass("bp3-active");
+            $("#useCasesDropdownContainer").hide();
+        }
+    });
+})
+
 $(function () {
     // Menu setup
     $("#mobileMenuOpenButton").removeClass("mobileMenuOpenButtonNoscript");

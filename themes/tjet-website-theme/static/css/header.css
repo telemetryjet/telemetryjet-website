@@ -8,6 +8,15 @@
     padding-left: 14px;
 }
 
+#menu.bp3-light {
+    background-color: #CED9E0;
+}
+
+#menu.bp3-dark {
+
+    background-color: #293742;
+}
+
 .bp3-dark #header {
     background-color: #293742;
     color: white;
@@ -100,13 +109,18 @@
     bottom: 0;
     right: 0;
     background-color: #293742;
-    z-index: 20;
+    z-index: 30;
     -webkit-box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.5);
     box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.5);
     transition: left 0.25s;
     overflow-y: auto;
     overflow-x: hidden;
+}
+
+
+#mobileMenu .bp3-menu-header {
+    border: none;
 }
 
 #mobileMenuItems {
@@ -125,9 +139,20 @@
     border-top: 1px solid #394B59;
 }
 
-.mobileMenuHeader h2 {
+.mobileMenuHeader h4 {
     flex: 1 1 auto;
     margin: 0px;
+}
+
+img.menuSocialIcon {
+    height: 24px;
+    width: 24px;
+    margin-left: 10px;
+    margin-top: 5px;
+    float: left;
+    /* Converts black svg to white, dirty hack */
+    filter: invert(1);
+    opacity: 0.25;
 }
 
 .noJsHiddenSmallScreens {
@@ -142,12 +167,56 @@
     padding: 5px 0px !important;
 }
 
+#productsDropdownJs {
+    display: none;
+    position: relative;
+    overflow: visible;
+}
+#productsDropdownContainer {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+#productsDropdownJs .bp3-icon {
+    margin: 0px;
+    margin-left: 3px;
+}
+
+.dropdownButtonJs {
+}
+
+#useCasesDropdownJs {
+    display: none;
+    position: relative;
+    overflow: visible;
+}
+#useCasesDropdownContainer {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+#useCasesDropdownJs .bp3-icon {
+    margin: 0px;
+    margin-left: 3px;
+}
+
 /* ultra small mobile */
 @media screen and (max-width: 599px) {
     .noJsHiddenSmallScreens {
         display: none;
     }
 }
+
+/* noscript fix for small screens */
+@media screen and (max-width: 500px) {
+    #noscriptMenu {
+        float: left;
+        margin-left: 8px;
+    }
+}
+
 
 /* Mobile + small screen */
 @media screen and (max-width: 799px) {
@@ -168,7 +237,7 @@
     }
 
     .desktopButton {
-        display: none;
+        display: none !important;
     }
 
     #mobileMenu {

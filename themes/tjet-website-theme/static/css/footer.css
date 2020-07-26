@@ -16,6 +16,10 @@
     font-size: 14px;
 }
 
+#secondaryFooter a {
+    color: #8A9BA8;
+}
+
 
 #backToTop {
     display: none;
@@ -93,7 +97,7 @@ ul {
     .footerSection {
         margin-bottom: 20px;
         flex: 1 1 auto;
-        max-width: 45%;
+        max-width: 40%;
         min-width: 100px;
     }
 }

@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div id="menu" class="bp3-light">
+{{ partial "header" . }}
+</div>
+<div class="sectionWrapper secondaryHero">
+    <section>
+        <div class="sectionBackground">
+			<div class="sectionBackgroundOverlay"></div>
+		</div>
+		<div class="sectionForeground">
+			<h1 class="sectionHeroText">{{ .Title }}</h1>
+		</div>
+    </section>
+</div>
+<div class="sectionWrapper">
+	<section class="postSection">
+		<div class="sectionForeground">
+			{{ .Content }}
+		</div>
+	</section>
+</div>
+{{ end }}

@@ -1,0 +1,8 @@
+{
+    "name": "tjet-website",
+    "description": "TelemetryJet - The ultimate data platform for hardware projects.",
+    "version": "1.0.0",
+    "dependencies": {
+        "netlify-plugin-minify-html": "^0.2.3"
+    }
+}
