@@ -1,3 +1,3 @@
 ---
-title: "Local Server"
+title: "TelemetryJet Local Server"
 ---
