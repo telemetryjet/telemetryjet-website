@@ -47,6 +47,58 @@ function shuffle(arra1) {
     return arra1;
 }
 
+$(function() {
+    // Remove class that hides the title on small screens
+    //$(".noJsHiddenSmallScreens").removeClass("noJsHiddenSmallScreens");
+})
+
+// Use cases page: allow clicking anywhere on the tile to go to a use case
+$(function() {
+    $("#marineUseCase").addClass("highlightSectionJs");
+    $("#automotiveUseCase").addClass("highlightSectionJs");
+    $("#iotUseCase").addClass("highlightSectionJs");
+    $("#roboticsUseCase").addClass("highlightSectionJs");
+    $("#marineUseCase").click(function () {
+        window.location.href = "/use-cases/marine/"
+    });
+    $("#automotiveUseCase").click(function () {
+        window.location.href = "/use-cases/automotive/"
+    });
+    $("#iotUseCase").click(function () {
+        window.location.href = "/use-cases/iot/"
+    });
+    $("#roboticsUseCase").click(function () {
+        window.location.href = "/use-cases/robotics/"
+    });
+})
+
+// Setup products dropdown menu
+// Setup use cases dropdown menu
+$(function () {
+    $("#productsDropdownJs").show();
+    $("#useCasesDropdownJs").show();
+    $("#productsDropdownJs").click(function () {
+        $("#productsDropdownJs").addClass("bp3-active");
+        $("#productsDropdownContainer").show();
+    });
+    $("#useCasesDropdownJs").click(function () {
+        $("#useCasesDropdownJs").addClass("bp3-active");
+        $("#useCasesDropdownContainer").show();
+    });
+    $(document).on('click', function (e) {
+        if ($(e.target).closest("#productsDropdownJs").length === 0) {
+            $("#productsDropdownJs").removeClass("bp3-active");
+            $("#productsDropdownContainer").hide();
+        }
+    });
+    $(document).on('click', function (e) {
+        if ($(e.target).closest("#useCasesDropdownJs").length === 0) {
+            $("#useCasesDropdownJs").removeClass("bp3-active");
+            $("#useCasesDropdownContainer").hide();
+        }
+    });
+})
+
 $(function () {
     // Menu setup
     $("#mobileMenuOpenButton").removeClass("mobileMenuOpenButtonNoscript");
@@ -60,6 +112,7 @@ $(function () {
         $("#mobileMenuBg").removeClass("mobileMenuBgOpen");
         menuOpen = false;
     })
+
 
     // Scroll to top button
     $("#backToTop").show();

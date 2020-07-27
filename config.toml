@@ -1,6 +1,6 @@
 baseURL = "https://www.telemetryjet.com/"
 languageCode = "en-us"
-title = "TelemetryJet"
+title = "The ultimate data platform for hardware projects."
 theme = "tjet-website-theme"
 sectionPagesMenu = "main"
 pluralizelisttitles = false
@@ -11,9 +11,10 @@ pluralizelisttitles = false
     docsUrl = "https://docs.telemetryjet.com"
     filesUrl = "https://files.telemetryjet.com"
     cloudUrl = "https://app.telemetryjet.com"
+    description = "TelemetryJet - The ultimate data platform for hardware projects."
+    author = "TelemetryJet Team, telemetryjet@gmail.com"
     
 [taxonomies]
-    category = "categories"
 
 [markup.goldmark.renderer]
 unsafe = true

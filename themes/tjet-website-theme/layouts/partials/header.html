@@ -1,60 +1,91 @@
 <div id="header">
-    <div id="headerNavBar" class="bp3-navbar">
-        <div id="headerNavBarContent" class="bp3-dark">
-            <div class="bp3-navbar-group bp3-align-left">
+    <section>
+        <div id="headerNavBar" class="bp3-navbar">
+            <div id="headerMainLogo" class="bp3-navbar-group bp3-align-left">
                 <a class="bp3-button bp3-minimal" href="/">
-                    <div id="navbarLogo" class="bp3-navbar-heading">TJET<span
+                    <div id="navbarLogo" class="bp3-navbar-heading">TelemetryJet<span id="navbarLogoIcon"
                             class="bp3-icon bp3-icon-standard bp3-icon-airplane"></span>
                     </div>
                 </a>
             </div>
             <div class="bp3-navbar-group bp3-align-right">
-                <a class="bp3-button bp3-minimal desktopButton" href="/">About</a>
+                <div id="productsDropdownJs" class="bp3-button bp3-minimal desktopButton dropdownButtonJs">
+                    Products<span class="bp3-icon bp3-icon-standard bp3-icon-chevron-down"></span>
+                    <div id="productsDropdownContainer">
+                        <ul class="bp3-menu bp3-elevation-2">
+                            <li><a class="bp3-menu-item" href="/local-server">Local Server</a></li>
+                            <li><a class="bp3-menu-item" href="/cloud-server">Cloud Server</a></li>
+                            <li><a class="bp3-menu-item" href="/changelog">Changelog</a></li>
+                          </ul>
+                    </div>
+                </div>
+                <div id="useCasesDropdownJs" class="bp3-button bp3-minimal desktopButton dropdownButtonJs">
+                    Use Cases<span class="bp3-icon bp3-icon-standard bp3-icon-chevron-down"></span>
+                    <div id="useCasesDropdownContainer">
+                        <ul class="bp3-menu bp3-elevation-2">
+                            <li><a class="bp3-menu-item" href="/use-cases/marine">Marine</a></li>
+                            <li><a class="bp3-menu-item" href="/use-cases/automotive">Automotive</a></li>
+                            <li><a class="bp3-menu-item" href="/use-cases/iot">IoT</a></li>
+                            <li><a class="bp3-menu-item" href="/use-cases/robotics">Robotics</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <noscript>
+                <a class="bp3-button bp3-minimal desktopButton" href="/products">Products</a>
+                </noscript>
+                <noscript>
+                <a class="bp3-button bp3-minimal desktopButton" href="/use-cases">Use Cases</a>
+                </noscript>
+                <a class="bp3-button bp3-minimal desktopButton" href="/pricing">Pricing</a>
                 <a class="bp3-button bp3-minimal desktopButton" href="{{ .Site.Params.docsUrl }}">Docs</a>
-                <a class="bp3-button bp3-minimal desktopButton" href="/releases">Releases</a>
-                <a class="bp3-button bp3-minimal desktopButton" href="/blog">Blog</a>
                 <span class="bp3-navbar-divider desktopButton"></span>
-                <a class="bp3-button bp3-intent-primary desktopButton" href="{{ .Site.Params.cloudUrl }}">Sign In</a>
+                <a class="bp3-button bp3-minimal desktopButton" style="margin-right: 5px;" href="{{ .Site.Params.cloudUrl }}">Login</a>
+                <a class="bp3-button bp3-intent-primary desktopButton" href="{{ .Site.Params.cloudUrl }}">Sign Up</a>
                 <button id="mobileMenuOpenButton"
                     class="bp3-button bp3-minimal bp3-icon-menu mobileButton mobileMenuOpenButtonNoscript"></button>
             </div>
-            <noscript class="bp3-navbar-group bp3-align-right">
-                <a class="bp3-button bp3-minimal mobileButton" href="{{ .Site.Params.docsUrl }}">Docs</a>
-                <a class="bp3-button bp3-minimal mobileButton" href="/releases">Releases</a>
-                <a class="bp3-button bp3-minimal mobileButton" href="/blog">Blog</a>
+            <noscript id="noscriptMenu" class="bp3-navbar-group bp3-align-right">
+                <a class="bp3-button bp3-minimal mobileButton noscriptButton" href="/products">Products</a>
+                <a class="bp3-button bp3-minimal mobileButton noscriptButton" href="/use-cases">Use Cases</a>
+                <a class="bp3-button bp3-minimal mobileButton noscriptButton" href="/pricing">Pricing</a>
+                <a class="bp3-button bp3-minimal mobileButton noscriptButton" href="{{ .Site.Params.docsUrl }}">Docs</a>
             </noscript>
         </div>
-    </div>
+    </section>
     <div id="mobileMenuBg"></div>
     <div id="mobileMenu" class="mobileMenuClosed bp3-dark">
         <div class="mobileMenuHeader">
-            <h2>Menu</h2>
+            <h4>Menu</h4>
             <button id="mobileMenuCloseButton"
                 class="bp3-button bp3-minimal bp3-icon-menu-open mobileButton mobileMenuButton"></button>
         </div>
         <ul id="mobileMenuItems" class="bp3-menu">
-            <li><a class="bp3-menu-item" href="/">About</a></li>
+            <li><a class="bp3-menu-item" href="/products">Products</a></li>
+            <li><a class="bp3-menu-item" href="/pricing">Pricing</a></li>
+            <li><a class="bp3-menu-item" href="/changelog">Changelog</a></li>
             <li><a class="bp3-menu-item" href="{{ .Site.Params.docsUrl }}">Documentation</a></li>
-            <li><a class="bp3-menu-item" href="/releases">Releases</a></li>
-            <li><a class="bp3-menu-item" href="/blog">Blog</a></li>
-            <li><a class="bp3-menu-item bp3-intent-primary" href="{{ .Site.Params.cloudUrl }}">Sign In to Cloud</a>
+            <li><a class="bp3-menu-item bp3-intent-primary" href="{{ .Site.Params.cloudUrl }}">Cloud Login / Signup</a>
             </li>
 
             <hr />
-            <li><a class="bp3-menu-item" href="/faq">FAQ</a></li>
-            <li><a class="bp3-menu-item" href="/blog/team">About the Team</a></li>
-            <li><a class="bp3-menu-item" href="/blog/history">Project History</a></li>
+            <li class="bp3-menu-header"><b>Use Cases</b></li>
+            <li><a class="bp3-menu-item" href="/use-cases/marine">Marine</a></li>
+            <li><a class="bp3-menu-item" href="/use-cases/automotive">Automotive</a></li>
+            <li><a class="bp3-menu-item" href="/use-cases/iot">IoT</a></li>
+            <li><a class="bp3-menu-item" href="/use-cases/robotics">Robotics</a></li>
             <hr />
-            <li><a class="bp3-menu-item" href="https://github.com/telemetryjet/">GitHub Organization</a>
-            </li>
-            <li><a class="bp3-menu-item"
-                    href="https://github.com/telemetryjet/tjet-server/blob/develop/CONTRIBUTING.md">Contributor's
-                    Guide</a></li>
-            <hr />
-            <li><a class="bp3-menu-item" href="/contact-us">Contact Us</a></li>
+            <li class="bp3-menu-header"><b>Company</b></li>
+            <li><a class="bp3-menu-item" href="/about">About</a></li>
             <li><a class="bp3-menu-item" href="/privacy-policy">Privacy Policy</a></li>
             <li><a class="bp3-menu-item" href="/terms-of-service">Terms of Service</a></li>
-            <li><a class="bp3-menu-item" href="/sitemap.xml">Sitemap</a></li>
+            <li><a class="bp3-menu-item" href="mailto:telemetryjet@gmail.com">Contact Us</a></li>
+            <hr />
+            <a href="https://github.com/telemetryjet/"><img src="/img/github.svg" class="menuSocialIcon" /></a>
+            <a href="https://twitter.com/telemetryjet"><img src="/img/twitter.svg" class="menuSocialIcon" /></a>
+            <a href="https://www.youtube.com/channel/UCoEzj9RTqVAbuGeG6OT-GDA"><img src="/img/youtube.svg" class="menuSocialIcon" /></a>
+            
+            
+            
         </ul>
     </div>
 </div>

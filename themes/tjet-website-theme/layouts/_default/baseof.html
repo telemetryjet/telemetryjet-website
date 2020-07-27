@@ -1,59 +1,32 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0,user-scalable=0" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-	<title>{{ .Title }}</title>
+	<title>TelemetryJet - {{ .Title }}</title>
+	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 
-	{{ with .Site.Params.description }}
-	<meta name="description" content="{{ . }}">
-	{{ end }}
-
-	{{ with .Site.Params.author }}
-	<meta name="author" content="{{ . }}">
-	{{ end }}
-
+	<!-- Site icon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+	<link rel="manifest" href="/img/site.webmanifest">
+	
 	<!-- Style dependencies -->
-	<link rel="preload" href="/unpkg/css/normalize.css" as="stylesheet" />
 	<link href="/unpkg/css/normalize.css" rel="stylesheet" />
 
 	<!-- Blueprint stylesheets -->
-	<link rel="preload" href="/unpkg/blueprintjs/blueprint-icons.css" as="stylesheet" />
-	<link rel="preload" href="/unpkg/blueprintjs/blueprint.css" as="stylesheet" />
-	<link rel="preload" href="/unpkg/blueprintjs/icons-16.woff" as="font" />
-	<link rel="preload" href="/unpkg/blueprintjs/icons-20.woff" as="font" />
 	<link href="/unpkg/blueprintjs/blueprint-icons.css" rel="stylesheet" />
 	<link href="/unpkg/blueprintjs/blueprint.css" rel="stylesheet" />
-
-	<!-- Core site stylesheets -->
-	<link rel="preload" href="/css/fonts.css" as="stylesheet">
-	<link rel="preload" href="/css/scrollbars.css" as="stylesheet">
-	<link rel="preload" href="/css/style.css" as="stylesheet">
-	<link rel="preload" href="/fonts/DINNextLTW04-Regular.woff" as="font" />
-	<link rel="preload" href="/fonts/DINNextLTW04-Italic.woff" as="font" />
-	<link rel="preload" href="/fonts/DINNextLTW04-Medium.woff" as="font" />
-	<link rel="preload" href="/fonts/DINNextLTW04-Bold.woff" as="font" />
-	<link rel="preload" href="/fonts/DINNextLTW04-Heavy.woff" as="font" />
-	<link rel="preload" href="/fonts/DINNextLTW04-Light.woff" as="font" />
-	<link rel="preload" href="/fonts/blenderpro-medium-webfont.woff" as="font" />
-	<link rel="preload" href="/fonts/blenderpro-bold-webfont.woff" as="font" />
-
-	<link rel="preload" href="/img/herobg.svg" as="image" />
-	<link rel="preload" href="/img/postbg1.svg" as="image" />
-	<link rel="preload" href="/img/hero_widget_1.svg" as="image" />
-	<link rel="preload" href="/img/hero_widget_2.svg" as="image" />
-	<link rel="preload" href="/img/hero_widget_3.svg" as="image" />
-	<link rel="preload" href="/img/hero_widget_2_notext.svg" as="image" />
 
 	<link rel="stylesheet" href="/css/fonts.css">
 	<link rel="stylesheet" href="/css/scrollbars.css">
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="/css/header.css">
 	<link rel="stylesheet" href="/css/footer.css">
-	<link rel="stylesheet" href="/css/contentSection.css">
 	<link rel="stylesheet" href="/css/customSections.css">
 	<link rel="stylesheet" href="/css/landingPage/landingSection1.css">
 	<link rel="stylesheet" href="/css/landingPage/landingSection2.css">
@@ -68,7 +41,6 @@
 
 <body>
 	<div id="root">
-		{{ partial "header" . }}
 		{{ block "main" . }}{{ end }}
 		{{ partial "footer" . }}
 	</div>

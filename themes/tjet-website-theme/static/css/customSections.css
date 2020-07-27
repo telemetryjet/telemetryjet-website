@@ -1,38 +1,166 @@
 /*
-=== Blog Posts, Other Pages - Title and Background ===
+Custom section types
 */
 
-#postTitleBackground {
-    position: absolute;
-    top: -70px;
-    width: 4000px;
-    height: 800px;
-    left: 50%;
-    transform: translateX(-50%);
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
+.primaryHero {
+    background-color: #293742;
+    color: white;
 }
 
-#postTitleText {
+.primaryHero section {
+    padding-top: 100px;
+    padding-bottom: 150px;
     font-size: 32px;
-    font-weight: 600;
-    padding-top: 40px;
-    max-width: 600px;
-    height: 200px;
-    text-decoration: underline;
-    text-decoration-color: rgba(92, 112, 128, 0.192);
+    font-weight: 400;
 }
 
-h1.sectionHeroText {
+.primaryHero .sectionBackgroundOverlay {
+    position: absolute;
+    left: -1310px;
+    bottom: -71px;
+    width: 4000px;
+    height: 500px;
+    background: url('../../img/herobg_dots_dark.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 4000px 1000px;
+}
+
+.secondaryHero {
+    background-color: #CED9E0;
+    color: #10161A;
+}
+
+.secondaryHero.bp3-dark {
+    background-color: #293742;
+    color: white;
+}
+
+.secondaryHero h1 {
+    font-weight: 400;
+}
+
+.secondaryHero section {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.secondaryHero .sectionDescriptionText {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.secondaryHero .sectionBackgroundOverlay {
+    position: absolute;
+    left: -1120px;
+    bottom: -71px;
+    width: 4000px;
+    height: 500px;
+    background: url('../../img/herobg_dots_light.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 4000px 1000px;
+    opacity: 0.2;
+}
+
+.secondaryHero .sectionBackgroundOverlay2 {
+    position: absolute;
+    left: -1120px;
+    bottom: -71px;
+    width: 4000px;
+    height: 500px;
+    background: url('../../img/herobg_dots_light2.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 4000px 1000px;
+    opacity: 0.2;
+}
+
+.landingSection {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.landingSectionHighlight {
+    background-color: #BFCCD6;
+    color: #10161A;
+}
+.landingSectionHighlight section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.landingSectionHighlight .sectionBackgroundOverlay {
+    position: absolute;
+    left: -1310px;
+    bottom: -71px;
+    width: 4000px;
+    height: 500px;
+    background: url('../../img/herobg_dots_dark.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 4000px 1000px;
+}
+.landingSection h1 {
     font-size: 28px;
     font-weight: 500;
     text-align: left;
     margin-top: 0px;
     margin-bottom: 20px;
 }
+
+.postSection {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+#postTitleText {
+    font-size: 32px;
+    font-weight: 600;
+    max-width: 600px;
+    text-decoration: underline;
+    text-decoration-color: rgba(92, 112, 128, 0.192);
+}
+
+h1.sectionHeroText {
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.contentSection {
+    padding-top: 1px;
+}
+
+
+.contentSectionContainer {
+    width: 100%;
+    position: relative;
+    overflow: visible;
+    max-width: 4000px;
+}
+
+.contentSectionBackground {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.contentSectionFullWidth {
+    position: relative;
+    max-width: 100vw;
+    margin: 0 auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    overflow: hidden;
+}
+
 
 /* Mobile */
 @media screen and (max-width: 599px) {}
