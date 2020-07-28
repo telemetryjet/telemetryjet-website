@@ -7,10 +7,10 @@ pluralizelisttitles = false
 
 [params]
     version = "v0.1.0"
-    siteUrl = "https://www.telemetryjet.com"
-    docsUrl = "https://docs.telemetryjet.com"
-    filesUrl = "https://files.telemetryjet.com"
-    cloudUrl = "https://app.telemetryjet.com"
+    siteUrl = "http://localhost:1313"
+    docsUrl = "http://localhost:1313"
+    filesUrl = "http://localhost:1313"
+    cloudUrl = "http://localhost:8080"
     description = "TelemetryJet - The ultimate data platform for hardware projects."
     author = "TelemetryJet Team, telemetryjet@gmail.com"
     
