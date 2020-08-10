@@ -330,3 +330,48 @@ section {
     margin-bottom: -4px;
     background-color: rgba(0,0,0,0.4);
 }
+
+
+/* Mobile */
+@media screen and (max-width: 599px) {
+    .desktopImage {
+        display: none;
+    }
+
+    .mobileImage {
+        display: block;
+    }
+}
+
+/* Small Screen */
+@media screen and (min-width: 600px) and (max-width: 799px) {
+    .desktopImage {
+        display: none;
+    }
+
+    .mobileImage {
+        display: block;
+    }
+}
+
+/* Medium Screen */
+@media screen and (min-width: 800px) and (max-width: 1099px) {
+    .desktopImage {
+        display: block;
+    }
+
+    .mobileImage {
+        display: none;
+    }
+}
+
+/* Large Screen */
+@media screen and (min-width: 1100px) {
+    .desktopImage {
+        display: block;
+    }
+
+    .mobileImage {
+        display: none;
+    }
+}
