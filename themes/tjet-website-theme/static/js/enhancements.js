@@ -125,6 +125,7 @@ $(function () {
 
     $("#heroCustomers").addClass("heroCustomUnderline");
 
+    /*
     $(window).focus(function () {
         $("#heroCustomers").text(targetCustomerString);
         currentString = targetCustomerString;
@@ -158,4 +159,5 @@ $(function () {
             }, 50);
         }
     }, 2000);
+    */
 });

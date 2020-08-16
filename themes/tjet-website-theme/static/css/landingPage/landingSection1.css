@@ -134,6 +134,10 @@
         right: 0;
         height: 550px;
     }
+    
+    #landingSection1__heroText {
+        max-width: 400px;
+    }
 
     #landingSection1_WidgetsDesktop {
         display: block;
