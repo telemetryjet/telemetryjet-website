@@ -52,6 +52,11 @@
     font-size: 13px;
 }
 
+.bp3-light #headerWarning {
+    background-color: #BFCCD6;
+    color: #394B59;
+}
+
 .headerWarningContent {
     margin: 0 auto;
     padding: 10px;
@@ -68,8 +73,8 @@
     visibility: hidden;
 }
 
-.headerWarningContent .bp3-icon {
-    color: #BFCCD6 !important;
+.bp3-dark .headerWarningContent .bp3-icon {
+    color: #A7B6C2 !important;
 }
 
 /* Mobile */
