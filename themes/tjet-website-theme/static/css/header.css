@@ -40,6 +40,11 @@
     color: white;
 }
 
+.headerMenuUseCasesViewAll {
+    opacity: 0.5;
+    align-items: center !important;
+}
+
 #headerNavBar {
     border: none;
     padding: 0px;

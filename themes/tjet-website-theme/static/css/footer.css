@@ -20,6 +20,9 @@
     color: #8A9BA8;
 }
 
+.footerMoreLink {
+    color: #8A9BA8 !important;
+}
 
 #backToTop {
     display: none;

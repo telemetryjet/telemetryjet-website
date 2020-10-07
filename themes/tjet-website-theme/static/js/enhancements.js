@@ -58,6 +58,8 @@ $(function() {
     $("#automotiveUseCase").addClass("highlightSectionJs");
     $("#iotUseCase").addClass("highlightSectionJs");
     $("#roboticsUseCase").addClass("highlightSectionJs");
+    $("#aerospaceUseCase").addClass("highlightSectionJs");
+    $("#researchUseCase").addClass("highlightSectionJs");
     $("#marineUseCase").click(function () {
         window.location.href = "/use-cases/marine/"
     });
@@ -69,6 +71,12 @@ $(function() {
     });
     $("#roboticsUseCase").click(function () {
         window.location.href = "/use-cases/robotics/"
+    });
+    $("#aerospaceUseCase").click(function () {
+        window.location.href = "/use-cases/aerospace/"
+    });
+    $("#researchUseCase").click(function () {
+        window.location.href = "/use-cases/research/"
     });
 })
 
