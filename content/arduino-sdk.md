@@ -15,6 +15,7 @@ The TelemetryJet Arduino SDK is an excellent solution if you are interacting wit
 - Cache expiration times
 - Send and receive one-off events
 - Operates over software or hardware serial, independent of transport mechanism
+- 100% free and open source
 
 
 ### Philosophy
