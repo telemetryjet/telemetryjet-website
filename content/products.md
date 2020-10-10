@@ -2,9 +2,8 @@
 title: "Products"
 ---
 
-## Tools for every team, small or large
+TelemetryJet is a full stack of tools to collect, analyze, and share your data.
 
-# TelemetryJet Local Server
+## TelemetryJet CLI
 
-
-# TelemetryJet Cloud
+## TelemetryJet Cloud

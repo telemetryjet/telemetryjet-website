@@ -9,7 +9,7 @@
 
 #landingSection3_Graphic {
     float: right;
-    background: url('../../img/frontend1.png');
+    background: url('../../img/data_sources.png');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain;
@@ -23,8 +23,11 @@
     -ms-interpolation-mode: nearest-neighbor;
     /* IE (non-standard property) */
 
-    width: 400px;
-    height: 300px;
+    width: 483px;
+    height: 340px;
+    border-radius: 3px;
+    overflow: hidden;-webkit-box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
+    box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
 }
 
 /*
@@ -68,6 +71,7 @@
     #landingSection3_Graphic {
         width: 500px;
         height: 380px;
+        margin-left: 40px;
         margin-right: -40px;
     }
 }
@@ -81,6 +85,7 @@
     #landingSection3_Graphic {
         width: 700px;
         height: 530px;
+        margin-left: 40px;
         margin-right: -40px;
     }
 }
