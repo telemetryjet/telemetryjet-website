@@ -212,6 +212,12 @@ section {
     overflow: hidden;
     min-height: 200px;
 }
+.highlightSectionDescription {
+    color: #10161A;
+    background-color: #CED9E0;
+    border-top: 2px solid #BFCCD6;
+    padding: 20px;
+}
 
 .highlightSection:hover .highlightSectionImage {
     background-color: #566975;

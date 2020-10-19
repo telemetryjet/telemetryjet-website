@@ -9,7 +9,7 @@
 
 #landingSection3_Graphic {
     float: right;
-    background: url('../../img/data_sources.png');
+    background: url('/img/screenshots/map_2.png');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain;
@@ -25,9 +25,7 @@
 
     width: 483px;
     height: 340px;
-    border-radius: 3px;
-    overflow: hidden;-webkit-box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
-    box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
+    overflow: hidden;
 }
 
 /*

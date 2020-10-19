@@ -60,6 +60,10 @@ $(function() {
     $("#roboticsUseCase").addClass("highlightSectionJs");
     $("#aerospaceUseCase").addClass("highlightSectionJs");
     $("#researchUseCase").addClass("highlightSectionJs");
+    $("#serverProduct").addClass("highlightSectionJs");
+    $("#cliProduct").addClass("highlightSectionJs");
+    $("#arduinoSdkProduct").addClass("highlightSectionJs");
+
     $("#marineUseCase").click(function () {
         window.location.href = "/use-cases/marine/"
     });
@@ -77,6 +81,15 @@ $(function() {
     });
     $("#researchUseCase").click(function () {
         window.location.href = "/use-cases/research/"
+    });
+    $("#serverProduct").click(function () {
+        window.location.href = "/products/server/"
+    });
+    $("#cliProduct").click(function () {
+        window.location.href = "/products/cli/"
+    });
+    $("#arduinoSdkProduct").click(function () {
+        window.location.href = "/products/arduino-sdk/"
     });
 })
 

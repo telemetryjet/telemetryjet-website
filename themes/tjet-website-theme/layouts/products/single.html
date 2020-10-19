@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div id="menu" class="bp3-light">
+{{ partial "header" . }}
+</div>
+<div class="sectionWrapper secondaryHero">
+    <section style="padding-top: 35px; ">
+        <div class="sectionBackground">
+			<div class="sectionBackgroundOverlay2"></div>
+		</div>
+		<div class="sectionForeground">
+			<h1 class="sectionHeroText" style="margin-bottom: 5px;">{{ .Title }}</h1>
+			<a class="bp3-button bp3-minimal bp3-icon-arrow-left" role="button" href="/products">View all products</a>
+		</div>
+    </section>
+</div>
+<div class="sectionWrapper">
+	<section class="postSection">
+        <div class="sectionBackground">
+		</div>
+		<div class="sectionForeground">
+			{{ .Content }}
+		</div>
+	</section>
+</div>
+{{ end }}
