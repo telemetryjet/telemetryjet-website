@@ -78,33 +78,29 @@
 === Landing Page - Media Queries ===
 */
 
-/* Mobile */
-@media screen and (max-width: 599px) {
-    #landingSection1_Wrapper {
-        margin-bottom: 70px;
-    }
+#landingSection1_Wrapper {
+    margin-bottom: 70px;
+}
 
-    #landingSection1_Hero {
-        max-width: 450px;
-        padding-top: 50px;
-        font-size: 28px;
-    }
+#landingSection1_Hero {
+    max-width: 450px;
+    padding-top: 50px;
+    font-size: 28px;
+}
 
-    .landingSection1_HeroWidget {
-        transform: none;
-    }
+.landingSection1_HeroWidget {
+    transform: none;
+}
 
-    #landingSection1_WidgetsMobile {
-        height: 200px;
-        max-width: 450px;
-        margin-bottom: -250px;
-        margin-top: 60px;
-    }
-
+#landingSection1_WidgetsMobile {
+    height: 200px;
+    max-width: 450px;
+    margin-bottom: -250px;
+    margin-top: 60px;
 }
 
 /* Small Screen */
-@media screen and (min-width: 600px) and (max-width: 799px) {
+@media screen and (min-width: 600px) {
     #landingSection1_Wrapper {
         margin-bottom: 70px;
     }
@@ -126,7 +122,7 @@
 }
 
 /* Medium Screen */
-@media screen and (min-width: 800px) and (max-width: 1099px) {
+@media screen and (min-width: 800px) {
     #landingSection1_Widgets {
         position: absolute;
         top: 0;

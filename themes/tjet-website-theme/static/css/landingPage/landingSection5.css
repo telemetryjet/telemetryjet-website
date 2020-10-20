@@ -159,34 +159,32 @@
 */
 
 /* Mobile */
-@media screen and (max-width: 599px) {
-    .pricingCardContainer {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: stretch;
-    }
+.pricingCardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
 
-    .pricingCardHeader {
-        display: flex;
-        flex-direction: row;
-        justify-content: stretch;
-        align-items: center;
-        padding-right: 20px;
-    }
+.pricingCardHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+    padding-right: 20px;
+}
 
-    .pricingCard {
-        margin-bottom: 30px;
-        flex-basis: auto;
-    }
+.pricingCard {
+    margin-bottom: 30px;
+    flex-basis: auto;
+}
 
-    #longSignupHeroText {
-        display: none;
-    }
+#longSignupHeroText {
+    display: none;
 }
 
 /* Small Screen */
-@media screen and (min-width: 600px) and (max-width: 799px) {
+@media screen and (min-width: 600px) {
     .pricingCardContainer {
         display: flex;
         flex-direction: column;
@@ -215,7 +213,7 @@
 }
 
 /* Medium Screen */
-@media screen and (min-width: 800px) and (max-width: 1099px) {
+@media screen and (min-width: 800px) {
     .pricingCard {
         margin-right: 20px;
     }

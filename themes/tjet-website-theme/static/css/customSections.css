@@ -160,16 +160,3 @@ h1.sectionHeroText {
     padding-right: 25px;
     overflow: hidden;
 }
-
-
-/* Mobile */
-@media screen and (max-width: 599px) {}
-
-/* Small Screen */
-@media screen and (min-width: 600px) and (max-width: 799px) {}
-
-/* Medium Screen */
-@media screen and (min-width: 800px) and (max-width: 1099px) {}
-
-/* Large Screen */
-@media screen and (min-width: 1100px) {}

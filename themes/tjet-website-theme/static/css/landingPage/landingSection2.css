@@ -22,19 +22,17 @@
 */
 
 /* Mobile */
-@media screen and (max-width: 599px) {
-    #landingSection2_Graphic {
-        display: none;
-    }
+#landingSection2_Graphic {
+    display: none;
+}
 
-    #landingSection2_Text {
-        padding-top: 20px;
-        padding-bottom: 40px;
-    }
+#landingSection2_Text {
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 /* Small Screen */
-@media screen and (min-width: 600px) and (max-width: 799px) {
+@media screen and (min-width: 600px) {
     #landingSection2_Graphic {
         display: none;
     }
@@ -46,7 +44,7 @@
 }
 
 /* Medium Screen */
-@media screen and (min-width: 800px) and (max-width: 1099px) {
+@media screen and (min-width: 800px) {
     #landingSection2_Graphic {
         width: 400px;
         height: 300px;

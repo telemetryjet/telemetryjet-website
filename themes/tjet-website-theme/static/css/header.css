@@ -78,21 +78,19 @@
 }
 
 /* Mobile */
-@media screen and (max-width: 599px) {
-    .headerWarningContent {
-        max-width: 600px;
-    }
+.headerWarningContent {
+    max-width: 600px;
 }
 
 /* Small Screen */
-@media screen and (min-width: 600px) and (max-width: 799px) {
+@media screen and (min-width: 600px) {
     .headerWarningContent {
         max-width: 600px;
     }
 }
 
 /* Medium Screen */
-@media screen and (min-width: 800px) and (max-width: 1099px) {
+@media screen and (min-width: 800px)  {
     .headerWarningContent {
         max-width: 750px;
     }
@@ -233,7 +231,6 @@ img.menuSocialIcon {
 }
 
 #productsDropdownJs {
-    display: none;
     position: relative;
     overflow: visible;
 }
@@ -252,10 +249,10 @@ img.menuSocialIcon {
 }
 
 #useCasesDropdownJs {
-    display: none;
     position: relative;
     overflow: visible;
 }
+
 #useCasesDropdownContainer {
     display: none;
     position: absolute;
@@ -268,67 +265,95 @@ img.menuSocialIcon {
 }
 
 /* ultra small mobile */
-@media screen and (max-width: 599px) {
+.noJsHiddenSmallScreens {
+    display: none;
+}
+@media screen and (min-width: 600px) {
     .noJsHiddenSmallScreens {
-        display: none;
+        display: block;
     }
 }
 
 /* noscript fix for small screens */
+#noscriptMenu {
+    float: left;
+    margin-left: 8px;
+}
 @media screen and (max-width: 400px) {
-    #noscriptMenu {
-        float: left;
-        margin-left: 8px;
-    }
+
 }
 
+.mobileMenuOpenButtonNoscript {
+    display: none;
+}
 
+.mobileButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desktopButton {
+    display: none;
+}
+
+#mobileMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.mobileMenuOpen {
+    left: 35%;
+}
+
+.mobileMenuClosed {
+    left: 100%;
+}
+
+.mobileMenuBgOpen {
+    display: block;
+    background-color: rgba(24, 32, 38, 0.3);
+    z-index: 19;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#productsDropdownJs {
+    display: none;
+}
+
+#useCasesDropdownJs {
+    display: none;
+}
+
+.noJsHidden {
+    display: none !important;
+}
+
+.mobileMenuOpenButtonNoscript {
+    display: none !important;
+}
 /* Mobile + small screen */
-@media screen and (max-width: 799px) {
-    #header section {
-        max-width: 100%;
-        padding-left: 5px;
-        padding-right: 10px;
-    }
-
-    .mobileMenuOpenButtonNoscript {
-        display: none !important;
-    }
+@media screen and (min-width: 800px) {
 
     .mobileButton {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: none;
     }
 
     .desktopButton {
-        display: none !important;
-    }
-
-    #mobileMenu {
-        display: flex;
-        flex-direction: column;
-        justify-content: stretch;
-        align-items: stretch;
-    }
-
-    .mobileMenuOpen {
-        left: 35%;
-    }
-
-    .mobileMenuClosed {
-        left: 100%;
-    }
-
-    .mobileMenuBgOpen {
         display: block;
-        background-color: rgba(24, 32, 38, 0.3);
-        z-index: 19;
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
     }
 
+    #productsDropdownJs {
+        display: block;
+    }
+
+    #useCasesDropdownJs {
+        display: block;
+    }
 }

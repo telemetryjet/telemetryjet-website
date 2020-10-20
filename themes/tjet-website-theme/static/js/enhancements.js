@@ -96,8 +96,8 @@ $(function() {
 // Setup products dropdown menu
 // Setup use cases dropdown menu
 $(function () {
-    $("#productsDropdownJs").show();
-    $("#useCasesDropdownJs").show();
+    $("#productsDropdownJs").removeClass("noJsHidden");
+    $("#useCasesDropdownJs").removeClass("noJsHidden");
     $("#productsDropdownJs").click(function () {
         $("#productsDropdownJs").addClass("bp3-active");
         $("#productsDropdownContainer").show();

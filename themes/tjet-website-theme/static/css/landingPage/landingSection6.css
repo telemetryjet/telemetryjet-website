@@ -19,13 +19,12 @@
 */
 
 /* Mobile */
-@media screen and (max-width: 599px) {}
 
 /* Small Screen */
-@media screen and (min-width: 600px) and (max-width: 799px) {}
+@media screen and (min-width: 600px) {}
 
 /* Medium Screen */
-@media screen and (min-width: 800px) and (max-width: 1099px) {}
+@media screen and (min-width: 800px) {}
 
 /* Large Screen */
 @media screen and (min-width: 1100px) {}

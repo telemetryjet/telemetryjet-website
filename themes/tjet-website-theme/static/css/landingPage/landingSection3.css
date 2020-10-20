@@ -33,21 +33,19 @@
 */
 
 /* Mobile */
-@media screen and (max-width: 599px) {
-    #landingSection3_Text {
-        padding-top: 25px;
-    }
+#landingSection3_Text {
+    padding-top: 25px;
+}
 
-    #landingSection3_Graphic {
-        width: 100%;
-        height: 350px;
-        float: none;
-        background-position: center center;
-    }
+#landingSection3_Graphic {
+    width: 100%;
+    height: 350px;
+    float: none;
+    background-position: center center;
 }
 
 /* Small Screen */
-@media screen and (min-width: 600px) and (max-width: 799px) {
+@media screen and (min-width: 600px) {
     #landingSection3_Text {
         padding-top: 25px;
     }
@@ -61,7 +59,7 @@
 }
 
 /* Medium Screen */
-@media screen and (min-width: 800px) and (max-width: 1099px) {
+@media screen and (min-width: 800px) {
     #landingSection3_Text {
         padding-top: 100px;
     }

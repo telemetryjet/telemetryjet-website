@@ -134,24 +134,50 @@ p {
 }
 
 /* Mobile */
-@media screen and (max-width: 599px) {
-    section {
-        max-width: 600px;
-    }
-    .profileText {
-        margin-left: 0px;
-    }
+section {
+    max-width: 600px;
+}
+.profileText {
+    margin-left: 0px;
+}
+
+#header section {
+    max-width: 100%;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+#headerWarning section {
+    max-width: 100%;
+    padding-left: 5px;
+    padding-right: 10px;
 }
 
 /* Small Screen */
-@media screen and (min-width: 600px) and (max-width: 799px) {
+@media screen and (min-width: 600px) {
+    #header section {
+        max-width: 100%;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+
     section {
         max-width: 600px;
     }
 }
 
 /* Medium Screen */
-@media screen and (min-width: 800px) and (max-width: 1099px) {
+@media screen and (min-width: 800px) {
+    #header section {
+        max-width: 750px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    #headerWarning section {
+        max-width: 750px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
     section {
         max-width: 750px;
     }
@@ -161,6 +187,16 @@ p {
 @media screen and (min-width: 1100px) {
     section {
         max-width: 1050px;
+    }
+    #header section {
+        max-width: 1050px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    #headerWarning section {
+        max-width: 1050px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 }
 
@@ -339,18 +375,16 @@ section {
 
 
 /* Mobile */
-@media screen and (max-width: 599px) {
-    .desktopImage {
-        display: none;
-    }
+.desktopImage {
+    display: none;
+}
 
-    .mobileImage {
-        display: block;
-    }
+.mobileImage {
+    display: block;
 }
 
 /* Small Screen */
-@media screen and (min-width: 600px) and (max-width: 799px) {
+@media screen and (min-width: 600px) {
     .desktopImage {
         display: none;
     }
@@ -361,7 +395,7 @@ section {
 }
 
 /* Medium Screen */
-@media screen and (min-width: 800px) and (max-width: 1099px) {
+@media screen and (min-width: 800px) {
     .desktopImage {
         display: block;
     }
