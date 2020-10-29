@@ -80,6 +80,7 @@
 
 #landingSection1_Wrapper {
     margin-bottom: 70px;
+    z-index: 1;
 }
 
 #landingSection1_Hero {

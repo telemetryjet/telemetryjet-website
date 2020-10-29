@@ -70,3 +70,7 @@
         padding-left: 400px;
     }
 }
+
+#landingSection2 {
+    z-index: 0;
+}

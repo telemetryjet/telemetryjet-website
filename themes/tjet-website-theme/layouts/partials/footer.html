@@ -5,14 +5,26 @@
 
 <div id="getStartedFooter">
     <section class="getStartedFooterContent">
-        <h2>Start gaining insight from your data.</h2>
-        <p>
-            Get started in 5 minutes or less, no code required.
-        </p>
-        <a class="bp3-button bp3-large bp3-outlined">View a Demo</a>
-        <a class="bp3-button bp3-large bp3-intent-primary" href="{{ .Site.Params.cloudUrl }}/account/register/">Sign Up</a>
+        <div class="row center-xs">
+            <div class="col-xs-12">
+                <h2>Start gaining insight from your data.</h2>
+                <p>
+                    Sign up for updates, and add your name to the list for the TelemetryJet Cloud beta. You'll be the first to know
+                    when we start testing!
+                </p><br />
+            </div>
+            <div class="col-xs-8">
+                <form name="listSignup" method="POST" data-netlify="true">
+                    <div class="bp3-control-group bp3-fill bp3-large">
+                        <input type="text" class="bp3-input bp3-large" name="email" placeholder="email@domain.com" />
+                        <button class="bp3-button bp3-large bp3-intent-primary" style="width:100px" type="submit">Sign Up</a>
+                    </div>
+                </form>
+            </div>
+            <div class="col-xs-6">
+            </div>
+        </div>
         <br />
-        <a href="https://github.com/telemetryjet">View the Open Source project and self-hosting options on GitHub</a>
     </section>
 </div>
 <div id="footer">

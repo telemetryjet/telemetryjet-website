@@ -84,7 +84,7 @@ Custom section types
 }
 
 .landingSectionHighlight {
-    background-color: #BFCCD6;
+    background-color: #CED9E0;
     color: #10161A;
 }
 .landingSectionHighlight section {
@@ -160,3 +160,61 @@ h1.sectionHeroText {
     padding-right: 25px;
     overflow: hidden;
 }
+
+.landingSectionListItem {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#landingChartNegativeMargins {
+    margin: -100px;
+    margin-bottom: -100px;
+    margin-top: -190px;
+    z-index: -10;
+}
+
+.crossfadeImage {
+    width: 100%;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    position: relative;
+    z-index: -1;
+}
+.crossfadeImage > .imageOne {
+    position: relative;
+    top: 0;
+    z-index: 0;
+}
+.crossfadeImage > .imageTwo {
+  position: absolute;
+  left:0;
+  z-index: 1;
+}
+
+@keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0.5; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0.5; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0.5; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0.5; }
+    100% { opacity:1; }
+  }
+  .animate-flicker {
+     -webkit-animation: flickerAnimation 2s infinite;
+     -moz-animation: flickerAnimation 2s infinite;
+     -o-animation: flickerAnimation 2s infinite;
+      animation: flickerAnimation 2s infinite;
+  }
