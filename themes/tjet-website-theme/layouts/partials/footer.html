@@ -3,6 +3,8 @@
     </section>
 </div>
 
+{{ if .Params.hideSignup }}
+{{ else }}
 <div id="getStartedFooter">
     <section class="getStartedFooterContent">
         <div class="row center-xs">
@@ -13,8 +15,8 @@
                     when we start testing!
                 </p><br />
             </div>
-            <div class="col-xs-8">
-                <form name="listSignup" method="POST" data-netlify="true">
+            <div class="col-xs-12 col-md-8">
+                <form name="listSignup" method="POST" data-netlify="true" action="/list-subscribe-success/">
                     <div class="bp3-control-group bp3-fill bp3-large">
                         <input type="text" class="bp3-input bp3-large" name="email" placeholder="email@domain.com" />
                         <button class="bp3-button bp3-large bp3-intent-primary" style="width:100px" type="submit">Sign Up</a>
@@ -27,6 +29,7 @@
         <br />
     </section>
 </div>
+{{ end }}
 <div id="footer">
     <section class="primaryFooterContent">
         <div class="footerSection">
