@@ -415,3 +415,82 @@ section {
         display: none;
     }
 }
+
+.pricingTable {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.pricingTable th {
+    width: 25%;
+    text-align: center;
+}
+
+.pricingTable td {
+    width: 25%;
+    text-align: center;
+}
+
+.pricingTableCell {
+    background-color: white;
+    border-top: 1px solid rgba(16,22,26,.15);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.pricingTableCellDark {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.pricingTableCellNoBg {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.pricingTableBottomRightCell {
+    border-bottom-right-radius: 10px;
+}
+.pricingTableBottomLeftCell {
+    border-bottom-left-radius: 10px;
+}
+.pricingTableTopRightCell {
+    border-top-right-radius: 10px;
+    border-top: none !important;
+}
+.pricingTableTopLeftCell {
+    border-top-left-radius: 10px;
+    border-top: none !important;
+}
+.pricingTableTopCell {
+    border-top: none !important;
+}
+.pricingTablePriceCell {
+    font-size: 16px;
+    font-weight: 500;
+}
+@media screen and (min-width: 600px) {
+    .pricingTable {
+        font-size: 15px;
+    }
+    .pricingTablePriceCell {
+        font-size: 24px;
+    }
+}
+
+.pricingTableRecommendedCell {
+    color: white;
+    background-color: #0E5A8A;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 8px;
+}
+
+.pricingTableRecommendedItem {
+    color: white;
+    background-color: #0E5A8A;
+}
+
+.pricingTableRecommendedItem > a {
+    color: white;
+}

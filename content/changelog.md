@@ -1,5 +1,6 @@
 ---
 title: "Changelog"
+draft: true
 ---
 
 # v0.1.0
