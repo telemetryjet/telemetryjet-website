@@ -519,3 +519,24 @@ section {
 #serverProduct {
     width: 100%;
 }
+
+.landingPageOutlineHeading {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 2px solid #5c708070;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.videoCardBg {
+    overflow: hidden;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
+    box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.videoCardBgPerspective {
+    transform: perspective(10cm) rotate3d(0,1,0, -3deg);
+}
