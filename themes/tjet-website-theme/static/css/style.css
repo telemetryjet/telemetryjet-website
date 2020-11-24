@@ -434,8 +434,9 @@ section {
 }
 
 .pricingTableCell {
-    background-color: white;
-    border-top: 1px solid rgba(16,22,26,.15);
+    color: #10161A;
+    background-color: #CED9E0;
+    border-top: 2px solid rgba(16,22,26,.05);
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -449,17 +450,17 @@ section {
 }
 
 .pricingTableBottomRightCell {
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 0px;
 }
 .pricingTableBottomLeftCell {
-    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 0px;
 }
 .pricingTableTopRightCell {
-    border-top-right-radius: 10px;
+    border-top-right-radius: 0px;
     border-top: none !important;
 }
 .pricingTableTopLeftCell {
-    border-top-left-radius: 10px;
+    border-top-left-radius: 0px;
     border-top: none !important;
 }
 .pricingTableTopCell {
@@ -481,8 +482,6 @@ section {
 .pricingTableRecommendedCell {
     color: white;
     background-color: #0E5A8A;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
     padding: 8px;
 }
 
@@ -515,4 +514,8 @@ section {
     position: absolute;
     top: 10px;
     left: 10px;
+}
+
+#serverProduct {
+    width: 100%;
 }

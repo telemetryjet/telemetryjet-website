@@ -44,51 +44,45 @@ title: "Pricing"
 </tr>
 <tr>
 <td class="pricingTableCellDark">Email Support</td>
-<td class="pricingTableCell"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></div></td>
-<td class="pricingTableCell pricingTableRecommendedItem bp3-dark"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></div></td>
-<td class="pricingTableCell"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></div></td>
-</tr>
-<tr>
-<td class="pricingTableCellDark">Access from Anywhere</td>
-<td class="pricingTableCell">*</td>
-<td class="pricingTableCell pricingTableRecommendedItem bp3-dark"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></div></td>
-<td class="pricingTableCell"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></div></td>
+<td class="pricingTableCell"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></span></td>
+<td class="pricingTableCell pricingTableRecommendedItem bp3-dark"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></span></td>
+<td class="pricingTableCell"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></span></td>
 </tr>
 <tr>
 <td class="pricingTableCellDark">Email Notifications</td>
 <td class="pricingTableCell">*</td>
-<td class="pricingTableCell pricingTableRecommendedItem bp3-dark"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></div></td>
-<td class="pricingTableCell"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></div></td>
+<td class="pricingTableCell pricingTableRecommendedItem bp3-dark"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></span></td>
+<td class="pricingTableCell"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></span></td>
 </tr>
 <tr>
 <td class="pricingTableCellDark">Public Link Sharing</td>
 <td class="pricingTableCell">*</td>
-<td class="pricingTableCell pricingTableRecommendedItem bp3-dark"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></div></td>
-<td class="pricingTableCell"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></div></td>
+<td class="pricingTableCell pricingTableRecommendedItem bp3-dark"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></span></td>
+<td class="pricingTableCell"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></span></td>
 </tr>
 <tr>
 <td class="pricingTableCellDark">Unlimited Storage Space</td>
 <td class="pricingTableCell"></td>
-<td class="pricingTableCell pricingTableRecommendedItem bp3-dark"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></div></td>
-<td class="pricingTableCell"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></div></td>
+<td class="pricingTableCell pricingTableRecommendedItem bp3-dark"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></span></td>
+<td class="pricingTableCell"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></span></td>
 </tr>
 <tr>
 <td class="pricingTableCellDark">Automatic Data Backups</td>
 <td class="pricingTableCell"></td>
-<td class="pricingTableCell pricingTableRecommendedItem bp3-dark"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></div></td>
-<td class="pricingTableCell"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></div></td>
+<td class="pricingTableCell pricingTableRecommendedItem bp3-dark"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></span></td>
+<td class="pricingTableCell"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></span></td>
 </tr>
 <tr>
 <td class="pricingTableCellDark">Priority Support</td>
 <td class="pricingTableCell"></td>
 <td class="pricingTableCell pricingTableRecommendedItem bp3-dark"></td>
-<td class="pricingTableCell"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></div></td>
+<td class="pricingTableCell"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></span></td>
 </tr>
 <tr>
 <td class="pricingTableCellDark">Priority Feature Development</td>
 <td class="pricingTableCell"></td>
 <td class="pricingTableCell pricingTableRecommendedItem bp3-dark"></td>
-<td class="pricingTableCell"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></div></td>
+<td class="pricingTableCell"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></span></td>
 </tr>
 <tr>
 <td class="pricingTableCellNoBg"></td>
@@ -96,17 +90,13 @@ title: "Pricing"
 <td class="pricingTableCell pricingTableRecommendedItem"><a href="https://app.telemetryjet.com/account/register/">Sign Up Now</a></td>
 <td class="pricingTableCell pricingTableBottomRightCell"><a href="https://app.telemetryjet.com/account/register/">Sign Up Now</a></td>
 </tr>
-<tr>
-<td class="pricingTableCellNoBg"></td>
-<td class="pricingTableCellNoBg"></td>
-<td class="pricingTableCell pricingTableBottomLeftCell pricingTableBottomRightCell pricingTableRecommendedItem"></td>
-<td class="pricingTableCellNoBg "></td>
-</tr>
 </tbody>
 </table>
 
 <br />
+<br />
 \* All internet and sharing features are available in TelemetryJet self-hosted instances, but require you to manage the infrastructure for your instance.
+<br />
 <br />
 <br />
 
