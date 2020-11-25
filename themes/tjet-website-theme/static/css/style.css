@@ -534,9 +534,35 @@ section {
     border-radius: 3px;
     -webkit-box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
     box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
-    margin-bottom: 30px;
     margin-top: 30px;
 }
 .videoCardBgPerspective {
+    transform: perspective(10cm) rotate3d(0,1,0, -3deg);
+}
+
+.landingPrimaryImage {
+    overflow: hidden;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
+    box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
+    margin-bottom: 30px;
+
+}
+
+#landing-video-2 {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    transform: perspective(10cm) rotate3d(1,0.0,0, 0deg);
+}
+
+.buttonRounded {
+    border-radius: 5px;
+}
+
+#analyzeFromAnywhereImage {
+    overflow: hidden;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
+    box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
     transform: perspective(10cm) rotate3d(0,1,0, -3deg);
 }

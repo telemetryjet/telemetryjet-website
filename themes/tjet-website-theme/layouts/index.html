@@ -28,25 +28,69 @@
         <div class="sectionBackground">
 		</div>
 		<div class="sectionForeground">
-			<div class="row">
-				<div class="col-xs-12 col-md-6 col-lg-4 col-sm-0 col-xs-0">
-					<div id="landingChartNegativeMargins">
-						<div class="crossfadeImage">
-							<img class="imageTwo animate-flicker" src="/img/testrender4_glow.png">
-							<img class="imageOne" src="/img/testrender4_noglow.png">
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-12 col-md-6 col-lg-8">
+			<div class="row middle-xs between-xs">
+				<div class="col-xs-12 col-lg-5">
 					<h1>A powerful platform for organizing and analyzing your hardware data.</h1>
 					<p>
-						Hardware engineering projects create a <i>lot</i> of data, and it's tedious to analyze and share. 
+						Hardware engineering projects create a <i>lot</i> of data, and it's tedious to work with. 
 					</p>
 					<p>
-
-						TelemetryJet manages the entire lifecycle of your data, and doesn't require any programming or complex setup.
-						Focus on using your data productively.
+						TelemetryJet handles the intricate details of normalizing, storing, and querying your data, so you can focus on utilizing that data productively.
 					</p>
+					<p>
+						Load your data sources, invite your team members, and start collaboratively analyzing your systems. It's that easy.
+					</p>
+				</div>
+				<div class="col-md-0 col-lg-7 col-xs-0 col-sm-0">
+					<video
+						id="landing-video-1"
+						preload="auto"
+						controls
+						loop
+						autoplay
+						muted
+						class="video-js vjs-fill vjs-fluid videoCardBg videoCardBgPerspective"
+						data-setup="{}"
+					>
+						<source src="video/dashboard_demo_2.mp4" type="video/mp4" />
+						<p class="vjs-no-js">
+						To view this video please enable JavaScript, and consider upgrading to a
+						web browser that
+						<a href="https://videojs.com/html5-video-support/" target="_blank"
+							>supports HTML5 video</a
+						>
+						</p>
+					</video>
+				</div>
+			</div>
+			<div class="row middle-xs between-xs">
+				<div class="col-md-12 col-lg-0 col-xs-12 col-sm-12">
+					<video
+					  id="landing-video-2"
+					  preload="auto"
+					  controls
+					  loop
+					  autoplay
+					  muted
+					  class="video-js vjs-fill vjs-fluid videoCardBg"
+					  data-setup="{}"
+					>
+					  <source src="video/dashboard_demo_2.mp4" type="video/mp4" />
+					  <p class="vjs-no-js">
+						To view this video please enable JavaScript, and consider upgrading to a
+						web browser that
+						<a href="https://videojs.com/html5-video-support/" target="_blank"
+						  >supports HTML5 video</a
+						>
+					  </p>
+					</video>
+				</div>
+			</div>
+			<div class="row middle-xs center-xs start-lg">
+				<div class="col-xs-12 col-lg-12">				
+					<br />		
+					<a href="#" class="bp3-button bp3-large bp3-minimal bp3-icon-arrow-right buttonRounded">View a Live Demo</a>&nbsp;
+					<a href="{{ .Site.Params.cloudUrl }}/account/register/" class="bp3-button bp3-large bp3-intent-primary bp3-icon-arrow-right buttonRounded">Get Started for Free</a>
 				</div>
 			</div>
 			<div class="clearfix"></div>
@@ -97,33 +141,8 @@
 		</div>
 		<div class="sectionForeground">
 			<div class="row middle-xs between-xs">
-				<div class="col-xs-12">
+				<div class="col-xs-12 col-md-12 col-lg-5">
 					<h1>Analyze from anywhere.</h1>
-				</div>
-			</div>
-			<div class="row middle-xs between-xs">
-				<div class="col-md-12 col-lg-0 col-xs-12 col-sm-12">
-					<video
-					  id="landing-video-2"
-					  preload="auto"
-					  controls
-					  loop
-					  autoplay
-					  muted
-					  class="video-js vjs-fill vjs-fluid videoCardBg"
-					  data-setup="{}"
-					>
-					  <source src="video/dashboard_demo_2.mp4" type="video/mp4" />
-					  <p class="vjs-no-js">
-						To view this video please enable JavaScript, and consider upgrading to a
-						web browser that
-						<a href="https://videojs.com/html5-video-support/" target="_blank"
-						  >supports HTML5 video</a
-						>
-					  </p>
-					</video>
-				</div>
-				<div class="col-xs-12 col-md-12 col-lg-4">
 					<div class="landingPageOutlineHeading">
 						Insightful, configurable visualizations
 					</div>
@@ -144,26 +163,8 @@
 						Group data sources and visualizations in folders, so your analysis sits next to your original data. 
 					</p>
 				</div>
-				<div class="col-md-0 col-lg-7 col-xs-0 col-sm-0">
-					<video
-					  id="landing-video-1"
-					  preload="auto"
-					  controls
-					  loop
-					  autoplay
-					  muted
-					  class="video-js vjs-fill vjs-fluid videoCardBg videoCardBgPerspective"
-					  data-setup="{}"
-					>
-					  <source src="video/dashboard_demo_2.mp4" type="video/mp4" />
-					  <p class="vjs-no-js">
-						To view this video please enable JavaScript, and consider upgrading to a
-						web browser that
-						<a href="https://videojs.com/html5-video-support/" target="_blank"
-						  >supports HTML5 video</a
-						>
-					  </p>
-					</video>
+				<div class="col-xs-12 col-md-12 col-lg-7">
+					<img id="analyzeFromAnywhereImage" src="/img/screenshots/landing-screenshot-1.png">
 				</div>
 			</div>
 			<div class="clearfix"></div>
