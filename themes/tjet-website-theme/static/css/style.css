@@ -559,10 +559,48 @@ section {
     border-radius: 5px;
 }
 
-#analyzeFromAnywhereImage {
+#analyzeFromAnywhereDesktopImage {
     overflow: hidden;
     border-radius: 3px;
     -webkit-box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
     box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
     transform: perspective(10cm) rotate3d(0,1,0, -3deg);
+}
+
+#analyzeFromAnywhereMobileImage {
+    overflow: hidden;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
+    box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
+}
+
+#dataSourceListImage {
+    position: relative;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    z-index: -1;
+}
+
+#collaborateImageDesktop {
+    overflow: hidden;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
+    box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
+    transform: perspective(10cm) rotate3d(0,1,0, 3deg);
+    image-rendering: crisp-edges;
+}
+
+#collaborateImageMobile {
+    overflow: hidden;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
+    box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
+}
+
+.collaborateSectionSpacing {
+    padding-left: 30px;
+}
+
+.centerTextAlign {
+    text-align: center !important;
 }
