@@ -73,6 +73,12 @@ title: "Pricing"
 <td class="pricingTableCell"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></span></td>
 </tr>
 <tr>
+<td class="pricingTableCellDark">Custom Domain & Branding</td>
+<td class="pricingTableCell"></td>
+<td class="pricingTableCell pricingTableRecommendedItem bp3-dark"></td>
+<td class="pricingTableCell"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></span></td>
+</tr>
+<tr>
 <td class="pricingTableCellDark">Priority Support</td>
 <td class="pricingTableCell"></td>
 <td class="pricingTableCell pricingTableRecommendedItem bp3-dark"></td>
@@ -83,6 +89,12 @@ title: "Pricing"
 <td class="pricingTableCell"></td>
 <td class="pricingTableCell pricingTableRecommendedItem bp3-dark"></td>
 <td class="pricingTableCell"><span class="bp3-icon bp3-icon-tick bp3-intent-success"></span></td>
+</tr>
+<tr>
+<td class="pricingTableCellDark">License</td>
+<td class="pricingTableCell">AGPLv3 (Commercial License available)</td>
+<td class="pricingTableCell pricingTableRecommendedItem bp3-dark">Commercial License</td>
+<td class="pricingTableCell">Commercial License</td>
 </tr>
 <tr>
 <td class="pricingTableCellNoBg"></td>
@@ -101,7 +113,7 @@ title: "Pricing"
 <br />
 
 
-## Pricing Questions
+## Cloud Pricing Questions
 
 <div class="row">
     <div class="col-xs-12 col-md-6">
@@ -131,18 +143,39 @@ title: "Pricing"
 </div><br />
 <div class="row">
     <div class="col-xs-12 col-md-6">
-        <h3>Are there any costs associated with self-hosting TelemetryJet?</h3>
+        <h3>What happens if I start or stop my subscription during a month?</h3>
     </div>
     <div class="col-xs-12 col-md-6">
-        <p>TelemetryJet self-hosted instances are completely free.</p>
+        <p>We automatically prorate months that your subscription is not entirely active for. You
+        will only be charged for the portion of the month you used.</p>
     </div>
 </div><br />
+
+## Self-Hosted Pricing Questions
+
 <div class="row">
     <div class="col-xs-12 col-md-6">
-        <h3>Does the Cloud version have any features not available in the self-hosted instance?</h3>
+        <h3>Are there any differences between Cloud and self-hosted instances?</h3>
     </div>
     <div class="col-xs-12 col-md-6">
         <p>The cloud and self-hosted software are the same. The Cloud service is our recommended offering for teams: We manage the infrastructure required to run TelemetryJet, so that you can focus on your projects.
         </p>
+    </div>
+</div><br />
+<div class="row">
+    <div class="col-xs-12 col-md-6">
+        <h3>Are there any costs associated with self-hosting TelemetryJet?</h3>
+    </div>
+    <div class="col-xs-12 col-md-6">
+        <p>TelemetryJet self-hosted instances are completely free, provided you follow the terms 
+        of the AGPLv3 license, which requires you to redistribute any modified source if you publish or host the service commercially.</p>
+    </div>
+</div><br />
+<div class="row">
+    <div class="col-xs-12 col-md-6">
+        <h3>Can I modify TelemetryJet for commercial purposes?</h3>
+    </div>
+    <div class="col-xs-12 col-md-6">
+        <p>You can make commercial use of unmodified TelemetryJet for free. If you modify TelemetryJet but do not wish to publish the source code, you must purchase a commercial license.</p>
     </div>
 </div><br />

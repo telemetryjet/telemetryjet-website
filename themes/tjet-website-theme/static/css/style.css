@@ -580,6 +580,12 @@ section {
     margin-bottom: -50px;
     z-index: -1;
 }
+#dataSourceListImageMobile {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: -100px;
+    z-index: -1;
+}
 
 #collaborateImageDesktop {
     overflow: hidden;
@@ -603,4 +609,12 @@ section {
 
 .centerTextAlign {
     text-align: center !important;
+}
+
+.landingSection1Button {
+    margin-bottom: 10px;
+}
+
+.overflowHiddenSection {
+    overflow: hidden;
 }
