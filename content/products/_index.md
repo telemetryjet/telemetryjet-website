@@ -7,7 +7,7 @@ weight: 1
     <div class="highlightSectionText">
         <h3>Server</h3>
         <div class="flexSpacer"></div>
-        <a class="bp3-button bp3-minimal" role="button" href="/products/server">Learn more<span class="bp3-icon-standard bp3-icon-arrow-right"></span></a>
+        <a class="bp3-button bp3-minimal" role="button" href="/">Learn more<span class="bp3-icon-standard bp3-icon-arrow-right"></span></a>
     </div>
     <div class="highlightSectionDescription">
     The core TelemetryJet server and UI. Collect, analyze and share data from your hardware, code not required.
@@ -21,7 +21,7 @@ weight: 1
         <a class="bp3-button bp3-minimal" role="button" href="/products/cli">Learn more<span class="bp3-icon-standard bp3-icon-arrow-right"></span></a>
     </div>
     <div class="highlightSectionDescription">
-    Stream data to the server from embedded data sources, and manage your configuration from the command line.
+    Monitor and control embedded hardware from your terminal, and stream live telemetry to the TelemetryJet Server.
     </div>
 </div>
 

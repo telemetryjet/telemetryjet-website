@@ -83,7 +83,7 @@ $(function() {
         window.location.href = "/use-cases/research/"
     });
     $("#serverProduct").click(function () {
-        window.location.href = "/products/server/"
+        window.location.href = "/"
     });
     $("#cliProduct").click(function () {
         window.location.href = "/products/cli/"
