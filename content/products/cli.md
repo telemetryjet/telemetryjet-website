@@ -11,11 +11,14 @@ title: "TelemetryJet CLI"
 				<div class="col-xs-12 col-md-4">
 					<h1>Monitor and control embedded hardware from your terminal.</h1>
 					<p>
-                        The TelemetryJet CLI is an easy-to-use, portable tool to interact with embedded hardware from the terminal.
+                        Whether you're in the shop or in the field, the TelemetryJet CLI is the perfect multi-tool to interface with embedded telemetry systems.
+					</p>
+					<p>
+						Easily pipe data from input devices into multiple destinations.
 					</p>
 					<p>
                         Collect and stream data live from serial devices. The CLI can 
-                        The CLI can be used on any platform, whether it's your desktop workstation, laptop, or a Raspberry Pi. Whether you're in the shop or in the field, the TelemetryJet CLI is the perfect multi-tool for working with telemetry.
+                        The CLI can be used on any platform, whether it's your desktop workstation, laptop, or a Raspberry Pi. 
                         Automatic data normalization and conversion: TelemetryJet handles data parsing and normalization, converting all data to a common format. Easily integrate multiple protocols into a single consistent log of telemetry data.
 					</p>
 				</div>
@@ -41,8 +44,7 @@ title: "TelemetryJet CLI"
 						Stream to a file
 					</div>
                     <p>
-                    TelemetryJet can output data to a CSV, Sqlite database, or other offline files.
-                    TelemetryJet CLI integrates directly with the TelemetryJet Server via the server's websocket API. Pairing the CLI with the Server allows you to instantly collect and visualize live data from your hardware.
+                    TelemetryJet can output data to a CSV file, SQLite database, or other file formats for offline usage.
                     </p>
 				</div>
 				<div class="col-md-0 col-lg-7 col-xs-0 col-sm-0">

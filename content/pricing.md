@@ -1,5 +1,5 @@
 ---
-title: "Pricing"
+title: "TelemetryJet Server Pricing"
 ---
 
 <table class="pricingTable">
