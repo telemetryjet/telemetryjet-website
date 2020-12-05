@@ -652,7 +652,7 @@ section {
 
 .largeCode {
     font-family: monospace;
-    font-size: 24px;
+    font-size: 22px;
      background: rgba(16,22,26,.3);
     -webkit-box-shadow: inset 0 0 0 1px rgba(16,22,26,.4);
     box-shadow: inset 0 0 0 1px rgba(16,22,26,.4);
@@ -667,12 +667,12 @@ section {
 }
 
 .largeCodeBlinkingCursor {
-    height: 32px;
-    width: 16px;
+    height: 28px;
+    width: 12px;
     background-color: #a7b6c2b6;
     display: inline-block;
-    margin-left: 5px;
-    margin-bottom: -8px;
+    margin-left: 6px;
+    margin-bottom: -6px;
     animation: blinker 1s linear infinite;
 }
 @keyframes blinker {
