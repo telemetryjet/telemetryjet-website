@@ -625,14 +625,16 @@ section {
     border-radius: 3px;
     -webkit-box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
     box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
-    background-color: #002b36;
+
+    background-color: #121314;
     padding: 10px;
     padding-top: 0px;
     padding-bottom: 0px;
     color: white;
     image-rendering: crisp-edges;
-    min-height: 400px;
+    min-height: 500px;
 }
+
 @media screen and (min-width: 1100px) {
     #cliDemoContainer {
         transform: perspective(10cm) rotate3d(0,1,0, -3deg);

@@ -32,9 +32,9 @@ hideSignup: true
 				</div>
 				<div class="col-xs-12 col-lg-7">
 					<div id="cliDemoContainer">
-						<script id="asciicast-BIn5LRVWUJ0NulMAvzFAcduHN" src="https://asciinema.org/a/BIn5LRVWUJ0NulMAvzFAcduHN.js" async data-autoplay="true" data-preload="true" data-loop="true" data-theme="solarized-dark" data-t="5" data-rows="20"></script>
+						<script id="asciicast-377404" src="https://asciinema.org/a/377404.js" async data-autoplay="true" data-preload="true" data-loop="true" data-t="1" data-size="medium" data-rows="20"  data-speed="1.5"></script>
 						<noscript>
-						<a href="https://asciinema.org/a/BIn5LRVWUJ0NulMAvzFAcduHN" target="_blank"><img src="https://asciinema.org/a/BIn5LRVWUJ0NulMAvzFAcduHN.svg" /></a>
+						<a href="https://asciinema.org/a/377404" target="_blank"><img src="https://asciinema.org/a/377404.svg" /></a>
 						</noscript>
 					</div>
 				</div>
