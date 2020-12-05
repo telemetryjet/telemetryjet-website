@@ -30,9 +30,17 @@ hideSignup: true
 						Jet runs on Windows, Mac OS, Ubuntu, and Raspberry Pi OS and has no external dependencies, so you can use it anywhere.
 					</p>
 				</div>
-				<div class="col-xs-12 col-lg-7">
+				<div class="col-xs-0 col-sm-0 col-md-12 col-lg-7">
 					<div id="cliDemoContainer">
 						<script id="asciicast-377404" src="https://asciinema.org/a/377404.js" async data-autoplay="true" data-preload="true" data-loop="true" data-t="1" data-size="medium" data-rows="20"  data-speed="1.5"></script>
+						<noscript>
+						<a href="https://asciinema.org/a/377404" target="_blank"><img src="https://asciinema.org/a/377404.svg" /></a>
+						</noscript>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-0 col-lg-0">
+					<div id="cliDemoContainer">
+						<script id="asciicast-377404" src="https://asciinema.org/a/377404.js" async data-autoplay="true" data-preload="true" data-loop="true" data-t="1" data-size="small" data-rows="20"  data-speed="1.5"></script>
 						<noscript>
 						<a href="https://asciinema.org/a/377404" target="_blank"><img src="https://asciinema.org/a/377404.svg" /></a>
 						</noscript>
