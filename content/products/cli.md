@@ -1,5 +1,6 @@
 ---
-title: "TelemetryJet CLI"
+title: "Jet: The TelemetryJet CLI"
+hideSignup: true
 ---
 
 <div class="sectionWrapper">
@@ -7,52 +8,116 @@ title: "TelemetryJet CLI"
         <div class="sectionBackground">
 		</div>
 		<div class="sectionForeground">
-			<div class="row top-xs between-xs">
-				<div class="col-xs-12 col-md-4">
+			<div class="row top-xs middle-xs between-xs">
+				<div class="col-xs-12 col-lg-4">
 					<h1>Monitor and control embedded hardware from your terminal.</h1>
+					<div class="landingPageOutlineHeading">
+						Stream data from hardware
+					</div>
 					<p>
-                        Whether you're in the shop or in the field, the TelemetryJet CLI is the perfect multi-tool to interface with embedded telemetry systems.
+						Stream data between embedded hardware, files, and software tools using a simple command-line interface.
 					</p>
+					<div class="landingPageOutlineHeading">
+						Declarative configuration
+					</div>
 					<p>
-						Easily pipe data from input devices into multiple destinations.
+						You specify your data sources and how they interact in a configuration file, and the CLI handles the details of streaming data between them.
 					</p>
+					<div class="landingPageOutlineHeading">
+						Cross-platform and portable
+					</div>
 					<p>
-                        Collect and stream data live from serial devices. The CLI can 
-                        The CLI can be used on any platform, whether it's your desktop workstation, laptop, or a Raspberry Pi. 
-                        Automatic data normalization and conversion: TelemetryJet handles data parsing and normalization, converting all data to a common format. Easily integrate multiple protocols into a single consistent log of telemetry data.
+						Jet runs on Windows, Mac OS, Ubuntu, and Raspberry Pi OS and has no external dependencies, so you can use it anywhere.
 					</p>
 				</div>
-				<div class="col-xs-12 col-md-7">
+				<div class="col-xs-12 col-lg-7">
 					<div id="cliDemoContainer">
-						<script id="asciicast-BIn5LRVWUJ0NulMAvzFAcduHN" src="https://asciinema.org/a/BIn5LRVWUJ0NulMAvzFAcduHN.js" async data-autoplay="true" data-preload="true" data-loop="true" data-theme="solarized-dark" data-t="5" data-rows="10"></script>
+						<script id="asciicast-BIn5LRVWUJ0NulMAvzFAcduHN" src="https://asciinema.org/a/BIn5LRVWUJ0NulMAvzFAcduHN.js" async data-autoplay="true" data-preload="true" data-loop="true" data-theme="solarized-dark" data-t="5" data-rows="20"></script>
 						<noscript>
 						<a href="https://asciinema.org/a/BIn5LRVWUJ0NulMAvzFAcduHN" target="_blank"><img src="https://asciinema.org/a/BIn5LRVWUJ0NulMAvzFAcduHN.svg" /></a>
 						</noscript>
 					</div>
 				</div>
 			</div>
-			<div class="row middle-xs between-xs">
+		</div>
+	</section>
+</div>
+
+
+<div class="sectionWrapper landingSectionHighlight overflowHiddenSection">
+    <section class="landingSection">
+        <div class="sectionBackground">
+		</div>
+		<div class="sectionForeground">
+			<div class="row top-xs between-xs">
 				<div class="col-xs-12">
-					<h1>Multiple output options</h1>
+					<h1>Use Cases</h1>
+				</div>
+				<div class="col-xs-12 col-md-6">
 					<div class="landingPageOutlineHeading">
-						Stream to a TelemetryJet Server
+						Stream Data to a CSV File
 					</div>
                     <p>
-                    Stream directly to a TelemetryJet Server, and use the Server's dashboard and live visualization features to view data as it streams in.
-                    </p>
-					<div class="landingPageOutlineHeading">
-						Stream to a file
-					</div>
-                    <p>
-                    TelemetryJet can output data to a CSV file, SQLite database, or other file formats for offline usage.
+                    Use Jet to stream hardware telemetry data straight into a CSV file, without any programming required.
                     </p>
 				</div>
-				<div class="col-md-0 col-lg-7 col-xs-0 col-sm-0">
+				<div class="col-xs-12 col-md-6">
+					<div class="landingPageOutlineHeading">
+						Network multiple microcontrollers
+					</div>
+                    <p>
+                    Use a Raspberry Pi as a central telemetry hub, building a network of microcontrollers which can communicate with each other bidirectionally.
+                    </p>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<div class="landingPageOutlineHeading">
+						Configure software on embedded devices
+					</div>
+                    <p>
+                    Define throttle curves, PID control terms, or other parameters centrally, and distribute new values without requiring code changes.
+                    </p>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<div class="landingPageOutlineHeading">
+						Monitor embedded hardware from the cloud
+					</div>
+                    <p>
+                    Monitor data from any embedded system and stream into a TelemetryJet Server. Build live dashboards and visualizations that stream from local hardware, and store telemetry data forever.
+                    </p>
 				</div>
 			</div>
 			<div class="clearfix"></div>
 		</div>
     </section>
+</div>
+
+
+
+<div class="sectionWrapper landingSectionHighlight overflowHiddenSection secondaryHero bp3-dark">
+    <section class="landingSection">
+        <div class="sectionBackground">
+		</div>
+		<div class="sectionForeground">
+			<div class="row middle-xs between-xs">
+				<div class="col-xs-12 col-md-5">
+					<h1>Get Started Now</h1>
+					<p>
+					Start working with the TelemetryJet CLI in 5 minutes or less. Install the tool, define your data sources, and start streaming.
+					</p>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<div class="landingPageOutlineHeading">
+						MacOS Install
+					</div>
+					<div class="landingPageOutlineHeading" id="cliGetStartedOtherPlatforms">
+						<a href="https://docs.telemetryjet.com/cli/">Other Platforms <span class="bp3-icon bp3-icon-arrow-right"></span></a>
+					</div>
+					<div class="largeCode"><span class="largeCodeTerminalPrompt">&gt; </span>brew install telemetryjet-cli<div class="largeCodeBlinkingCursor"></div></div>
+					<a href="https://docs.telemetryjet.com/cli/" class="bp3-button bp3-large bp3-primary bp3-intent-primary bp3-icon-arrow-right bp3-fill">Read the Docs and Start Streaming</a>
+					</div>
+				</div>
+			</div>
+	</section>
 </div>
 
 <div class="sectionWrapper landingSectionHighlight overflowHiddenSection">
@@ -81,6 +146,7 @@ title: "TelemetryJet CLI"
 					</div>
 					<p>Haven't chosen a protocol for your project? Consider the TelemetryJet Arduino SDK, a lightweight and flexible library for communicating with microcontrollers. The Arduino SDK has been designed for ease-of-use with the CLI.
 					</p>
+						<a href="/products/arduino-sdk/" class="bp3-button bp3-minimal bp3-intent-primary bp3-icon-arrow-right bp3-large" style="float: left; margin-top: 5px;margin-bottom: 10px;">Learn More about the TelemetryJet Arduino SDK</a>
 				</div>
 				<div class="col-xs-0 col-sm-0 col-md-6 col-lg-6">
 					<img id="dataSourceListImage" src="/img/data-source-list.svg">
@@ -89,40 +155,6 @@ title: "TelemetryJet CLI"
 					<img id="dataSourceListImageMobile" src="/img/data-source-list.svg">
 				</div>
 			</div>
-		</div>
-    </section>
-</div>
-<div class="sectionWrapper">
-    <section class="landingSection">
-        <div class="sectionBackground">
-		</div>
-		<div class="sectionForeground">
-			<div class="row">
-				<div class="col-xs-12">
-					<h1>Advanced Features</h1>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-6">
-					<div class="landingPageOutlineHeading">
-						Share serial streams with other software
-					</div>
-                    <p>
-                    Using other programs, such as the Arduino IDE, to read and write data? No problem. The CLI can create a "virtual serial port", sitting in front of your other software, silently collecting data. When the other software writes data, TelemetryJet will keep silent to avoid interrupting your workflow.
-                    </p>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-6">
-					<div class="landingPageOutlineHeading">
-						Bidirectional communication and control
-					</div>
-                    <p>
-                    Control devices directly from the CLI, or relay data between multiple devices. If you are using the TelemetryJet Arduino SDK or another protocol that supports bidirectional communication, TelemetryJet CLI works a central telemetry hub.
-                    Data will automatically be transmitted between microcontrollers and the CLI. Send commands from the CLI, between controllers, or remotely from the TelemetryJet Server.
-                    Remote control of your devices opens up a world of possibilities. 
-                    The TelemetryJet CLI is a great alternative to platforms such as ROS for simple multi-node applications
-                    that require communication between devices and monitoring from a separate computer.
-                    </p>
-				</div>
-			</div>
-			<div class="clearfix"></div>
 		</div>
     </section>
 </div>

@@ -621,7 +621,6 @@ section {
 
 #cliDemoContainer {
     margin-top: 50px;
-    margin-bottom: 50px;
     overflow: hidden;
     border-radius: 3px;
     -webkit-box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
@@ -631,8 +630,13 @@ section {
     padding-top: 0px;
     padding-bottom: 0px;
     color: white;
-    transform: perspective(10cm) rotate3d(0,1,0, -3deg);
     image-rendering: crisp-edges;
+    min-height: 400px;
+}
+@media screen and (min-width: 1100px) {
+    #cliDemoContainer {
+        transform: perspective(10cm) rotate3d(0,1,0, -3deg);
+    }
 }
 
 .installInstructionContainer {
@@ -644,4 +648,52 @@ section {
     padding: 10px;
     color: white;
     font-family: Consolas,Menlo,Bitstream Vera Sans Mono,monospace,Powerline Symbols;
+}
+
+.largeCode {
+    font-family: monospace;
+    font-size: 24px;
+     background: rgba(16,22,26,.3);
+    -webkit-box-shadow: inset 0 0 0 1px rgba(16,22,26,.4);
+    box-shadow: inset 0 0 0 1px rgba(16,22,26,.4);
+    color: #a7b6c2;
+
+
+    text-transform: none;
+    border-radius: 3px;
+    padding: 8px 16px;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
+.largeCodeBlinkingCursor {
+    height: 32px;
+    width: 16px;
+    background-color: #a7b6c2b6;
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: -8px;
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.largeCodeTerminalPrompt {
+    color: #a7b6c262;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+
+}
+
+#cliGetStartedOtherPlatforms {
+    margin-left: 10px;
+    opacity: 0.5;
+}
+#cliGetStartedOtherPlatforms a {
+    text-decoration: none;
+    color: white;
 }
