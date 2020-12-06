@@ -165,8 +165,7 @@ hideSignup: true
 			</div>
 		</div>
     </section>
-</div>
-<div class="sectionWrapper">
+</div><div class="sectionWrapper">
     <section class="landingSection">
         <div class="sectionBackground">
 		</div>
@@ -175,9 +174,9 @@ hideSignup: true
 				<div class="col-xs-12 col-md-6">
 					<h1>100% Free and Open Source</h1>
 					<p>
-					The TelemetryJet Arduino SDK and TelemetryJet CLI are 100% free and open source under the MIT license. You can use either project for any purpose.<br />
+					The TelemetryJet Arduino SDK and TelemetryJet CLI are free and open-source under the MIT license. You can use and modify either project for any purpose.<br />
 				</div>
-				<div class="col-xs-12 col-md-6">
+				<div class="col-xs-12 col-md-6 col-lg-5">
 					<div class="landingPageOutlineHeading">
 						Learn more and contribute on GitHub
 					</div>

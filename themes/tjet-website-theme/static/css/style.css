@@ -726,3 +726,22 @@ section {
         width: 150%;
     }
 }
+
+#arduinoSdkLargeImage {
+    width: 180%;
+    margin-left: -140px;
+    margin-right: -500px;
+    margin-bottom: -200px;
+}
+#arduinoSdkMediumImage {
+    width: 250%;
+    margin-left: -120px;
+    margin-right: -480px;
+    margin-bottom: -200px;
+    margin-top: 50px;
+}
+#arduinoSdkSmallImage {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
