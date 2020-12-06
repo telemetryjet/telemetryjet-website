@@ -732,6 +732,11 @@ section {
     margin-left: -140px;
     margin-right: -500px;
     margin-bottom: -200px;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    pointer-events: none;
+    z-index: -1;
 }
 #arduinoSdkMediumImage {
     width: 250%;
@@ -739,9 +744,19 @@ section {
     margin-right: -480px;
     margin-bottom: -200px;
     margin-top: 50px;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    pointer-events: none;
+    z-index: -1;
 }
 #arduinoSdkSmallImage {
     width: 100%;
     margin-top: 50px;
     margin-bottom: -50px;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    pointer-events: none;
+    z-index: -1;
 }

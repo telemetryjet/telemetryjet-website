@@ -8,7 +8,7 @@ hideSignup: true
 		</div>
 		<div class="sectionForeground">
 			<div class="row top-xs between-xs">
-				<div class="col-xs-12 col-md-6">
+				<div class="col-xs-12 col-md-6" style="z-index: 1;">
                     <h1>A lightweight, flexible library for communicating with microcontrollers</h1>
                     <p>
                     The TelemetryJet Arduino SDK is a wrapper around <a href="https://msgpack.org/index.html">MessagePack</a> that allows you to send and receive data points using a high-level API. Build powerful communication systems with minimal
@@ -67,7 +67,7 @@ hideSignup: true
 						Learn
 					</div>
 					<p>
-					The TelemetryJet Arduino SDK comes with a detailed guide, API references, and examples. <a href="https://docs.telemetryjet.com/arduino-sdk/">Read the Documentation</a> and start communicating with your embedded hardware.
+					The TelemetryJet Arduino SDK comes with detailed documentation, API references, and examples. The documentation site will guide you through getting started with the SDK.<br /><br /><a href="https://docs.telemetryjet.com/arduino-sdk/" class="bp3-button bp3-large bp3-primary bp3-intent-primary bp3-fill bp3-icon-arrow-right">Read the Docs</span></a>
 					</p>
 				</div>
 			</div>
