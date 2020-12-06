@@ -16,7 +16,7 @@ hideSignup: true
 						Bidirectional communication
 					</div>
                     <p>
-					The SDK encodes and decodes data with MessagePack over a serial connection, providing a robust telemetry link that requires minimal setup. Easily configure transmission rate, error checking, and other serial communication settings.
+					The SDK encodes and decodes data with MessagePack over a serial connection, providing a robust telemetry link that requires minimal setup. Easily send or receive data and configure transmission rate, error checking, and other serial communication settings.
                     </p>
 					<div class="landingPageOutlineHeading">
 						Pub/sub messaging & caching
