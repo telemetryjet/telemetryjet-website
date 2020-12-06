@@ -79,7 +79,7 @@ hideSignup: true
 				</div>
 				<div class="col-xs-12 col-md-6">
 					<div class="landingPageOutlineHeading">
-						Configure software on embedded devices
+						Configure embedded devices
 					</div>
                     <p>
                     Define throttle curves, PID control terms, or other parameters centrally, and distribute new values without requiring code changes.
@@ -165,4 +165,25 @@ hideSignup: true
 			</div>
 		</div>
     </section>
+</div>
+<div class="sectionWrapper">
+    <section class="landingSection">
+        <div class="sectionBackground">
+		</div>
+		<div class="sectionForeground">
+			<div class="row middle-xs between-xs">
+				<div class="col-xs-12 col-md-6">
+					<h1>100% Free and Open Source</h1>
+					<p>
+					The TelemetryJet Arduino SDK and TelemetryJet CLI are 100% free and open source under the MIT license. You can use either project for any purpose.<br />
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<div class="landingPageOutlineHeading">
+						Learn more and contribute on GitHub
+					</div>
+					<a href="https://github.com/telemetryjet/telemetryjet-arduino-sdk" class="bp3-button bp3-large bp3-primary bp3-intent-primary bp3-icon-git-branch bp3-fill bp3-outlined-button">TelemetryJet Arduino SDK</a>
+					<a href="https://github.com/telemetryjet/telemetryjet-cli" class="bp3-button bp3-large bp3-primary bp3-intent-primary bp3-icon-git-branch bp3-fill bp3-outlined-button">TelemetryJet CLI</a>
+				</div>
+			</div>
+	</section>
 </div>

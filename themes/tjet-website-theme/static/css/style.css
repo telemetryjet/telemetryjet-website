@@ -700,3 +700,29 @@ section {
     text-decoration: none;
     color: white;
 }
+
+.bp3-outlined-button {
+    background: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid rgba(24,32,38,.2) !important;
+    color: #182026 !important;
+    margin-top: 15px;
+}
+
+.bp3-outlined-button:hover {
+    background: rgba(167,182,194,.3) !important;
+}
+
+#arduinoSdkInstallHeroImage {
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+@media screen and (min-width: 800px) {
+    #arduinoSdkInstallHeroImage {
+        margin-top: -50px;
+        margin-bottom: -50px;
+        margin-left: -100px;
+        width: 150%;
+    }
+}

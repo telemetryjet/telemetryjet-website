@@ -1,48 +1,105 @@
 ---
 title: "TelemetryJet Arduino SDK"
+hideSignup: true
 ---
-<div class="sectionWrapper">
+<div class="sectionWrapper overflowHiddenSection">
     <section class="landingSection">
         <div class="sectionBackground">
 		</div>
 		<div class="sectionForeground">
 			<div class="row top-xs between-xs">
-				<div class="col-xs-12">
+				<div class="col-xs-12 col-md-6">
                     <h1>A lightweight, flexible library for communicating with microcontrollers</h1>
                     <p>
-                    The TelemetryJet Arduino SDK is a lightweight, flexible library for communicating with microcontrollers. The Arduino SDK is designed primary for ease-of-use, with a simple, flexible API for instantly getting data from your embedded device. The SDK provides a high-level abstraction for getting and setting data and events, and handles the low-level functionality of transmitting those events.
-                    </p>
+                    The TelemetryJet Arduino SDK is a wrapper around <a href="https://msgpack.org/index.html">MessagePack</a> that allows you to send and receive data points using a high-level API. 
+					<div class="landingPageOutlineHeading">
+						Bidirectional communication
+					</div>
                     <p>
-                    The TelemetryJet CLI can natively ingest and stream data from the Arduino SDK without any setup. We also provide bindings for the SDK in several languages for use in your own software.
+                    Declare telemetry values as objects in your program, and the Arduino SDK automatically packages and transmits data as a MessagePack body. Easily configure transmission rate, error checking, and other serial communication settings via the SDK.
                     </p>
+					<div class="landingPageOutlineHeading">
+						Pub/sub messaging & caching
+					</div>
                     <p>
-                    The TelemetryJet Arduino SDK is an excellent solution if you are interacting with a single microcontroller in your project. The SDK can be used with or without TelemetryJet itself.
+                    The SDK filters incoming data points, so your microcontroller only stores values you've selected. Data you've subscribed to caches locally on your device.
                     </p>
-                    <h3>Features</h3>
-                    <ul>
-                    <li>Bidirectional communication; send commands and/or data points in either direction</li>
-                    <li>Send and receive data, and cache latest data points on the Arduino SDK</li>
-                    <li>Cache expiration times</li>
-                    <li>Send and receive one-off events</li>
-                    <li>Operates over software or hardware serial, independent of transport mechanism</li>
-                    <li>100% free and open source</li>
-                    </ul>
-                    <h3>
+					<div class="landingPageOutlineHeading">
+						Easy integration with any software
+					</div>
                     <p>
-                    The SDK takes an opinionated approach to message parsing and provides high-level functionality.
-                    The TelemetryJet Arduino SDK is built on top of [MessagePack](https://msgpack.org/index.html), which provides an efficient serialization protocol for arbitrary data. On top of MessagePack, the SDK adds
-                    an API for bidirectional communication, a data point cache, one-off event triggers, and more.
-                    </p>
-                    <h3>Documentation</h3>
-                    <p>Full documentation for the TelemetryJet Arduino SDK is provided on the Documentation Site.
-                    </p>
-                    <h3>Desktop Bindings</h3>
-                    <p>We provide several bindings for the SDK that can be used by desktop software to interact with the 
-TelemetryJet CLI. Bindings are available in Python, C/C++, Java.
+                    The SDK sends pure MessagePack structures. You can easily parse messages from any program using <a href="https://msgpack.org/index.html">MessagePack's language bindings</a>, or use the TelemetryJet CLI to stream data into other data sources without code.
                     </p>
                 </div>
 			</div>
 			<div class="clearfix"></div>
 		</div>
     </section>
+</div>
+<div class="sectionWrapper landingSectionHighlight overflowHiddenSection secondaryHero bp3-dark">
+    <section class="landingSection">
+        <div class="sectionBackground">
+		</div>
+		<div class="sectionForeground">
+			<div class="row middle-xs between-xs">
+				<div class="col-xs-12 col-md-5">
+					<h1>Get Started Now</h1>
+					<div class="landingPageOutlineHeading">
+						Install the Library
+					</div>
+					<p>
+					Install the TelemetryJet Arduino SDK via the Arduino Library Manager. Just search for "TelemetryJet".
+					</p>
+					<div class="landingPageOutlineHeading">
+						Learn
+					</div>
+					<p>
+					The TelemetryJet Arduino SDK comes with a detailed guide, API references, and examples. 
+                    </p>
+                    <p>
+                    <a href="https://docs.telemetryjet.com/arduino-sdk/">Read the Documentation</a> and start communicating with your embedded hardware.
+					</p>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<img id="arduinoSdkInstallHeroImage" src="/img/arduino-editor.png" />
+				</div>
+			</div>
+	</section>
+</div>
+<div class="sectionWrapper landingSectionHighlight">
+    <section class="landingSection">
+        <div class="sectionBackground">
+		</div>
+		<div class="sectionForeground">
+			<div class="row middle-xs between-xs">
+				<div class="col-xs-12 col-md-5 center-xs">
+                    <div class="row middle-xs center-xs">
+                        <div class="col-xs-8 col-sm-6 col-md-12 center-xs">
+                            <img src="/img/ArduinoCommunityLogo_SVG.svg" />
+                            <br />
+                            <br />
+                        </div>
+                    </div>
+                </div>
+				<div class="col-xs-12 col-md-7">
+					<h1>100% Free and Open Source</h1>
+					<p>
+					The TelemetryJet Arduino SDK and TelemetryJet CLI are 100% free and open source under the MIT license. You can use either project for any purpose.<br />
+					<div class="landingPageOutlineHeading">
+						Learn more and contribute on GitHub
+					</div>
+                    <div class="row middle-xs between-xs">
+                        <div class="col-xs-12">
+                            <a href="https://github.com/telemetryjet/telemetryjet-arduino-sdk" class="bp3-button bp3-large bp3-primary bp3-intent-primary bp3-icon-git-branch bp3-fill bp3-outlined-button">TelemetryJet Arduino SDK</a>
+                        </div>
+                        <div class="col-xs-12">
+                            <a href="https://github.com/telemetryjet/telemetryjet-cli" class="bp3-button bp3-large bp3-primary bp3-intent-primary bp3-icon-git-branch bp3-fill bp3-outlined-button">TelemetryJet CLI</a>
+                            </p>
+                        </div>
+                    </div>
+				</div>
+				<div class="col-xs-12 col-md-6">
+				</div>
+			</div>
+	</section>
 </div>
