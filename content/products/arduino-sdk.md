@@ -11,24 +11,24 @@ hideSignup: true
 				<div class="col-xs-12 col-md-6" style="z-index: 1;">
                     <h1>A lightweight, flexible library for communicating with microcontrollers</h1>
                     <p>
-                    The TelemetryJet Arduino SDK is a wrapper around <a href="https://msgpack.org/index.html">MessagePack</a> that allows you to send and receive data points using a high-level API. Build powerful communication systems with minimal
+                    The TelemetryJet Arduino SDK is a wrapper around <a href="https://msgpack.org/index.html">MessagePack</a> that allows you to send and receive data points using a high-level API. 
 					<div class="landingPageOutlineHeading">
 						Bidirectional communication
 					</div>
                     <p>
-                    Declare telemetry values as objects in your program, and the Arduino SDK automatically packages and transmits data as a MessagePack body. Easily configure transmission rate, error checking, and other serial communication settings via the SDK.
+					The SDK encodes and decodes data with MessagePack over a serial connection, providing a robust telemetry link that requires minimal setup. Easily configure transmission rate, error checking, and other serial communication settings.
                     </p>
 					<div class="landingPageOutlineHeading">
 						Pub/sub messaging & caching
 					</div>
                     <p>
-                    The SDK filters incoming data points, so your microcontroller only stores values you've selected. Data you've subscribed to caches locally on your device.
+                    Filter incoming data points, so your microcontroller only stores values you've selected. Data you've subscribed to caches locally on your device.
                     </p>
 					<div class="landingPageOutlineHeading">
 						Easy integration with any software
 					</div>
                     <p>
-                    The SDK sends pure MessagePack structures. You can easily parse messages from any program using <a href="https://msgpack.org/index.html">MessagePack's language bindings</a>, or use the TelemetryJet CLI to stream data into other data sources without code.
+                    The SDK sends pure MessagePack structures. You can easily parse messages in any program using <a href="https://msgpack.org/index.html">MessagePack's language bindings</a>, or use the TelemetryJet CLI to stream data into other data sources without code.
                     </p>
                 </div>
 				<div class="col-xs-0 col-sm-0 col-md-0 col-lg-6">
@@ -67,7 +67,7 @@ hideSignup: true
 						Learn
 					</div>
 					<p>
-					The TelemetryJet Arduino SDK comes with detailed documentation, API references, and examples. The documentation site will guide you through getting started with the SDK.<br /><br /><a href="https://docs.telemetryjet.com/arduino-sdk/" class="bp3-button bp3-large bp3-primary bp3-intent-primary bp3-fill bp3-icon-arrow-right">Read the Docs</span></a>
+					The TelemetryJet Arduino SDK comes with detailed documentation, API references, and examples. The documentation site will guide you through getting started with the SDK.<br /><br /><a href="https://docs.telemetryjet.com/arduino_sdk/" class="bp3-button bp3-large bp3-primary bp3-intent-primary bp3-fill bp3-icon-arrow-right">Read the Docs</span></a>
 					</p>
 				</div>
 			</div>
