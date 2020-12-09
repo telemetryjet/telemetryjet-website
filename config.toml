@@ -11,6 +11,7 @@ pluralizelisttitles = false
     docsUrl = "http://localhost:1313"
     filesUrl = "http://localhost:1313"
     cloudUrl = "http://localhost:8080"
+    analyticsId = ""
     description = "TelemetryJet - Collect, analyze and share hardware data, code not required."
     author = "TelemetryJet Team, telemetryjet@gmail.com"
     

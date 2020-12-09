@@ -65,7 +65,10 @@
 		}
 	</script>
 	<!-- VideoJS -->
-  	<script src="https://vjs.zencdn.net/7.10.2/video.js"></script>
+	<script src="https://vjs.zencdn.net/7.10.2/video.js"></script>
+	{{ if .Site.Params.analyticsId }}
+	{{ with .Site.Params.analyticsId }}<script async defer data-website-id="{{ . }}" src="https://analytics.telemetryjet.com/umami.js"></script>{{end}}
+	{{ end }}
 </body>
 
 </html>
