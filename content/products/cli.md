@@ -176,7 +176,7 @@ hideSignup: true
 					<p>
 					The TelemetryJet Arduino SDK and TelemetryJet CLI are free and open-source under the MIT license. You can use and modify either project for any purpose.<br />
 				</div>
-				<div class="col-xs-12 col-md-6 col-lg-5">
+				<div class="col-xs-12 col-md-6 col-lg-6">
 					<div class="landingPageOutlineHeading">
 						Learn more and contribute on GitHub
 					</div>
