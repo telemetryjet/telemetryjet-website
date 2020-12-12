@@ -4,17 +4,23 @@ weight: 1
 ---
 
 <div id="serverProduct" class="highlightSection">
+    <div class="highlightSectionImage">
+        <img src="/img/server-product-thumbnail@2x.png" />
+    </div>
     <div class="highlightSectionText">
         <h3>Server</h3>
         <div class="flexSpacer"></div>
         <a class="bp3-button bp3-minimal" role="button" href="/">Learn more<span class="bp3-icon-standard bp3-icon-arrow-right"></span></a>
     </div>
     <div class="highlightSectionDescription">
-    The core TelemetryJet server and UI. Collect, analyze and share data from your hardware, code not required.
+    The core TelemetryJet server and UI. A powerful web-based platform for organizing and analyzing your hardware data.
     </div>
 </div><div></div>
 
 <div id="cliProduct" class="highlightSection">
+    <div class="highlightSectionImage">
+        <img src="/img/cli-product-thumbnail@2x.png" />
+    </div>
     <div class="highlightSectionText">
         <h3>CLI</h3>
         <div class="flexSpacer"></div>
@@ -26,6 +32,9 @@ weight: 1
 </div>
 
 <div id="arduinoSdkProduct" class="highlightSection">
+    <div class="highlightSectionImage">
+        <img src="/img/arduino-sdk-product-thumbnail@2x.png" />
+    </div>
     <div class="highlightSectionText">
         <h3>Arduino SDK</h3>
         <div class="flexSpacer"></div>
