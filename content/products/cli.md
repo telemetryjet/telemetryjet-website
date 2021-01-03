@@ -63,10 +63,10 @@ hideSignup: true
 				</div>
 				<div class="col-xs-12 col-md-6">
 					<div class="landingPageOutlineHeading">
-						Stream Data to a CSV File
+						Stream Data Locally
 					</div>
                     <p>
-                    Use Jet to stream hardware telemetry data straight into a CSV file, without any programming required.
+                    Use Jet to stream hardware telemetry data straight into a file or local database, without any programming required.
                     </p>
 				</div>
 				<div class="col-xs-12 col-md-6">
