@@ -357,3 +357,9 @@ img.menuSocialIcon {
         display: block;
     }
 }
+
+
+#headerWarning a {
+    color: #bfccd6;
+    text-decoration: underline;
+}
