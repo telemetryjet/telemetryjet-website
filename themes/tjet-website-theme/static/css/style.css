@@ -776,3 +776,7 @@ section {
     pointer-events: none;
     z-index: -1;
 }
+
+.sectionBackgroundOverlay {
+    pointer-events: none;
+}

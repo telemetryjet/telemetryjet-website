@@ -45,6 +45,13 @@
     align-items: center !important;
 }
 
+#headerWarningLink {
+    color: #BFCCD6;
+}
+.bp3-light #headerWarningLink {
+    color: #394B59;
+}
+
 #headerWarning {
     background-color: #202B33;
     margin-bottom: 5px;
@@ -360,6 +367,5 @@ img.menuSocialIcon {
 
 
 #headerWarning a {
-    color: #bfccd6;
     text-decoration: underline;
 }
