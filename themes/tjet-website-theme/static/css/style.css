@@ -591,7 +591,6 @@ section {
     position: relative;
     overflow: hidden;
     transform: perspective(10cm) rotate3d(0,1,0, 0deg);
-    image-rendering: crisp-edges;
     margin-right: -10px;
     margin-left: -50px;
     margin-top: -40px;
