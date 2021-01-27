@@ -10,25 +10,29 @@ hideSignup: true
 			<div class="row top-xs between-xs">
 				<div class="col-xs-12 col-md-6" style="z-index: 1;">
                     <h1>A lightweight, flexible library for communicating with microcontrollers</h1>
-                    <p>
-                    The TelemetryJet Arduino SDK is a wrapper around <a href="https://msgpack.org/index.html">MessagePack</a> that allows you to send and receive data points using a high-level API. 
 					<div class="landingPageOutlineHeading">
 						Bidirectional communication
 					</div>
                     <p>
-					The SDK encodes and decodes data with MessagePack over a serial connection, providing a robust telemetry link that requires minimal setup. Easily send or receive data and configure transmission rate, error checking, and other serial communication settings.
+					Establish a robust bidirectional link to your embedded device with minimal code. Data points are automatically transmitted and received over a serial connection using an efficient and reliable encoding.
                     </p>
 					<div class="landingPageOutlineHeading">
-						Pub/sub messaging & caching
+						Strong typing
 					</div>
                     <p>
-                    Filter incoming data points, so your microcontroller only stores values you've selected. Data you've subscribed to caches locally on your device.
+                    Transmit numerical data points with fine-grained control over the resolution of your data, for communication over limited-bandwidth connections.
                     </p>
+					<div class="landingPageOutlineHeading">
+						Data Caching and Expiration
+					</div>
+                    <p>
+					Filter incoming data, so your microcontroller only stores values you’ve selected. Data you’ve subscribed to caches locally on your device. 
+					</p>
 					<div class="landingPageOutlineHeading">
 						Easy integration with any software
 					</div>
                     <p>
-                    The SDK sends pure MessagePack structures. You can easily parse messages in any program using <a href="https://msgpack.org/index.html">MessagePack's language bindings</a>, or use the TelemetryJet CLI to stream data into other data sources without code.
+                    Easily parse messages in any program using <a href="https://msgpack.org/index.html">MessagePack's language bindings</a>, or use the TelemetryJet CLI to stream data into other data sources without code.
                     </p>
                 </div>
 				<div class="col-xs-0 col-sm-0 col-md-0 col-lg-6">
@@ -44,6 +48,46 @@ hideSignup: true
 			<div class="clearfix"></div>
 		</div>
     </section>
+</div>
+<div class="sectionWrapper landingSectionHighlight">
+    <section class="landingSection">
+        <div class="sectionBackground">
+		</div>
+		<div class="sectionForeground">
+			<div class="row top-xs between-xs">
+				<div class="col-xs-12 col-md-6">
+					<br/>
+					<div class="landingPageOutlineHeading">
+						Extensive Documentation
+					</div>
+					<p>
+					The TelemetryJet <a href="https://docs.telemetryjet.com/arduino_sdk/">documentation site</a> contains detailed guides and an API reference for the SDK.
+					</p>
+					<div class="landingPageOutlineHeading">
+						Detailed Examples
+					</div>
+					<p>
+					The Arduino library includes detailed examples. Learn to read and write data points,
+					configure a telemetry connection, and send typed data.
+					</p>
+				</div>
+				<div class="col-xs-12 col-md-6 col-lg-6">
+					<pre class="bp3-code" style="overflow: auto">
+#include &lt;TelemetryJet.h&gt;<br/>
+// Initialize the telemetry instance and a data dimension
+TelemetryJet telemetry(&Serial, 100);
+Dimension sensorValue = telemetry.createDimension(1);<br/>
+void setup() {
+    Serial.begin(115200);
+}<br/>
+void loop() {
+    // Update the sensor value from analog input
+    sensorValue1.setUInt16(analogRead(A0));
+    telemetry.update();
+}</pre>
+				</div>
+			</div>
+	</section>
 </div>
 <div class="sectionWrapper landingSectionHighlight overflowHiddenSection secondaryHero bp3-dark">
     <section class="landingSection">

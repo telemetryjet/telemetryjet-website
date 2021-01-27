@@ -8,12 +8,12 @@ weight: 1
         <img src="/img/server-product-thumbnail@2x.png" />
     </div>
     <div class="highlightSectionText">
-        <h3>Server</h3>
+        <h3>Cloud Server</h3>
         <div class="flexSpacer"></div>
         <a class="bp3-button bp3-minimal" role="button" href="/">Learn more<span class="bp3-icon-standard bp3-icon-arrow-right"></span></a>
     </div>
     <div class="highlightSectionDescription">
-    The core TelemetryJet server and UI. A powerful web-based platform for organizing and analyzing your hardware data.
+    A powerful web-based platform for organizing, analyzing, and sharing your hardware data. The Cloud Server provides the infrastructure for teams to gain insight from their data.
     </div>
 </div><div></div>
 
@@ -27,7 +27,9 @@ weight: 1
         <a class="bp3-button bp3-minimal" role="button" href="/products/cli">Learn more<span class="bp3-icon-standard bp3-icon-arrow-right"></span></a>
     </div>
     <div class="highlightSectionDescription">
-    Monitor and control embedded hardware from your terminal, and stream live telemetry to the TelemetryJet Server.
+    Monitor and control embedded hardware from your terminal, and stream data between a wide range of local data sources.
+    <br/>
+    <div class="bp3-tag bp3-round bp3-minimal bp3-intent-success bp3-large" style="margin-top: 10px;">Open Source</div>
     </div>
 </div>
 
@@ -41,7 +43,8 @@ weight: 1
         <a class="bp3-button bp3-minimal" role="button" href="/products/arduino-sdk">Learn more<span class="bp3-icon-standard bp3-icon-arrow-right"></span></a>
     </div>
     <div class="highlightSectionDescription">
-    A lightweight library for communicating with microcontrollers.
-    Designed for connecting small projects to TelemetryJet.
+    Stream sensor data and control signals between embedded devices
+    and a software hub such as the TelemetryJet CLI.<br/>
+    <div class="bp3-tag bp3-round bp3-minimal bp3-intent-success bp3-large" style="margin-top: 10px;">Open Source</div>
     </div>
 </div>

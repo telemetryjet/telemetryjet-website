@@ -13,13 +13,12 @@ Our aim is to innovate in three areas:
 
 - **Data Sharing**: Enable collaboration by building sharing into the platform: Teams should be able to share their data, visualizations, and dashboards instantly with anyone. Allow easy export of data from the TelemetryJet platform into standard formats when more advanced analysis is needed.
 
-## Open Source Philosophy
+## Open Source Projects
 
-All projects in the TelemetryJet ecosystem are open-sourced: Teams are free to modify or self-host the tool as needed. We accept contributions and feature requests on our public [GitHub repositories](https://github.com/telemetryjet).
+At the core of our ecosystem are the [TelemetryJet CLI](https://github.com/telemetryjet/telemetryjet-cli) and
+[TelemetryJet Arduino SDK](https://github.com/telemetryjet/telemetryjet-arduino-sdk) projects. These tools empower engineers to easily monitor and control hardware, collect data points, and transmit data between sources. Both projects are completely open-source and MIT licensed: Teams are free to modify or self-host the tools as needed. We accept contributions and feature requests on our public [GitHub repositories](https://github.com/telemetryjet).
 
-The TelemetryJet Server is offered under a dual-license AGPLv3 and commercial license. Under the AGPLv3 license, you are free to distribute, modify, and re-use TelemetryJet provided you honor the terms of the license, requiring derivative works to be published under the same license. In addition, we offer commercial licenses to organizations that want to use or redistribute Telemetryjet under proprietary terms.
-
-This hybrid licensing scheme allows TelemetryJet to be supported by its commercial usage, while also preserving the ability to fully open-source the software.
+We also provide the proprietary TelemetryJet Cloud platform, a cloud-based UI for organizing and analyzing data that you collect from the TelemetryJet CLI or from any other hardware system. The cloud platform builds upon our open-source tools to provide a managed solution for data collection and analysis, and sharing. 
 
 ## Project History
 The concept for TelemetryJet was influenced by our team’s work on the University of Rochester solar boat racing team. Our solar boat team took a data-first design approach which involved collecting extensive data on the performance of the boat, quantitatively analyzing the performance of drivetrain systems.

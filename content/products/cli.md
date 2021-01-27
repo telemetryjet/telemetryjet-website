@@ -1,5 +1,5 @@
 ---
-title: "Jet: The TelemetryJet CLI"
+title: "TelemetryJet CLI"
 hideSignup: true
 ---
 

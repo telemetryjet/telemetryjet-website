@@ -1,5 +1,6 @@
 ---
 title: "TelemetryJet Server Pricing"
+draft: true
 ---
 
 <table class="pricingTable">
